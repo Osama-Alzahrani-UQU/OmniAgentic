@@ -1,4 +1,4 @@
-# 🚀 Antigravity Agentic Suite | المنظومة الشاملة للمهارات والوكلاء البرمجيين
+# 🚀 OmniAgentic | المنظومة الشاملة للمهارات والوكلاء البرمجيين
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Skills-404%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="404 Skills" />
@@ -27,7 +27,7 @@
 <a name="english-documentation"></a>
 ## 🌟 Executive Overview (English)
 
-The **Antigravity Agentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **404 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
+The **OmniAgentic** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **404 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
 
 Engineered specifically to solve the common failure modes of modern agentic workflows (hallucinations, token bloat, forgotten instructions, dropped functions, and tool deadlocks), this suite implements a formal **Zero-Hallucination & Token-Efficiency Protocol** with an autonomous `Test -> Diagnose -> Fix -> Retest` pre-delivery verification loop.
 
@@ -231,7 +231,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 ## 🇸🇦 التوثيق باللغة العربية (Arabic Documentation)
 
 ### 📌 نبذة تنفيذية عن المشروع
-تعتبر منظومة **Antigravity Agentic Suite** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **404 مهارة هندسية معتمدة** و **120 وكيلاً فرعياً تخصصياً**.
+تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **404 مهارة هندسية معتمدة** و **120 وكيلاً فرعياً تخصصياً**.
 
 تم بناء هذه المنظومة خصيصاً للقضاء على التحديات والعيوب الشائعة في الوكلاء الحاليين (مثل: الهلوسة، استنزاف الرموز / Tokens، نسيان متطلبات المستخدم، الأكواد الناقصة أو المختصرة، وتوقف الجلسات)، من خلال تطبيق حلقة فحص وتصحيح ذاتية إلزامية (`Test -> Diagnose -> Fix -> Retest`) قبل تسليم أي كود.
 
@@ -247,7 +247,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 ### 📂 هيكل مستودع المشروع
 
 ```
-Antigravity-Agentic-Suite/
+OmniAgentic/
 ├── skills/                     # 404 مهارة برمجية وفنية جاهزة ومحدثة
 ├── agents/                     # 120 وكيلاً تخصصياً بصيغة Markdown
 ├── rules/                      # القواعد العامة الصارمة لكل منصة
