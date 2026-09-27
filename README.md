@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>Developed & Engineered by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
-  <i>Umm Al-Qura University (UQU) — College of Computer and Information Systems</i>
+  <i>Computer Science — Umm Al-Qura University (UQU) | College of Computer and Information Systems</i>
 </p>
 
 <p align="center">
@@ -271,7 +271,7 @@ Antigravity-Agentic-Suite/
 ## 👨‍💻 المهندس والمطور (Author & Developer)
 
 * **الاسم**: أسامة الزهراني (Osama Alzahrani)
-* **الجهة الأكاديمية**: جامعة أم القرى (Umm Al-Qura University - UQU) — كلية الحاسب الآلي ونظم المعلومات
+* **التخصص والجهة الأكاديمية**: علوم الحاسب (Computer Science) — جامعة أم القرى (Umm Al-Qura University - UQU) — كلية الحاسب الآلي ونظم المعلومات
 * **حساب GitHub**: [@Osama-Alzahrani-UQU](https://github.com/Osama-Alzahrani-UQU)
 
 ---
