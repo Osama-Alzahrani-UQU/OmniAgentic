@@ -1,0 +1,8 @@
+# OpenAI Codex CLI Configuration (~/.codex/config.toml)
+model = "o3"
+approval_policy = "on-failure"
+instructions_file = "~/.codex/AGENTS.md"
+
+[skills]
+directory = "~/.codex/skills"
+agents_directory = "~/.codex/agents"

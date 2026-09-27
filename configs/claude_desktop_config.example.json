@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "agentic-suite-filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "~/.claude/skills",
+        "~/.claude/agents"
+      ]
+    }
+  }
+}
