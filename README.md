@@ -27,7 +27,7 @@
 <a name="english-documentation"></a>
 ## 🌟 Executive Overview (English)
 
-The **OmniAgentic** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **404 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
+The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **404 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
 
 Engineered specifically to solve the common failure modes of modern agentic workflows (hallucinations, token bloat, forgotten instructions, dropped functions, and tool deadlocks), this suite implements a formal **Zero-Hallucination & Token-Efficiency Protocol** with an autonomous `Test -> Diagnose -> Fix -> Retest` pre-delivery verification loop.
 
@@ -196,7 +196,7 @@ chmod +x ./scripts/install.sh
 #### 1. Antigravity IDE Setup
 Antigravity automatically discovers skills and agents placed in the user configuration directory:
 1. Copy the `skills/` folder to: `~/.gemini/config/skills/` (Windows: `%USERPROFILE%\.gemini\config\skills\`)
-2. Copy the `agents/` folder to: `~/.gemini/ecc/agents/` (Windows: `%USERPROFILE%\.gemini\eccgents\`)
+2. Copy the `agents/` folder to: `~/.gemini/ecc/agents/` (Windows: `%USERPROFILE%\.gemini\ecc\agents\`)
 3. Copy `rules/GEMINI.md` to: `~/.gemini/config/GEMINI.md`
 4. Verify installation:
    ```bash
@@ -205,7 +205,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 #### 2. Claude Desktop & Claude Code Setup
 1. Copy the `skills/` folder to: `~/.claude/skills/` (Windows: `%USERPROFILE%\.claude\skills\`)
-2. Copy the `agents/` folder to: `~/.claude/agents/` (Windows: `%USERPROFILE%\.claudegents\`)
+2. Copy the `agents/` folder to: `~/.claude/agents/` (Windows: `%USERPROFILE%\.claude\agents\`)
 3. Copy `rules/CLAUDE.md` to: `~/.claude/CLAUDE.md`
 4. *(Optional for Claude Desktop)* Mount the filesystem via MCP by copying `configs/claude_desktop_config.example.json` to your `claude_desktop_config.json`:
    ```json
@@ -221,7 +221,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 #### 3. OpenAI Codex CLI Setup
 1. Copy the `skills/` folder to: `~/.codex/skills/` (Windows: `%USERPROFILE%\.codex\skills\`)
-2. Copy the `agents/` folder to: `~/.codex/agents/` (Windows: `%USERPROFILE%\.codexgents\`)
+2. Copy the `agents/` folder to: `~/.codex/agents/` (Windows: `%USERPROFILE%\.codex\agents\`)
 3. Copy `rules/AGENTS.md` to: `~/.codex/AGENTS.md`
 4. Copy `configs/codex_config.example.toml` to: `~/.codex/config.toml`
 
@@ -284,6 +284,18 @@ OmniAgentic/
     </td>
   </tr>
 </table>
+
+---
+
+## 🙏 Acknowledgments & Upstream Credits | شكر وإسناد للمصادر المفتوحة
+
+This framework stands on the shoulders of giants. We express our sincere gratitude to the open-source engineering community and upstream contributors whose pioneering work made this unified suite possible:
+
+* **[Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code)**: Created and maintained by **[Affaan Mustafa](https://github.com/affaan-m)** (@affaan-m) and core contributors (**[haelyra](https://github.com/haelyra)**, **[pangerlkr](https://github.com/pangerlkr)**, **[gaurav0107](https://github.com/gaurav0107)**) for the foundational multi-agent concepts, specialized domain personas, and curated engineering skills catalog.
+* **Anthropic & Claude Community**: For the pioneer prompt engineering patterns and Model Context Protocol (MCP) tooling ecosystem.
+* **Open-Source AI Community**: For continuous benchmarks, defensive testing frameworks, and multi-agent coordination paradigms.
+
+> *All original tool concepts, agent schemas, and community skills remain the intellectual property of their respective creators under their open-source licenses.*
 
 ---
 
