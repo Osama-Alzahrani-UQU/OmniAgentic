@@ -9,6 +9,10 @@
 </p>
 
 <p align="center">
+  <img src="assets/banner.jpg" alt="OmniAgentic Framework Banner" width="100%" />
+</p>
+
+<p align="center">
   <b>Developed & Engineered by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
   <span>Computer Science • Umm Al-Qura University</span>
 </p>
