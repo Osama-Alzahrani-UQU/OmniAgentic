@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>Developed & Engineered by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
-  <i>Computer Science — Umm Al-Qura University (UQU) | College of Computing</i>
+  <span>Computer Science • Umm Al-Qura University</span>
 </p>
 
 <p align="center">
@@ -268,11 +268,22 @@ OmniAgentic/
 
 ---
 
-## 👨‍💻 المهندس والمطور (Author & Developer)
+## 👨‍💻 Author & Maintainer
 
-* **الاسم**: أسامة الزهراني (Osama Alzahrani)
-* **التخصص والجهة الأكاديمية**: علوم الحاسب (Computer Science) — جامعة أم القرى (Umm Al-Qura University - UQU) — كلية الحاسبات
-* **حساب GitHub**: [@Osama-Alzahrani-UQU](https://github.com/Osama-Alzahrani-UQU)
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Osama-Alzahrani-UQU">
+        <img src="https://github.com/Osama-Alzahrani-UQU.png?size=100" width="100px;" alt="Osama Alzahrani" style="border-radius: 50%;" /><br />
+        <sub><b>Osama Alzahrani</b></sub>
+      </a><br />
+      <sub>Computer Science • Umm Al-Qura University</sub><br />
+      <a href="https://github.com/Osama-Alzahrani-UQU">
+        <img src="https://img.shields.io/badge/GitHub-@Osama--Alzahrani--UQU-181717?style=flat-square&logo=github" alt="GitHub Profile" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
