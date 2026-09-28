@@ -533,3 +533,12 @@ This catalog lists every verified skill and specialized subagent included in the
 | 402 | **`workspace-surface-audit`** | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup. |
 | 403 | **`wwas`** | Create product backlog items in Why-What-Acceptance format , independent, valuable. |
 | 404 | **`x-api`** | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. |
+
+
+### 3D Procedural Modeling & Vision-in-the-Loop Assets (Kiln Engine)
+* **`kiln-author-asset`**: Create procedural 3D assets with Kiln JavaScript, review camera views, and export game-ready GLB models.
+* **`kiln-refine-asset`**: Apply anchored edits to 3D source code and inspect revisions without model transcription hallucinations.
+* **`kiln-qa-asset`**: Automated 3D asset QA: triangle surface clearances, joint hierarchy checks, and GLTF compliance validation.
+* **`kiln-compose-scene`**: Compose multi-asset 3D environments, stage props, and set lighting/camera configurations.
+* **`kiln-batch-dispatch`**: Batch generation and clean-room evaluation for asset libraries and multi-model variations.
+* **`kiln-setup-workspace`**: Bootstrap and configure a dedicated 3D procedural modeling workspace for Antigravity, Claude, or Codex.
