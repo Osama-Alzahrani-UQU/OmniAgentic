@@ -1,7 +1,7 @@
 # 🚀 OmniAgentic | المنظومة الشاملة للمهارات والوكلاء البرمجيين
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Skills-410%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="404 Skills" />
+  <img src="https://img.shields.io/badge/Total%20Skills-443%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="404 Skills" />
   <img src="https://img.shields.io/badge/Specialized%20Agents-120%20Verified-30D158?style=for-the-badge&logo=openai&logoColor=white" alt="120 Agents" />
   <img src="https://img.shields.io/badge/Token%20Savings-~19,000%20Tokens/Turn-FF9F0A?style=for-the-badge&logo=speedtest&logoColor=white" alt="Token Savings" />
   <img src="https://img.shields.io/badge/Target%20Platforms-Antigravity%20|%20Claude%20|%20Codex-BF5AF2?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Platforms" />
@@ -31,7 +31,7 @@
 <a name="english-documentation"></a>
 ## 🌟 Executive Overview (English)
 
-The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **410 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
+The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **443 curated, production-tested engineering skills** and **120 autonomous specialized subagents**.
 
 Engineered specifically to solve the common failure modes of modern agentic workflows (hallucinations, token bloat, forgotten instructions, dropped functions, and tool deadlocks), this suite implements a formal **Zero-Hallucination & Token-Efficiency Protocol** with an autonomous `Test -> Diagnose -> Fix -> Retest` pre-delivery verification loop.
 
@@ -77,7 +77,7 @@ flowchart TD
 (python, rust, react, typescript, go, build-resolvers)"]
     end
 
-    subgraph SkillsMatrix["404 Curated Production Skills"]
+    subgraph SkillsMatrix["443 Curated Production Skills"]
         SkillsHub["On-Demand Skill Hub
 (ecc-hub / skill-scout)"]
         ActiveSkills["Active Skills Engine
@@ -235,7 +235,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 ## 🇸🇦 التوثيق باللغة العربية (Arabic Documentation)
 
 ### 📌 نبذة تنفيذية عن المشروع
-تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **410 مهارة هندسية معتمدة** و **120 وكيلاً فرعياً تخصصياً**.
+تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **443 مهارة هندسية معتمدة** و **120 وكيلاً فرعياً تخصصياً**.
 
 تم بناء هذه المنظومة خصيصاً للقضاء على التحديات والعيوب الشائعة في الوكلاء الحاليين (مثل: الهلوسة، استنزاف الرموز / Tokens، نسيان متطلبات المستخدم، الأكواد الناقصة أو المختصرة، وتوقف الجلسات)، من خلال تطبيق حلقة فحص وتصحيح ذاتية إلزامية (`Test -> Diagnose -> Fix -> Retest`) قبل تسليم أي كود.
 
@@ -252,7 +252,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 ```
 OmniAgentic/
-├── skills/                     # 410 مهارة برمجية وفنية جاهزة ومحدثة
+├── skills/                     # 443 مهارة برمجية وفنية جاهزة ومحدثة
 ├── agents/                     # 120 وكيلاً تخصصياً بصيغة Markdown
 ├── rules/                      # القواعد العامة الصارمة لكل منصة
 │   ├── GEMINI.md               # قواعد Antigravity IDE العامة
@@ -295,6 +295,7 @@ OmniAgentic/
 
 This framework stands on the shoulders of giants. We express our sincere gratitude to the open-source engineering community and upstream contributors whose pioneering work made this unified suite possible:
 
+* **[Unity Technologies Official Skills](https://github.com/Unity-Technologies/skills)**: Created and maintained by **Unity Technologies** and its engineering contributors (**[ziyiunity](https://github.com/ziyiunity)**, **[andresbayon](https://github.com/andresbayon)**, **[GabrielBelmonteUnity](https://github.com/GabrielBelmonteUnity)**, **[kimberleymday](https://github.com/kimberleymday)**, **[chris-addison](https://github.com/chris-addison)**, **[ewhittom](https://github.com/ewhittom)**, **[jli-u3d](https://github.com/jli-u3d)**, **[peterhall-unity3d](https://github.com/peterhall-unity3d)**, **[renanfagundes](https://github.com/renanfagundes)**, **[csantayanaUnity](https://github.com/csantayanaUnity)**, **[elham-saboori](https://github.com/elham-saboori)**, **[unity-at-github](https://github.com/unity-at-github)**) for the 33 official Unity 6+ game development, URP RenderGraph, UI Toolkit, Netcode multiplayer, and optimization skills.
 * **[Kiln](https://github.com/matthew-kissinger/kiln)**: Created and maintained by **[Matthew Kissinger](https://github.com/matthew-kissinger)** (@matthew-kissinger) for the procedural 3D modeling engine, Three.js geometry recipes, and vision-in-the-loop rendering architecture.
 * **[Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code)**: Created and maintained by **[Affaan Mustafa](https://github.com/affaan-m)** (@affaan-m) and core contributors (**[haelyra](https://github.com/haelyra)**, **[pangerlkr](https://github.com/pangerlkr)**, **[gaurav0107](https://github.com/gaurav0107)**) for the foundational multi-agent concepts, specialized domain personas, and curated engineering skills catalog.
 * **Anthropic & Claude Community**: For the pioneer prompt engineering patterns and Model Context Protocol (MCP) tooling ecosystem.

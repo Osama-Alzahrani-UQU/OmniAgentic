@@ -542,3 +542,39 @@ This catalog lists every verified skill and specialized subagent included in the
 * **`kiln-compose-scene`**: Compose multi-asset 3D environments, stage props, and set lighting/camera configurations.
 * **`kiln-batch-dispatch`**: Batch generation and clean-room evaluation for asset libraries and multi-model variations.
 * **`kiln-setup-workspace`**: Bootstrap and configure a dedicated 3D procedural modeling workspace for Antigravity, Claude, or Codex.
+
+
+### Unity Engine Official Game Development Suite (33 Skills — Unity-Technologies/skills)
+* **`2d-pixel-perfect`**: Set up, diagnose, and fix 2D Pixel Perfect rendering and camera snapping in Unity projects.
+* **`asset-transformer-toolkit`**: Import and optimize 3D models and point clouds using Unity Asset Transformer Toolkit (Pixyz).
+* **`audio-setup-mixers`**: Route scene Audio Sources into Unity Audio Mixers, groups, and snapshots automatically.
+* **`build-live-game`**: Build and operate live games with Unity Gaming Services (Auth, Cloud Save, Cloud Code, Economy).
+* **`generate-editor-search-query`**: Generate Unity Quick Search queries and open the Unity Search window with precision filters.
+* **`implement-in-app-purchases`**: Implement, configure, and debug Unity In-App Purchases (IAP v5) and store catalogs.
+* **`initialize-ai-navigation`**: Configure Unity AI Navigation: NavMesh surfaces, agents, obstacles, and off-mesh links.
+* **`levelplay-unity-integration`**: Integrate Unity LevelPlay Ads Mediation SDK (rewarded, interstitial, and banner ads).
+* **`localization`**: Configure Unity Localization packages, locales, String/Asset tables, and Smart Strings.
+* **`manage-sprite-atlas`**: Create, pack, and manage Unity SpriteAtlas assets and Addressables build pipelines.
+* **`migrate-birp-to-urp`**: Plan, execute, and troubleshoot migrating Unity projects from Built-in Render Pipeline to URP.
+* **`new-unity-project`**: Scaffold and initialize a new Unity project with clean architecture and package presets.
+* **`optimize-audio`**: Optimize Unity 6 audio memory, CPU overhead, compression formats, and load types.
+* **`optimize-text-mesh-pro`**: Optimize TextMeshPro font assets, dynamic fallback atlases, SDF sampling, and draw calls.
+* **`optimize-web`**: Optimize Unity 6 WebGL and WebGPU builds for minimal download size and fast startup.
+* **`physics-3d-collision`**: Diagnose and fix 3D PhysX collisions, triggers, layers, and Rigidbody interpolation in Unity.
+* **`project-auditor-fixes`**: Analyze and resolve code, asset, and project settings issues reported by Unity Project Auditor.
+* **`setup-multiplayer-services`**: Build online multiplayer games using Netcode for GameObjects, Lobby, Relay, and Matchmaker.
+* **`setup-vivox-voice-chat`**: Integrate and configure Unity Vivox 3D positional voice chat and text channels.
+* **`shader-graph-create-custom-node`**: Create custom Unity Shader Graph nodes and sub-graphs backed by HLSL functions.
+* **`sprite-editor`**: Programmatically edit Unity Sprite slicing, borders, pivots, and physics shapes via C#.
+* **`sprite-segment-3x3grid`**: Analyze 2D Sprite textures and segment 9-slice / 3x3 grid borders automatically.
+* **`tilemap-palette-create`**: Create and organize 2D Tilemap Palettes and tile assets for level design in Unity.
+* **`tilemap-ruletile-createempty`**: Create custom empty RuleTile and HexagonalRuleTile assets for Unity 2D Tilemaps.
+* **`tilemap-ruletile-createfromsegment`**: Generate auto-tiling Unity RuleTile assets directly from segmented spritesheets.
+* **`ui`**: Master router and expert guide for Unity UI systems (UI Toolkit, uGUI Canvas, and IMGUI).
+* **`ui-imgui`**: Build custom Unity Editor windows, inspectors, and debug overlays using IMGUI (OnGUI).
+* **`ui-ugui`**: Design, layout, and script Unity uGUI Canvas hierarchies, RectTransforms, and ScrollViews.
+* **`ui-uitk`**: Author modern Unity 6+ UI Toolkit interfaces using UXML, USS styling, and C# data binding.
+* **`unity-cli`**: Control Unity Editor and Unity Hub from the terminal via the official Unity CLI.
+* **`unity-package-management`**: Manage Unity Package Manager (UPM) dependencies, registries, and manifest.json.
+* **`urp-postprocessing`**: Configure and debug URP Post-Processing Volumes, Bloom, Tonemapping, and custom effects.
+* **`validate-urp-render-graph-renderer-feature`**: Validate and migrate Unity 6+ URP ScriptableRendererFeatures to the RenderGraph API.
