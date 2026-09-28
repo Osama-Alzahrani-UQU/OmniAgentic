@@ -1,7 +1,6 @@
 ---
 name: ito-training
-description: Inspect the availability of ML training on a completed Itô compute booking
-  and.
+description: Inspect and launch distributed ML training jobs on completed Itô compute bookings.
 metadata:
   origin: ECC
   status: scaffold

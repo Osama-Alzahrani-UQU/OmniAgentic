@@ -1,7 +1,6 @@
 ---
 name: springboot-verification
-description: 'Verification loop for Spring Boot projects: build, static analysis,
-  tests with coverage, security scans.'
+description: 'Verification loop for Spring Boot: Actuator health, SpotBugs, MockMvc tests, and OWASP dependency scans.'
 metadata:
   origin: ECC
 ---

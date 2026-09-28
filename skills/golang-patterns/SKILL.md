@@ -1,7 +1,6 @@
 ---
 name: golang-patterns
-description: Idiomatic Go patterns, best practices, and conventions for building robust,
-  efficient.
+description: Idiomatic Go patterns, goroutine concurrency, error wrapping, and interface design.
 metadata:
   origin: ECC
 ---

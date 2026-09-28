@@ -43,6 +43,9 @@ These rules apply universally across all conversations, workspaces, and sub-agen
      3. تُكتب تكملة الكلام العربي في السطر الذي يليه بعد سطر فارغ (`\n\n`).
    - يُمنع كتابة أي حرف إنجليزي في نفس السطر مع النص العربي، ويُحظر استخدام "الـ" قبل الكلمات الإنجليزية.
 
+9. **Mandatory Skill & Sub-Agent Deduplication Guard (`zero-duplicate-guard`)**:
+   - **منع تكرار المهارات والوكلاء الفرعيين نهائياً**: قبل تثبيت أو إنشاء أي مهارة (`Skill`) أو وكيل فرعي (`Sub-Agent`) جديد، يلتزم الوكيل بفحص كافة المهارات (`C:\Users\goldl\.gemini\config\skills\`) والوكلاء (`C:\Users\goldl\.gemini\ecc\agents\`) للتحقق من عدم وجود أي تكرار في الاسم (`name`)، الوصف (`description`)، أو المحتوى (`SHA-256 body hash`)، ودمج أو استبعاد أي عنصر مكرر فوراً مع التحقق الآلي عبر `verify_suite.py`.
+
 ---
 
 ## 2. Core Active Skills Matrix
@@ -56,6 +59,7 @@ These rules apply universally across all conversations, workspaces, and sub-agen
 | **`bilingual-clean-layout`** | Split & Continuation Rule (`\n\n` around every English term/link) in user-facing responses. |
 | **`end-to-end-executor`** | 100% autonomous execution; strict ban on delegating scripts, installers, or commands to the user. |
 | **`experience-learner`** | Consults and updates `C:\Users\goldl\.gemini\knowledge\troubleshooting_history.md` across all conversations. |
+| **`zero-duplicate-guard`** | Enforces 0 duplicate skills and 0 duplicate sub-agents across name, description, and SHA-256 content hash. |
 
 ---
 

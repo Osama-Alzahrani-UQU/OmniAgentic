@@ -1,7 +1,6 @@
 ---
 name: kotlin-patterns
-description: Idiomatic Kotlin patterns, best practices, and conventions for building
-  robust, efficient.
+description: Idiomatic Kotlin patterns, null safety, data classes, sealed hierarchies, and DSLs.
 metadata:
   origin: ECC
 ---
