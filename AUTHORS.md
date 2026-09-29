@@ -54,6 +54,11 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
   * Unity Automation (@unity-at-github)
 * **Contribution**: 33 official production skills for Unity 6+, URP RenderGraph migration, Netcode multiplayer, UI Toolkit, and asset optimization.
 
+### 6. TokenRhythm Research Team (@TokenRhythm)
+* **Project**: [NeoHorse & NeoHorse-Jev](https://github.com/TokenRhythm/NeoHorse)
+* **Role**: Creators & Research Team
+* **Contribution**: NeoHorse-1 agentic post-training routing harness for recursive self-improvement (RSI), routing-guided curriculum SFT, and NeoHorse-Jev prefill-only inference engine (Choice, Noul, Score) for ultra-low-latency agent routing.
+
 ---
 
 ## 🏛️ Open-Source Ecosystem Credits
@@ -83,3 +88,5 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
   صاحب ومبتكر مشروع `Everything Claude Code (ECC)` ومطور البنية التأسيسية للمهارات البرمجية.
 * **فريق مهندسي Unity Technologies (@Unity-Technologies)**:
   المطورون لحزمة مهارات محرك الألعاب `Unity 6` والشبكات ومعالجة الرسوميات.
+* **فريق أبحاث TokenRhythm (@TokenRhythm)**:
+  المطورون لمشروع `NeoHorse` و `NeoHorse-Jev` لنظام التوجيه واتخاذ القرارات الذكية الفورية (Prefill-Only Decisions) وحلقات التطوير الذاتي المتكرر (RSI).
