@@ -1,4 +1,4 @@
-# 🚀 OmniAgentic | المنظومة الشاملة للمهارات والوكلاء البرمجيين
+# 🚀 OmniAgentic | Enterprise Multi-Agent Operating Suite
 
 <p align="center">
   <img src="https://img.shields.io/badge/Total%20Skills-445%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="445 Skills" />
@@ -19,17 +19,18 @@
 
 <p align="center">
   <a href="#english-documentation">English Documentation</a> •
-  <a href="#arabic-documentation">التوثيق باللغة العربية</a> •
-  <a href="#installation--setup">Installation Guide</a> •
   <a href="#agents-showcase">Agents Showcase</a> •
   <a href="#skills-catalog">Skills Catalog</a> •
-  <a href="CATALOG.md">Full Catalog</a>
+  <a href="#installation--setup">Installation Guide</a> •
+  <a href="#acknowledgments--credits">Acknowledgments</a> •
+  <a href="CATALOG.md">Full Catalog</a> •
+  <a href="#arabic-documentation">Arabic Documentation</a>
 </p>
 
 ---
 
 <a name="english-documentation"></a>
-## 🌟 Executive Overview (English)
+## 🌟 Executive Overview
 
 The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **445 curated, production-tested engineering skills** and **145 autonomous specialized subagents**.
 
@@ -39,7 +40,7 @@ Engineered specifically to solve the common failure modes of modern agentic work
 1. **Context-Window Token Compression (70% Reduction)**: Slashed prompt metadata from **112,154 characters down to 35,843 characters**, reclaiming over **~19,000 tokens per turn**. This eliminates context-budget starvation and prevents subagent drop-outs.
 2. **Autonomous Pre-Delivery Debug Loop (`loop-debug`)**: Enforces an automated, closed-loop debug cycle where the agent autonomously runs diagnostics, compiles code, tests edge cases, and verifies 100% completion before delivering results to the user.
 3. **Zero-Omission Sentinel (`request-completeness-sentinel`)**: Guarantees that every single user constraint, sub-task, and formatting rule is tracked and satisfied without truncated code, missing functions, or placeholder stubs (`TODO` / `pass`).
-4. **Academic & Student Excellence Suite**: 10 purpose-built subagents designed for university coursework, literature reviews, active-recall study coaching, thesis LaTeX typesetting, and graduation capstone architecture.
+4. **Academic & Student Excellence Suite**: 14 purpose-built subagents designed for university coursework, literature reviews, active-recall study coaching, quantitative statistics, thesis LaTeX typesetting, and graduation capstone architecture.
 5. **Universal Portability**: Identical, seamless execution across **Antigravity**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI** with cross-platform automated installers (`install.ps1` / `install.sh`).
 
 ---
@@ -67,10 +68,10 @@ flowchart TD
         direction TB
         Academic["🎓 Academic & Student Suite
 (academic-researcher, exam-coach, latex-thesis)"]
-        GameDev["🎮 Game Dev & Modding
-(godot-architect, fivem-specialist, lua-expert)"]
-        ReverseEng["🔍 Reverse Eng & Security
-(reverse-engineer, firmware-analyst, forensics)"]
+        GameDev["🎮 Game Dev, Unreal & Roblox
+(unreal-systems, roblox-scripter, godot, fivem)"]
+        Spatial["🥽 Spatial Computing & GIS
+(visionos, macos-metal, gis-analyst, 3d-scene)"]
         CloudDB["☁️ Cloud, DevOps & DBs
 (docker, k8s, terraform, postgres, redis)"]
         CodeReview["🛡️ Language Reviewers & Resolvers
@@ -78,10 +79,10 @@ flowchart TD
     end
 
     subgraph SkillsMatrix["445 Curated Production Skills"]
-        SkillsHub["On-Demand Skill Hub
-(ecc-hub / skill-scout)"]
+        SkillsHub["On-Demand Skill Hubs
+(ecc-hub / agency-agents / skill-scout)"]
         ActiveSkills["Active Skills Engine
-(TDD, API Design, Security, Git, Architecture)"]
+(TDD, API Design, Security, Git, Video, 3D)"]
     end
 
     subgraph QualityGate["Autonomous Verification Loop"]
@@ -100,13 +101,17 @@ flowchart TD
 ---
 
 <a name="agents-showcase"></a>
-## 🤖 120 Specialized Subagents Fleet
+## 🤖 145 Specialized Subagents Fleet
 
-All 120 subagents are defined as structured personas located in `agents/`. They are invoked dynamically via `invoke_subagent` / `define_subagent` at zero baseline token overhead:
+All 145 subagents are defined as structured personas located in `agents/`. They are invoked dynamically via `invoke_subagent` / `define_subagent` at zero baseline token overhead:
 
-### 1. University Student & Academic Research Suite (10 Agents)
+### 1. University Student & Academic Research Suite (14 Agents)
 * **`academic-researcher`**: Searches and analyzes peer-reviewed literature, scholarly journals, and research methodologies.
 * **`academic-research-synthesizer`**: Synthesizes multiple research papers into cohesive literature reviews, highlighting consensus and research gaps.
+* **`academic-statistician`**: Quantitative research methodology, experimental design, power analysis, ANOVA, regression modeling, and statistical proofs.
+* **`academic-narratologist`**: Narrative theory, story structure, hero's journey, character arcs, and literary analysis.
+* **`academic-historian`**: Historiographical analysis, primary source evaluation, material culture, and historical periodization.
+* **`academic-anthropologist`**: Cultural systems, ethnographic fieldwork, rituals, kinship dynamics, and qualitative inquiry.
 * **`research-brief-generator`**: Transforms long textbooks, papers, and complex lectures into structured study outlines and executive briefs.
 * **`exam-study-coach`**: University exam preparation coach utilizing active recall, Anki flashcard generation, and past-exam walkthroughs.
 * **`algorithms-math-tutor`**: University CS and Math tutor for Data Structures, Algorithms, Big-O proofs, Discrete Math, and Linear Algebra.
@@ -128,42 +133,60 @@ All 120 subagents are defined as structured personas located in `agents/`. They 
 * **`url-context-validator`**: Validates URLs, citations, and documentation links cited by agents to eliminate broken or hallucinated links.
 * **`hallucination-fact-guard`**: Cross-checks subagent code symbols, imports, and file paths against the real disk before delivery.
 
-### 3. Game Engines, Modding & Localization (5 Agents)
-* **`godot-architect`**: Godot 4.x engine architect and GDScript specialist with direct Godot MCP server integration.
-* **`fivem-redm-specialist`**: FiveM & RedM (CFX.re) architect for VORP Core, QBCore, ESX, CitizenFX Lua/JS/C#, and NUI interfaces.
-* **`game-modding-specialist`**: Game modding engineer for Unity (BepInEx, Harmony, IL2CPP) and Unreal Engine (UE4SS, Pak modding).
-* **`arabic-localization-specialist`**: RTL game and software localization engineer (Arabic text shaping, HarfBuzz/Fribidi, SDF font injection).
-* **`lua-expert`**: Advanced Lua scripting engineer (metatables, coroutines, memory optimization, sandboxing).
+### 3. Game Engines, Unreal, Roblox & Spatial Computing (16 Agents)
+* **Unreal Engine 5**: `unreal-systems-engineer` (C++/Blueprints/GAS), `unreal-multiplayer-architect` (Actor replication/NetDriver), `unreal-technical-artist` (Niagara/Nanite/Lumen/Materials), `unreal-world-builder` (Level streaming/World Partition).
+* **Roblox Studio**: `roblox-systems-scripter` (Luau scripting/replication), `roblox-experience-designer` (monetization/game loops), `roblox-avatar-creator` (UGC/rigging).
+* **Spatial Computing**: `visionos-spatial-engineer` (Apple Vision Pro/RealityKit), `macos-spatial-metal-engineer` (Metal/Swift 3D rendering).
+* **Godot & FiveM**: `godot-architect` (Godot 4/GDScript/MCP), `fivem-redm-specialist` (CFX.re/VORP/QBCore), `game-modding-specialist` (Unity BepInEx/Harmony/IL2CPP), `lua-expert`, `economy-designer` (game tokenomics/currency sinks).
 
-### 4. Reverse Engineering, Security Forensics & Desktop Automation (6 Agents)
-* **`reverse-engineering-specialist`**: Binary reverse engineering specialist (x64dbg, Ghidra, IDA Pro, PE/ELF, assembly, Frida hooks).
+### 4. GIS, Mapping & Earth Science (4 Agents)
+* **`gis-analyst`**: Spatial analysis, layer management, GeoJSON, PostGIS, QGIS/ArcGIS workflows.
+* **`3d-scene-developer`**: Web 3D geographic scenes, Cesium, Three.js terrain rendering.
+* **`cartography-designer`**: Map design, projection systems, symbology, and visual hierarchy.
+* **`drone-reality-mapping-specialist`**: Photogrammetry, aerial point clouds, orthomosaics, and flight telemetry.
+
+### 5. Creative Design, Whimsy & Growth Marketing (6 Agents)
+* **`whimsy-injector`**: Micro-interactions, playful UI details, Easter eggs, delightful animations, and tactile feedback.
+* **`persona-walkthrough-specialist`**: Cognitive walkthrough simulation from diverse user personas.
+* **`brand-guardian`**: Visual identity, brand consistency, color harmony, and design systems.
+* **`aeo-foundations-architect`**: AI Engine Optimization, llms.txt, AI-aware robots.txt, structured citations for LLMs.
+* **`agentic-search-optimizer`**: WebMCP readiness, web agent discovery, and agentic task optimization.
+* **`growth-hacker`**: Viral loops, conversion rate optimization, referral mechanics, and user activation funnels.
+
+### 6. Reverse Engineering, Security & Forensics (7 Agents)
+* **`reverse-engineering-specialist`**: Binary reverse engineering (x64dbg, Ghidra, IDA Pro, PE/ELF, assembly, Frida hooks).
 * **`firmware-analyst`**: Embedded systems and IoT firmware extraction and reverse engineering (ARM, MIPS, x86/x64).
 * **`windows-forensics-hunter`**: Windows OS internals, rootkit/malware hunting, persistence auditing, and system file recovery (DISM/SFC).
 * **`windows-desktop-automator`**: Windows GUI and desktop automation engineer (Win32 API, UIAutomation, PowerShell, silent installers).
 * **`electron-expert`**: Electron desktop application engineer for multi-process architecture and IPC security.
 * **`tauri-expert`**: Lightweight desktop application engineer for Rust + WebView Tauri applications.
+* **`codebase-archaeologist`**: Historical architectural intent extraction, legacy git excavation, and technical debt analysis.
 
-### 5. Cloud, DevOps, Databases & Backend Frameworks (19 Agents)
+### 7. Cloud, DevOps, Databases & Backend Frameworks (19 Agents)
 * **Cloud & DevOps**: `docker-expert`, `kubernetes-architect`, `terraform-specialist`, `cloud-architect`, `github-actions-expert`, `observability-engineer`.
 * **Databases & Caching**: `postgres-expert`, `redis-expert`, `mongodb-expert`, `vector-db-expert`, `prisma-expert`.
 * **Backend & Realtime**: `nestjs-expert`, `nextjs-expert`, `tailwind-expert`, `graphql-expert`, `websocket-expert`, `kafka-expert`.
 * **Data & AI Pipelines**: `prompt-engineer`, `langchain-expert`, `data-engineer`, `playwright-expert`.
 
-### 6. Specialized Language Reviewers & Build Resolvers (70 Core Agents)
+### 8. Specialized Language Reviewers & Build Resolvers (69 Core Agents)
 * **Build Error Resolvers (12)**: `build-error-resolver`, `cpp-build-resolver`, `dart-build-resolver`, `django-build-resolver`, `go-build-resolver`, `harmonyos-app-resolver`, `java-build-resolver`, `kotlin-build-resolver`, `pytorch-build-resolver`, `react-build-resolver`, `rust-build-resolver`, `swift-build-resolver`.
 * **Code Reviewers (21)**: `code-reviewer`, `cpp-reviewer`, `csharp-reviewer`, `database-reviewer`, `django-reviewer`, `fastapi-reviewer`, `flutter-reviewer`, `fsharp-reviewer`, `go-reviewer`, `healthcare-reviewer`, `java-reviewer`, `kotlin-reviewer`, `mle-reviewer`, `network-config-reviewer`, `php-reviewer`, `python-reviewer`, `react-reviewer`, `rust-reviewer`, `swift-reviewer`, `typescript-reviewer`, `vue-reviewer`.
-* **Architecture & Quality (37)**: `architect`, `code-architect`, `planner`, `spec-miner`, `security-reviewer`, `performance-optimizer`, `refactor-cleaner`, `silent-failure-hunter`, `tdd-guide`, and more.
+* **Architecture & Quality (36)**: `architect`, `code-architect`, `planner`, `spec-miner`, `security-reviewer`, `performance-optimizer`, `refactor-cleaner`, `silent-failure-hunter`, `tdd-guide`, and more.
 
-*(Browse the complete alphabetical directory of all 120 agents in [CATALOG.md](CATALOG.md)).*
+*(Browse the complete alphabetical directory of all 145 agents in [CATALOG.md](CATALOG.md)).*
 
 ---
 
 <a name="skills-catalog"></a>
-## 🛠️ 404 Production Skills Catalog
+## 🛠️ 445 Production Skills Catalog
 
-All 404 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
+All 445 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
 
-* **Core Operational Sentinels**: `loop-debug`, `code-completeness-debugger`, `request-completeness-sentinel`, `concise-responder`, `bilingual-clean-layout`, `end-to-end-executor`, `experience-learner`.
+* **Core Operational Sentinels**: `loop-debug`, `code-completeness-debugger`, `request-completeness-sentinel`, `concise-responder`, `bilingual-clean-layout`, `end-to-end-executor`, `experience-learner`, `zero-duplicate-guard`.
+* **Meta-Hubs & Ecosystem Bridges**: `ecc-hub` (ECC catalog), `agency-agents` (The Agency catalog), `skill-scout` (skill discovery).
+* **Generative Media & Automated Video**: `moneyprinterturbo-video` (automated short-form video generation from prompts with TTS, subtitles, and stock footage), `fal-ai-media`, `manim-video`, `remotion-video-creation`.
+* **Procedural 3D & Vision**: `kiln-author-asset`, `kiln-compose-scene`, `kiln-qa-asset`, `kiln-refine-asset`, `kiln-batch-dispatch`, `kiln-setup-workspace`.
+* **Game Development (33 Official Unity Skills)**: URP RenderGraph, UI Toolkit, Netcode for GameObjects, Vivox Voice, In-App Purchases, NavMesh, SpriteAtlas, Audio Mixers, LevelPlay Ads.
 * **Software Architecture & Patterns**: `backend-patterns`, `api-design`, `api-and-interface-design`, `architecture-decision-records`, `documentation-and-adrs`, `clean-architecture-ddd`, `contract-first`, `microservices-patterns`.
 * **Testing & Quality Engineering**: `tdd-workflow`, `test-driven-development`, `e2e-testing`, `browser-qa`, `code-review-and-quality`, `pr-test-analyzer`, `mutation-testing`.
 * **Product Management & Strategy (69 PM Skills)**: `create-prd`, `sprint-plan`, `customer-journey-map`, `lean-canvas`, `opportunity-solution-tree`, `brainstorm-okrs`, `prioritize-features`, `growth-loops`, `monetization-strategy`.
@@ -231,8 +254,75 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 ---
 
+### 📂 Repository File Tree
+
+```
+OmniAgentic/
+├── skills/                     # 445 Production Engineering Skills
+├── agents/                     # 145 Specialized Domain Subagents
+├── rules/                      # Cross-Platform Operational Rules Matrix
+│   ├── GEMINI.md               # Antigravity Global Rules
+│   ├── CLAUDE.md               # Claude Desktop & Claude Code Rules
+│   └── AGENTS.md               # OpenAI Codex CLI Rules
+├── configs/                    # Ready-to-Use Platform Configuration Templates
+│   ├── claude_desktop_config.example.json
+│   └── codex_config.example.toml
+├── scripts/                    # Automation & Verification Suite
+│   ├── install.ps1             # Automated Windows PowerShell Installer
+│   ├── install.sh              # Automated Linux/macOS Bash Installer
+│   └── verify_suite.py         # 100% Pre-Flight Verification Script
+├── CATALOG.md                  # Complete Categorized Directory of All Skills & Agents
+├── LICENSE                     # MIT Open-Source License
+└── README.md                   # Comprehensive Dual-Language Documentation
+```
+
+---
+
+<a name="author--maintainer"></a>
+## 👨‍💻 Author & Maintainer
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Osama-Alzahrani-UQU">
+        <img src="https://github.com/Osama-Alzahrani-UQU.png?size=100" width="100px;" alt="Osama Alzahrani" style="border-radius: 50%;" /><br />
+        <sub><b>Osama Alzahrani</b></sub>
+      </a><br />
+      <sub>Computer Science • Umm Al-Qura University</sub><br />
+      <a href="https://github.com/Osama-Alzahrani-UQU">
+        <img src="https://img.shields.io/badge/GitHub-@Osama--Alzahrani--UQU-181717?style=flat-square&logo=github" alt="GitHub Profile" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+<a name="acknowledgments--credits"></a>
+## 🙏 Acknowledgments & Upstream Credits
+
+This framework stands on the shoulders of giants. We express our sincere gratitude to the open-source engineering community and upstream contributors whose pioneering work made this unified suite possible:
+
+* **[The Agency (Agency Agents)](https://github.com/msitarzewski/agency-agents)**: Created and maintained by **[Maciej Sitarzewski (msitarzewski)](https://github.com/msitarzewski)** (@msitarzewski) for the 270+ battle-tested agency agent personalities across 18 specialized enterprise divisions (GIS, Spatial Computing, Roblox, Unreal Engine 5, AEO, Whimsy Design, and Quantitative Research).
+* **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**: Created and maintained by **[Harry (harry0703)](https://github.com/harry0703)** (@harry0703) for the automated end-to-end AI video generation engine, Edge-TTS audio synthesis, stock footage orchestration, and Whisper subtitle synchronization.
+* **[Unity Technologies Official Skills](https://github.com/Unity-Technologies/skills)**: Created and maintained by **Unity Technologies** and its engineering contributors (**[ziyiunity](https://github.com/ziyiunity)**, **[andresbayon](https://github.com/andresbayon)**, **[GabrielBelmonteUnity](https://github.com/GabrielBelmonteUnity)**, **[kimberleymday](https://github.com/kimberleymday)**, **[chris-addison](https://github.com/chris-addison)**, **[ewhittom](https://github.com/ewhittom)**, **[jli-u3d](https://github.com/jli-u3d)**, **[peterhall-unity3d](https://github.com/peterhall-unity3d)**, **[renanfagundes](https://github.com/renanfagundes)**, **[csantayanaUnity](https://github.com/csantayanaUnity)**, **[elham-saboori](https://github.com/elham-saboori)**, **[unity-at-github](https://github.com/unity-at-github)**) for the 33 official Unity 6+ game development, URP RenderGraph, UI Toolkit, Netcode multiplayer, and optimization skills.
+* **[Kiln](https://github.com/matthew-kissinger/kiln)**: Created and maintained by **[Matthew Kissinger](https://github.com/matthew-kissinger)** (@matthew-kissinger) for the procedural 3D modeling engine, Three.js geometry recipes, and vision-in-the-loop rendering architecture.
+* **[Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code)**: Created and maintained by **[Affaan Mustafa](https://github.com/affaan-m)** (@affaan-m) and core contributors (**[haelyra](https://github.com/haelyra)**, **[pangerlkr](https://github.com/pangerlkr)**, **[gaurav0107](https://github.com/gaurav0107)**) for the foundational multi-agent concepts, specialized domain personas, and curated engineering skills catalog.
+* **Anthropic & Claude Community**: For the pioneer prompt engineering patterns and Model Context Protocol (MCP) tooling ecosystem.
+* **Open-Source AI Community**: For continuous benchmarks, defensive testing frameworks, and multi-agent coordination paradigms.
+
+> *All original tool concepts, agent schemas, and community skills remain the intellectual property of their respective creators under their open-source licenses.*
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+---
+
 <a name="arabic-documentation"></a>
-## 🇸🇦 التوثيق باللغة العربية (Arabic Documentation)
+# 🇸🇦 دليل التوثيق باللغة العربية (Arabic Documentation)
 
 ### 📌 نبذة تنفيذية عن المشروع
 تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **445 مهارة هندسية معتمدة** و **145 وكيلاً فرعياً تخصصياً**.
@@ -243,7 +333,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 1. **ترشيد استهلاك الذاكرة والرموز بنسبة 70%**: تم تقليص حجم نصوص الأوصاف من **112,154 حرفاً إلى 35,843 حرفاً فقط**، مما وفر أكثر من **19,000 توكن في كل محادثة** ومنع استبعاد الوكلاء تلقائياً بسبب حد الذاكرة (`Context Budget Limits`).
 2. **حلقة الفحص والتصحيح التلقائية (`loop-debug`)**: إلزام الوكيل بالدخول التلقائي في حلقة اختبار وتصحيح عبر أوامر الطرفية حتى يصبح البرنامج خالياً من الأخطاء ويعمل بنسبة 100% مع تأكيد صريح لنجاح الـ `Debug`.
 3. **حارس الاكتمال الصارم (`request-completeness-sentinel`)**: حظر تسليم أي مشروع يحتوي على دوال ناقصة أو أكواد مختصرة (`TODO` أو `pass`)، وضمان تلبية كافة متطلبات المستخدم دون إسقاط أي تفصيل.
-4. **حزمة الطالب والباحث الجامعي المتكاملة**: توفير 10 وكلاء تخصصيين لدعم طلاب الجامعات في المراجعات الأدبية للبحوث، الاستذكار الفعال، كتابة الرسائل الجامعية بـ `LaTeX`، وإعداد وتوثيق مشاريع التخرج بالكامل.
+4. **حزمة الطالب والباحث الجامعي المتكاملة**: توفير 14 وكيلاً تخصصياً لدعم طلاب الجامعات في المراجعات الأدبية للبحوث، التحليل الإحصائي، الاستذكار الفعال، كتابة الرسائل الجامعية بـ `LaTeX`، وإعداد وتوثيق مشاريع التخرج بالكامل.
 5. **توافق تشغيلي شامل**: تعمل المنظومة بنقرة واحدة عبر كافة المنصات الرائدة مع سكريبتات تثبيت آلية لنظامي ويندوز (`install.ps1`) ولينكس/ماك (`install.sh`).
 
 ---
@@ -272,40 +362,39 @@ OmniAgentic/
 
 ---
 
-## 👨‍💻 Author & Maintainer
+### 🛠️ دليل التثبيت السريع
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Osama-Alzahrani-UQU">
-        <img src="https://github.com/Osama-Alzahrani-UQU.png?size=100" width="100px;" alt="Osama Alzahrani" style="border-radius: 50%;" /><br />
-        <sub><b>Osama Alzahrani</b></sub>
-      </a><br />
-      <sub>Computer Science • Umm Al-Qura University</sub><br />
-      <a href="https://github.com/Osama-Alzahrani-UQU">
-        <img src="https://img.shields.io/badge/GitHub-@Osama--Alzahrani--UQU-181717?style=flat-square&logo=github" alt="GitHub Profile" />
-      </a>
-    </td>
-  </tr>
-</table>
+#### لنظام ويندوز (PowerShell):
+```powershell
+# لتثبيت المنظومة على كافة البيئات (Antigravity و Claude و Codex):
+powershell -ExecutionPolicy Bypass -File .\scripts\install.ps1 -Target All
+```
+
+#### لأنظمة ماك ولينكس (Bash):
+```bash
+chmod +x ./scripts/install.sh
+./scripts/install.sh all
+```
 
 ---
 
-## 🙏 Acknowledgments & Upstream Credits | شكر وإسناد للمصادر المفتوحة
-
-This framework stands on the shoulders of giants. We express our sincere gratitude to the open-source engineering community and upstream contributors whose pioneering work made this unified suite possible:
-
-* **[The Agency (Agency Agents)](https://github.com/msitarzewski/agency-agents)**: Created and maintained by **[Maciej Sitarzewski (msitarzewski)](https://github.com/msitarzewski)** (@msitarzewski) for the 270+ battle-tested agency agent personalities across 18 specialized enterprise divisions (GIS, Spatial Computing, Roblox, Unreal Engine 5, AEO, Whimsy Design, and Quantitative Research).
-* **[MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)**: Created and maintained by **[Harry (harry0703)](https://github.com/harry0703)** (@harry0703) for the automated end-to-end AI video generation engine, Edge-TTS audio synthesis, stock footage orchestration, and Whisper subtitle synchronization.
-* **[Unity Technologies Official Skills](https://github.com/Unity-Technologies/skills)**: Created and maintained by **Unity Technologies** and its engineering contributors (**[ziyiunity](https://github.com/ziyiunity)**, **[andresbayon](https://github.com/andresbayon)**, **[GabrielBelmonteUnity](https://github.com/GabrielBelmonteUnity)**, **[kimberleymday](https://github.com/kimberleymday)**, **[chris-addison](https://github.com/chris-addison)**, **[ewhittom](https://github.com/ewhittom)**, **[jli-u3d](https://github.com/jli-u3d)**, **[peterhall-unity3d](https://github.com/peterhall-unity3d)**, **[renanfagundes](https://github.com/renanfagundes)**, **[csantayanaUnity](https://github.com/csantayanaUnity)**, **[elham-saboori](https://github.com/elham-saboori)**, **[unity-at-github](https://github.com/unity-at-github)**) for the 33 official Unity 6+ game development, URP RenderGraph, UI Toolkit, Netcode multiplayer, and optimization skills.
-* **[Kiln](https://github.com/matthew-kissinger/kiln)**: Created and maintained by **[Matthew Kissinger](https://github.com/matthew-kissinger)** (@matthew-kissinger) for the procedural 3D modeling engine, Three.js geometry recipes, and vision-in-the-loop rendering architecture.
-* **[Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code)**: Created and maintained by **[Affaan Mustafa](https://github.com/affaan-m)** (@affaan-m) and core contributors (**[haelyra](https://github.com/haelyra)**, **[pangerlkr](https://github.com/pangerlkr)**, **[gaurav0107](https://github.com/gaurav0107)**) for the foundational multi-agent concepts, specialized domain personas, and curated engineering skills catalog.
-* **Anthropic & Claude Community**: For the pioneer prompt engineering patterns and Model Context Protocol (MCP) tooling ecosystem.
-* **Open-Source AI Community**: For continuous benchmarks, defensive testing frameworks, and multi-agent coordination paradigms.
-
-> *All original tool concepts, agent schemas, and community skills remain the intellectual property of their respective creators under their open-source licenses.*
+### 👨‍💻 المطور والمشرف
+* **أسامة الزهراني** (Osama Alzahrani)
+* قسم علوم الحاسب الآلي • جامعة أم القرى
+* حساب المستودع: `https://github.com/Osama-Alzahrani-UQU`
 
 ---
 
-## 📄 License
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+### 🙏 شكر وإسناد للمصادر المفتوحة
+تعتمد هذه المنظومة على جهود رائدة من مجتمع المصادر المفتوحة، ونتوجه بالشكر والامتنان لكافة المطورين والمشاريع الأصلية التي تم الاستناد عليها وتطويرها:
+* **The Agency (Agency Agents)**: للمطور Maciej Sitarzewski (@msitarzewski) لحزمة الوكلاء المؤسسية عبر 18 قطاعاً تخصصياً.
+* **MoneyPrinterTurbo**: للمطور Harry (@harry0703) لمنظومة توليد وإنتاج الفيديو الذاتي المتقدم.
+* **Unity Technologies Official Skills**: للمهندسين والمطورين في شركة Unity Technologies لحزمة 33 مهارة معتمدة لمحرك Unity 6.
+* **Kiln**: للمطور Matthew Kissinger (@matthew-kissinger) لنظام النمذجة الإجرائية ثلاثية الأبعاد.
+* **Everything Claude Code (ECC)**: للمطور Affaan Mustafa (@affaan-m) وفريقه للمفاهيم التأسيسية وترسانة المهارات البرمجية.
+* مجتمع الذكاء الاصطناعي والمصادر المفتوحة لدعم بروتوكولات الوكلاء المتعددة.
+
+---
+
+### 📄 رخصة الاستخدام
+هذا المشروع مرخص تحت رخصة **MIT** مفتوحة المصدر — راجع ملف [LICENSE](LICENSE) لمزيد من التفاصيل.

@@ -1,10 +1,10 @@
-# Complete Catalog: 445 Skills & 145 Specialized Agents | الفهرس الشامل للمهارات والوكلاء
+# Complete Catalog: 445 Skills & 145 Specialized Agents
 
 This catalog lists every verified skill and specialized subagent included in the suite.
 
 ---
 
-## Part 1: 145 Specialized Agents (gents/)
+## Part 1: 145 Specialized Agents (agents/)
 
 | # | Agent Name | Description |
 | :--- | :--- | :--- |
@@ -605,3 +605,9 @@ This catalog lists every verified skill and specialized subagent included in the
 | 443 | **workspace-surface-audit** | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup. |
 | 444 | **wwas** | Create product backlog items in Why-What-Acceptance format , independent, valuable. |
 | 445 | **x-api** | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. |
+
+---
+
+# الفهرس الشامل: 445 مهارة هندسية و 145 وكيلاً تخصصياً
+
+يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
