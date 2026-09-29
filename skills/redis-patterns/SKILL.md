@@ -1,7 +1,6 @@
 ---
 name: redis-patterns
-description: Redis data structure patterns, caching strategies, distributed locks,
-  rate limiting, pub/sub.
+description: Redis data structure patterns
 metadata:
   origin: ECC
 ---

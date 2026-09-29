@@ -1,7 +1,6 @@
 ---
 name: living-docs-governance
-description: Keep a long-lived project's documentation from rotting by assigning existing
-  project docs clear constitution.
+description: Keep a long-lived project's documentation
 metadata:
   origin: ECC
 ---

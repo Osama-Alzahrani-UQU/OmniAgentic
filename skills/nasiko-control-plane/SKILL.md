@@ -1,7 +1,6 @@
 ---
 name: nasiko-control-plane
-description: Use the experimental Nasiko CLI lifecycle bridge for pinned installation,
-  read-only status.
+description: Use the experimental Nasiko CLI lifecycle
 ---
 # Nasiko CLI Lifecycle Bridge
 

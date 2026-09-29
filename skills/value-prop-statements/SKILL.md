@@ -1,7 +1,6 @@
 ---
 name: value-prop-statements
-description: Generate value proposition statements for marketing, sales, and onboarding
-  from existing value propositions.
+description: Generate value proposition statements
 ---
 # Value Proposition Statements
 

@@ -1,7 +1,6 @@
 ---
 name: validate-urp-render-graph-renderer-feature
-description: Validate and migrate Unity 6+ URP ScriptableRendererFeatures to the RenderGraph
-  API.
+description: Validate and migrate Unity 6+ URP
 ---
 # Skill: Validate a Unity URP Render Graph Renderer Feature
 

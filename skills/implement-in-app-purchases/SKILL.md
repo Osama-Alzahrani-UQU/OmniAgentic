@@ -1,7 +1,6 @@
 ---
 name: implement-in-app-purchases
-description: Implement, configure, and debug Unity In-App Purchases (IAP v5) and store
-  catalogs.
+description: Implement, configure, and debug Unity In-App
 ---
 
 # Unity In-App Purchasing

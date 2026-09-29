@@ -1,7 +1,6 @@
 ---
 name: prediction-market-risk-review
-description: Review prediction-market, basket, oracle, and trading-agent workflows
-  for compliance, safety, data-quality.
+description: Review prediction-market
 metadata:
   origin: ECC
 ---

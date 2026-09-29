@@ -1,6 +1,6 @@
 ---
 name: article-writing
-description: Write articles, guides, blog posts, tutorials, newsletter issues.
+description: Write articles, guides, blog posts, tutorials,
 metadata:
   origin: ECC
 ---

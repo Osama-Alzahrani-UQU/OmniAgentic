@@ -1,7 +1,6 @@
 ---
 name: shader-graph-create-custom-node
-description: Create custom Unity Shader Graph nodes and sub-graphs backed by HLSL
-  functions.
+description: Create custom Unity Shader Graph nodes
 required_packages:
   com.unity.shadergraph: '>=17.5.0'
 ---

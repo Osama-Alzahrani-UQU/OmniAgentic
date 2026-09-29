@@ -1,7 +1,6 @@
 ---
 name: postgres-patterns
-description: PostgreSQL database patterns for query optimization, schema design, indexing,
-  and security.
+description: PostgreSQL database patterns for query
 metadata:
   origin: ECC
 ---

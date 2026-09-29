@@ -1,7 +1,6 @@
 ---
 name: video-editing
-description: AI-assisted video editing workflows for cutting, structuring, and augmenting
-  real footage.
+description: AI-assisted video editing workflows for cutting
 metadata:
   origin: ECC
 ---

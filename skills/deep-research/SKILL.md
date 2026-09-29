@@ -1,6 +1,6 @@
 ---
 name: deep-research
-description: Multi-source deep research using firecrawl and exa MCPs.
+description: Multi-source deep research using firecrawl
 metadata:
   origin: ECC
 ---

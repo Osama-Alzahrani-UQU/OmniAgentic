@@ -1,7 +1,6 @@
 ---
 name: frontend-patterns
-description: React and Next.js application architecture , server components, state
-  management, hydration safety.
+description: React and Next.js application architecture ,
 metadata:
   origin: ECC
 ---

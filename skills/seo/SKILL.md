@@ -1,7 +1,6 @@
 ---
 name: seo
-description: Audit, plan, and implement SEO improvements across technical SEO, on-page
-  optimization, structured data.
+description: Audit, plan, and implement SEO improvements
 metadata:
   origin: ECC
 ---

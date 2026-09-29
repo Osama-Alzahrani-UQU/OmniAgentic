@@ -1,7 +1,6 @@
 ---
 name: identify-assumptions-existing
-description: Identify risky assumptions for a feature idea in an existing product
-  across Value, Usability, Viability.
+description: Identify risky assumptions for a feature idea
 ---
 ## Identify Assumptions (Existing Product)
 

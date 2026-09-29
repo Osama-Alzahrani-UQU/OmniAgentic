@@ -1,7 +1,6 @@
 ---
 name: workspace-surface-audit
-description: Audit the active repo, MCP servers, plugins, connectors, env surfaces,
-  and harness setup.
+description: Audit the active repo
 metadata:
   origin: ECC
 ---

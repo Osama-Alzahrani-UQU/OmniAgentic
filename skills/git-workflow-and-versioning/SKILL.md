@@ -1,7 +1,6 @@
 ---
 name: git-workflow-and-versioning
-description: Git commit message conventions, semantic versioning (SemVer), automated
-  changelog generation.
+description: Git versioning, branch hygiene, and clean PRs
 ---
 # Git Workflow and Versioning
 

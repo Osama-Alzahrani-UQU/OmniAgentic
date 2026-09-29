@@ -1,6 +1,6 @@
 ---
 name: social-graph-ranker
-description: Weighted social-graph ranking for warm intro discovery, bridge scoring.
+description: Weighted social-graph ranking for warm intro
 metadata:
   origin: ECC
 ---

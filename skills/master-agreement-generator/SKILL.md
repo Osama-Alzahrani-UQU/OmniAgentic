@@ -1,7 +1,6 @@
 ---
 name: master-agreement-generator
-description: Generate review drafts of counterparty master agreements from one template
-  plus a JSON spec.
+description: Generate review drafts of counterparty master
 ---
 # Master Agreement Generator
 

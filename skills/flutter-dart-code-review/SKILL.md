@@ -1,7 +1,6 @@
 ---
 name: flutter-dart-code-review
-description: Library-agnostic Flutter/Dart code review checklist covering widget best
-  practices.
+description: Library-agnostic Flutter/Dart code review
 metadata:
   origin: ECC
 ---

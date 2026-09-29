@@ -1,6 +1,6 @@
 ---
 name: dynamic-workflow-mode
-description: Design task-local harnesses, eval gates.
+description: Design task-local harnesses, eval gates
 metadata:
   origin: ECC
 ---

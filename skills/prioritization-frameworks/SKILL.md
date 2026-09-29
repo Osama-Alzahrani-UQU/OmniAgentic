@@ -1,7 +1,6 @@
 ---
 name: prioritization-frameworks
-description: Reference guide to 9 prioritization frameworks with formulas, when-to-use
-  guidance, and templates, RICE, ICE.
+description: Reference guide to 9 prioritization frameworks
 ---
 ## Prioritization Frameworks Reference
 

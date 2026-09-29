@@ -1,7 +1,6 @@
 ---
 name: setup-vivox-voice-chat
-description: Integrate and configure Unity Vivox 3D positional voice chat and text
-  channels.
+description: Integrate and configure Unity Vivox 3D
 required_packages:
   com.unity.services.vivox: '>=16.4.0'
 ---

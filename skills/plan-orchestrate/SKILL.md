@@ -1,7 +1,6 @@
 ---
 name: plan-orchestrate
-description: Read a plan document, decompose it into steps, design a per-step agent
-  chain from the ECC catalogue.
+description: Read a plan document
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: tdd-workflow
-description: Full-lifecycle test automation framework, coverage gates (80%+ unit,
-  integration, E2E).
+description: Full-lifecycle test automation framework
 argument-hint: <path/to/*.plan.md>
 metadata:
   origin: ECC

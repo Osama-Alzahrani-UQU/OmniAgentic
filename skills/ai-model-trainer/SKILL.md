@@ -1,7 +1,6 @@
 ---
 name: ai-model-trainer
-description: Equips agents and sub-agents with specialized expertise in training and
-  fine-tuning AI models (LLMs, VLMs.
+description: Training and fine-tuning AI models (LLMs, VLMs
 ---
 # AI Model Training & Fine-Tuning Protocol
 

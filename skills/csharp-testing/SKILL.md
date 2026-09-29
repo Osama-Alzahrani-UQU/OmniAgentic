@@ -1,7 +1,6 @@
 ---
 name: csharp-testing
-description: C# and .NET testing patterns with xUnit, FluentAssertions, mocking, integration
-  tests.
+description: C# and .NET testing patterns with xUnit,
 metadata:
   origin: ECC
 ---

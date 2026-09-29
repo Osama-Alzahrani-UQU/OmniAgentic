@@ -1,7 +1,6 @@
 ---
 name: unified-memory
-description: Share durable, inspectable context and handoffs between Claude, Codex,
-  Hermes, Cursor, OpenCode.
+description: Share durable, inspectable context
 metadata:
   origin: ECC
 ---

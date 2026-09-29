@@ -1,7 +1,6 @@
 ---
 name: mcp-server-patterns
-description: Build MCP servers with Node/TypeScript SDK , tools, resources, prompts,
-  Zod validation.
+description: Build MCP servers with Node/TypeScript SDK
 metadata:
   origin: ECC
 ---

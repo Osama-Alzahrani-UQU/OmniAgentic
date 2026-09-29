@@ -1,6 +1,6 @@
 ---
 name: ck
-description: Persistent per-project memory for Claude Code.
+description: Persistent per-project memory for Claude Code
 metadata:
   version: 2.0.0
   origin: community

@@ -1,7 +1,6 @@
 ---
 name: new-unity-project
-description: Scaffold and initialize a new Unity project with clean architecture and
-  package presets.
+description: Scaffold and initialize a new Unity project
 allowed-tools:
 - Bash
 - Read

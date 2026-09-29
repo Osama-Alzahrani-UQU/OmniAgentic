@@ -1,7 +1,6 @@
 ---
 name: configure-ecc
-description: Guide ECC installation, update, or reconfiguration from inside Claude
-  Code, Codex.
+description: Guide ECC installation
 metadata:
   origin: ECC
 ---

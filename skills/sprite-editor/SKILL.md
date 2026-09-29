@@ -1,7 +1,6 @@
 ---
 name: sprite-editor
-description: Programmatically edit Unity Sprite slicing, borders, pivots, and physics
-  shapes via C#.
+description: Programmatically edit Unity Sprite slicing
 modes:
 - agent
 - ask

@@ -1,6 +1,6 @@
 ---
 name: design-system
-description: Use this skill to generate or audit design systems, check visual consistency.
+description: Generate or audit design systems
 metadata:
   origin: ECC
 ---

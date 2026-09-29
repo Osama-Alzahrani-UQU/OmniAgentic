@@ -1,6 +1,6 @@
 ---
 name: swot-analysis
-description: Perform a detailed SWOT analysis , strengths, weaknesses, opportunities.
+description: Perform a detailed SWOT analysis
 ---
 # SWOT Analysis
 

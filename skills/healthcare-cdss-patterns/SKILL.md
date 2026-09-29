@@ -1,6 +1,6 @@
 ---
 name: healthcare-cdss-patterns
-description: Clinical Decision Support System (CDSS) development patterns.
+description: Clinical Decision Support System
 metadata:
   version: 1.0.0
   origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel

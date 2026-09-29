@@ -1,6 +1,6 @@
 ---
 name: evm-token-decimals
-description: Prevent silent decimal mismatch bugs across EVM chains.
+description: Prevent silent decimal mismatch bugs across
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

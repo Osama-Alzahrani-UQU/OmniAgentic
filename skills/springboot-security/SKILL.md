@@ -1,7 +1,6 @@
 ---
 name: springboot-security
-description: Spring Security best practices for authn/authz, validation, CSRF, secrets,
-  headers, rate limiting.
+description: Spring Security best practices for authn/authz
 metadata:
   origin: ECC
 ---

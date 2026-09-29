@@ -1,6 +1,6 @@
 ---
 name: security-bounty-hunter
-description: Hunt for exploitable, bounty-worthy security issues in repositories.
+description: Hunt for exploitable
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

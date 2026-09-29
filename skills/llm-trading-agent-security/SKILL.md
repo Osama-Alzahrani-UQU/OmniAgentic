@@ -1,7 +1,6 @@
 ---
 name: llm-trading-agent-security
-description: Security patterns for autonomous trading agents with wallet or transaction
-  authority.
+description: Security patterns for autonomous trading
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

@@ -1,6 +1,6 @@
 ---
 name: using-agent-skills
-description: Discovers and invokes agent skills.
+description: Discovers and invokes agent skills
 ---
 # Using Agent Skills
 

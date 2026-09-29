@@ -1,7 +1,6 @@
 ---
 name: manage-sprite-atlas
-description: Create, pack, and manage Unity SpriteAtlas assets and Addressables build
-  pipelines.
+description: Create, pack, and manage Unity SpriteAtlas
 ---
 
 # Unity SpriteAtlas V2

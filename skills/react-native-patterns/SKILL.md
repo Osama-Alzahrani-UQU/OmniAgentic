@@ -1,7 +1,6 @@
 ---
 name: react-native-patterns
-description: React Native and Expo app patterns , Expo Router navigation, state separation
-  (server/client/route/form).
+description: React Native and Expo app patterns
 origin: ECC
 ---
 # React Native / Expo Patterns

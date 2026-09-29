@@ -1,7 +1,6 @@
 ---
 name: code-review
-description: Deep bug hunting and defect discovery in code changes , verify edge cases,
-  logic flaws, race conditions.
+description: Deep bug hunting and defect discovery in code
 ---
 # Code Review
 

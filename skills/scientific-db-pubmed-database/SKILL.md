@@ -1,6 +1,6 @@
 ---
 name: scientific-db-pubmed-database
-description: Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup.
+description: Direct PubMed and NCBI E-utilities search
 metadata:
   origin: community
 ---

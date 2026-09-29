@@ -1,6 +1,6 @@
 ---
 name: ito-baskets
-description: Read-only Itô basket and prediction-market data skill.
+description: Read-only Itô basket and prediction-market
 metadata:
   origin: ECC
   aliases: ito-basket-compare, ito-market-intelligence, ito-data-atlas-agent, ito-trade-planner

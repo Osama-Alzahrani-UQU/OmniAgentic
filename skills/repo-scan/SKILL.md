@@ -1,7 +1,6 @@
 ---
 name: repo-scan
-description: Bootstrap pointer that installs the external repo-scan skill from a pinned,
-  reviewable commit.
+description: Bootstrap pointer that installs the external
 metadata:
   origin: community
 ---

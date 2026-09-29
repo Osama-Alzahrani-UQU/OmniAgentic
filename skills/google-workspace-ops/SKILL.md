@@ -1,7 +1,6 @@
 ---
 name: google-workspace-ops
-description: Operate across Google Drive, Docs, Sheets, and Slides as one workflow
-  surface for plans, trackers, decks.
+description: Operate across Google Drive
 metadata:
   origin: ECC
 ---

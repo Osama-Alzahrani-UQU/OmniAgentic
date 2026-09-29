@@ -1,6 +1,6 @@
 ---
 name: tilemap-ruletile-createfromsegment
-description: Generate auto-tiling Unity RuleTile assets directly from segmented spritesheets.
+description: Generate auto-tiling Unity RuleTile assets
 required_packages:
   com.unity.2d.tilemap: '>=1.0.0'
   com.unity.2d.tilemap.extras: '>=4.0.0'

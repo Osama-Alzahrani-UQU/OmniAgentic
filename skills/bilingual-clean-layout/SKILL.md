@@ -1,7 +1,6 @@
 ---
 name: bilingual-clean-layout
-description: Enforces clean line separation and empty-line paragraph isolation (Split
-  & Continuation Rule) between.
+description: Split & Continuation Rule for bilingual text
 ---
 # Bilingual Clean Layout & BiDi Separation Protocol
 

@@ -1,7 +1,6 @@
 ---
 name: project-auditor-fixes
-description: Analyze and resolve code, asset, and project settings issues reported
-  by Unity Project Auditor.
+description: Analyze and resolve code
 version: 1.0.0
 ---
 

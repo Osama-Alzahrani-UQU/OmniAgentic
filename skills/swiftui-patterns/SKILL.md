@@ -1,7 +1,6 @@
 ---
 name: swiftui-patterns
-description: SwiftUI architecture patterns, state management with @Observable, view
-  composition, navigation.
+description: SwiftUI architecture patterns
 ---
 # SwiftUI Patterns
 

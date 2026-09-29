@@ -1,7 +1,6 @@
 ---
 name: prisma-patterns
-description: Prisma ORM patterns for TypeScript backends , schema design, query optimization,
-  transactions, pagination.
+description: Prisma ORM patterns for TypeScript backends
 metadata:
   origin: ECC
 ---

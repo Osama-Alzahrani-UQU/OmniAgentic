@@ -1,7 +1,6 @@
 ---
 name: brainstorm-ideas-new
-description: Brainstorm feature ideas for a new product in initial discovery from
-  PM, Designer, and Engineer perspectives.
+description: Brainstorm feature ideas for a new product
 ---
 ## Brainstorm Product Ideas (New Product)
 

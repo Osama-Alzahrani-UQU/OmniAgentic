@@ -1,7 +1,6 @@
 ---
 name: migrate-birp-to-urp
-description: Plan, execute, and troubleshoot migrating Unity projects from Built-in
-  Render Pipeline to URP.
+description: Plan, execute, and troubleshoot migrating
 ---
 Classify the request, inspect the current project state, choose the correct migration path, and validate the Built-in to URP migration outcome carefully.
 

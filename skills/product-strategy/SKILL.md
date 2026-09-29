@@ -1,7 +1,6 @@
 ---
 name: product-strategy
-description: Create a comprehensive product strategy using the 9-section Product Strategy
-  Canvas , vision, segments, costs.
+description: Create a comprehensive product strategy using
 ---
 # Product Strategy Canvas
 

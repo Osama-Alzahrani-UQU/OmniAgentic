@@ -1,6 +1,6 @@
 ---
 name: theme-factory
-description: Toolkit for styling artifacts with a theme.
+description: Toolkit for styling artifacts with a theme
 license: Complete terms in LICENSE.txt
 ---
 # Theme Factory Skill

@@ -1,7 +1,6 @@
 ---
 name: vite-patterns
-description: Vite build tool patterns including config, plugins, HMR, env variables,
-  proxy setup, SSR, library mode.
+description: Vite build tool patterns including config
 metadata:
   origin: ECC
 ---

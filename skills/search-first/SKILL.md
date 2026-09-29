@@ -1,6 +1,6 @@
 ---
 name: search-first
-description: Research-before-coding workflow.
+description: Research-before-coding workflow
 metadata:
   origin: ECC
 ---

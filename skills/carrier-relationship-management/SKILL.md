@@ -1,7 +1,6 @@
 ---
 name: carrier-relationship-management
-description: Codified expertise for managing carrier portfolios, negotiating freight
-  rates, tracking carrier performance.
+description: Codified expertise for managing carrier
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

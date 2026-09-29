@@ -1,6 +1,6 @@
 ---
 name: exa-search
-description: Neural search via Exa MCP for web, code, and company research.
+description: Neural search via Exa MCP for web
 metadata:
   origin: ECC
 ---

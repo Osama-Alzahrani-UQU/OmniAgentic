@@ -1,7 +1,6 @@
 ---
 name: summarize-interview
-description: Summarize a customer interview transcript into a structured template
-  with JTBD, satisfaction signals.
+description: Summarize a customer interview transcript into
 ---
 ## Summarize Customer Interview
 

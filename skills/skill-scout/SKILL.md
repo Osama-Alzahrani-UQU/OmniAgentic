@@ -1,7 +1,6 @@
 ---
 name: skill-scout
-description: Search existing local, marketplace, GitHub, and web skill sources before
-  creating a new skill.
+description: Search existing local
 metadata:
   origin: community
 ---

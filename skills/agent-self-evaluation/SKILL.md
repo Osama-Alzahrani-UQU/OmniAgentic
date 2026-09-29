@@ -1,6 +1,6 @@
 ---
 name: agent-self-evaluation
-description: Use after completing any non-trivial task.
+description: Use after completing any non-trivial task
 origin: ECC
 ---
 # Agent Self-Evaluation

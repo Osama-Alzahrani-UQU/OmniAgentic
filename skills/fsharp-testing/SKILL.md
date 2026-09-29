@@ -1,7 +1,6 @@
 ---
 name: fsharp-testing
-description: F# testing patterns with xUnit, FsUnit, Unquote, FsCheck property-based
-  testing, integration tests.
+description: F# testing patterns with xUnit
 metadata:
   origin: ECC
 ---

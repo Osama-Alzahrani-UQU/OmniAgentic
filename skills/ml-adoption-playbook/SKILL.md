@@ -1,7 +1,6 @@
 ---
 name: ml-adoption-playbook
-description: End-to-end methodology for AI agents and software engineers to add machine
-  learning algorithms to.
+description: End-to-end methodology for AI agents
 origin: ECC
 ---
 # ML Adoption Playbook

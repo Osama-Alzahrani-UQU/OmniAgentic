@@ -1,6 +1,6 @@
 ---
 name: scientific-pkg-gget
-description: gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches.
+description: Gget CLI and Python workflow for quick genomic
 metadata:
   origin: community
 ---

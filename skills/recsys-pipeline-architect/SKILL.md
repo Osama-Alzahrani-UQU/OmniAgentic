@@ -1,6 +1,6 @@
 ---
 name: recsys-pipeline-architect
-description: Design composable recommendation, ranking.
+description: Design composable recommendation, ranking
 metadata:
   origin: community
 ---

@@ -1,7 +1,6 @@
 ---
 name: orch-fix-defect
-description: Orchestrate fixing a bug , reproduce it as a failing regression test,
-  fix to green, review, and gated commit.
+description: Orchestrate fixing a bug
 metadata:
   origin: ECC
 ---

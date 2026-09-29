@@ -1,6 +1,6 @@
 ---
 name: growth-log
-description: Use after a complex task, failure, or when reviewing what was learned.
+description: Use after a complex task
 metadata:
   version: 1.1.0
   origin: ECC

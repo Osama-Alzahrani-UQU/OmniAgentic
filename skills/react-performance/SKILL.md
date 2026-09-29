@@ -1,7 +1,6 @@
 ---
 name: react-performance
-description: React and Next.js performance optimization patterns adapted from Vercel
-  Engineering's React Best.
+description: React and Next.js performance optimization
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: frontend-design
-description: Bespoke visual and aesthetic design system , custom palettes, typography
-  hierarchy, spatial rhythm.
+description: Bespoke visual and aesthetic design system
 license: Complete terms in LICENSE.txt
 ---
 # Frontend Design

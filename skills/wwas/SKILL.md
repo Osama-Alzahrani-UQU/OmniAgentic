@@ -1,7 +1,6 @@
 ---
 name: wwas
-description: Create product backlog items in Why-What-Acceptance format , independent,
-  valuable.
+description: Create product backlog items
 ---
 # Why-What-Acceptance (WWA)
 

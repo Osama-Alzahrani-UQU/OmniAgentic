@@ -1,7 +1,6 @@
 ---
 name: finance-billing-ops
-description: Evidence-first revenue, pricing, refunds, team-billing, and billing-model
-  truth workflow for ECC.
+description: Evidence-first revenue
 metadata:
   origin: ECC
 ---

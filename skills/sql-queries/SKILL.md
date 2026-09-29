@@ -1,6 +1,6 @@
 ---
 name: sql-queries
-description: Generate SQL queries from natural language descriptions.
+description: Generate SQL queries from natural language
 ---
 # SQL Query Generator
 

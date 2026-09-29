@@ -1,7 +1,6 @@
 ---
 name: mailtrap-email-integration
-description: Guides agents through integrating transactional email sending via Mailtrap's
-  Email API.
+description: Integrating transactional email sending via
 origin: ECC
 ---
 # Mailtrap Email Integration

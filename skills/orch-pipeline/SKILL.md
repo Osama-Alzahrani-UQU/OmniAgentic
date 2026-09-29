@@ -1,6 +1,6 @@
 ---
 name: orch-pipeline
-description: Shared orchestration engine for the orch-* skill family.
+description: Shared orchestration engine for the orch-*
 metadata:
   origin: ECC
 ---

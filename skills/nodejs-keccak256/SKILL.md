@@ -1,6 +1,6 @@
 ---
 name: nodejs-keccak256
-description: Prevent Ethereum hashing bugs in JavaScript and TypeScript.
+description: Prevent Ethereum hashing bugs in JavaScript
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

@@ -1,6 +1,6 @@
 ---
 name: growth-loops
-description: Identify growth loops (flywheels) for sustainable traction.
+description: Identify growth loops
 ---
 # Growth Loops
 

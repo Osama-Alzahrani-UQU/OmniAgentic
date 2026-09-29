@@ -1,7 +1,6 @@
 ---
 name: codebase-reverse-engineer
-description: 'Equips agents and sub-agents with advanced software reverse engineering
-  capabilities: architectural.'
+description: Advanced software reverse engineering
 ---
 # Codebase Reverse Engineering Protocol
 

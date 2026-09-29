@@ -1,7 +1,6 @@
 ---
 name: motion-foundations
-description: Motion tokens, spring presets, performance rules, device adaptation,
-  accessibility enforcement.
+description: Motion tokens, spring presets, performance
 tags:
 - motion
 - animation

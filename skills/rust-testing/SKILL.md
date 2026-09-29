@@ -1,7 +1,6 @@
 ---
 name: rust-testing
-description: Rust testing patterns including unit tests, integration tests, async
-  testing, property-based testing, mocking.
+description: Rust testing patterns including unit tests
 metadata:
   origin: ECC
 ---

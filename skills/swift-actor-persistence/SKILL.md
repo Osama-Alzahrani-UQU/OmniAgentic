@@ -1,7 +1,6 @@
 ---
 name: swift-actor-persistence
-description: Thread-safe data persistence in Swift using actors , in-memory cache
-  with file-backed storage.
+description: Thread-safe data persistence in Swift using
 metadata:
   origin: ECC
 ---

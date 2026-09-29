@@ -1,7 +1,6 @@
 ---
 name: x-api
-description: X/Twitter API integration for posting tweets, threads, reading timelines,
-  search, and analytics.
+description: X/Twitter API integration for posting tweets
 metadata:
   origin: ECC
 ---

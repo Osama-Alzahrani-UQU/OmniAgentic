@@ -1,6 +1,6 @@
 ---
 name: terminal-ops
-description: Evidence-first repo execution workflow for ECC.
+description: Evidence-first repo execution workflow for ECC
 metadata:
   origin: ECC
 ---

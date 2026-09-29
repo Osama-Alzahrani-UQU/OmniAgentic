@@ -1,7 +1,6 @@
 ---
 name: end-to-end-executor
-description: Ensures tasks are completed 100% autonomously end-to-end without leaving
-  intermediate steps, scripts.
+description: 100% autonomous execution without user delegation
 ---
 # End-to-End Autonomous Executor Protocol
 

@@ -1,7 +1,6 @@
 ---
 name: intended-vs-implemented
-description: The method for finding the gap between what a system is supposed to do
-  and what the code actually does .
+description: The method for finding the gap between what
 ---
 # Intended vs. Implemented: Auditing the Gap
 

@@ -1,10 +1,11 @@
 ---
 name: kiln-author-asset
-description: Create a procedural 3D asset with Kiln JavaScript, review useful camera views, refine saved source, and export a GLB.
+description: Create a procedural 3D asset with Kiln
 license: MIT
 metadata:
   kiln-workflow: workspace
-  kiln-shared-references: references/program-contract.md references/geometry-recipes.md references/camera-recipes.md references/reusable-frame.kiln.js
+  kiln-shared-references: references/program-contract.md references/geometry-recipes.md
+    references/camera-recipes.md references/reusable-frame.kiln.js
 ---
 
 # Author a Kiln asset

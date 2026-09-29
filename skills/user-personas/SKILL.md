@@ -1,7 +1,6 @@
 ---
 name: user-personas
-description: Create refined user personas from research data — 3 personas with JTBD,
-  pains, gains, and unexpected insights.
+description: Create refined user personas from research
 ---
 # User Personas
 

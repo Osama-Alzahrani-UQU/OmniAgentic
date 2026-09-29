@@ -1,7 +1,6 @@
 ---
 name: council-multi-model
-description: Add one optional external Codex critique after the existing council has
-  produced a decision draft.
+description: Add one optional external Codex critique after
 metadata:
   origin: ECC
 ---

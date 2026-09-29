@@ -1,7 +1,6 @@
 ---
 name: database-migrations
-description: Database migration best practices for schema changes, data migrations,
-  rollbacks.
+description: Database migration best practices for schema
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: optimize-audio
-description: Optimize Unity 6 audio memory, CPU overhead, compression formats, and
-  load types.
+description: Optimize Unity 6 audio memory
 ---
 ## Critical Rules
 

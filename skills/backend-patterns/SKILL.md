@@ -1,7 +1,6 @@
 ---
 name: backend-patterns
-description: Backend architecture patterns, API design, database optimization, and.
-  Use when building or reviewing Node.
+description: Backend architecture patterns
 metadata:
   origin: ECC
 ---

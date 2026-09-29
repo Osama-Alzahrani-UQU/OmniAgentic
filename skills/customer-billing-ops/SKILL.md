@@ -1,7 +1,6 @@
 ---
 name: customer-billing-ops
-description: Operate customer billing workflows such as subscriptions, refunds, churn
-  triage, billing-portal recovery.
+description: Operate customer billing workflows such as
 metadata:
   origin: ECC
 ---

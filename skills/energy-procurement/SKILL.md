@@ -1,7 +1,6 @@
 ---
 name: energy-procurement
-description: Codified expertise for electricity and gas procurement, tariff optimization,
-  demand charge management.
+description: Codified expertise for electricity and gas
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

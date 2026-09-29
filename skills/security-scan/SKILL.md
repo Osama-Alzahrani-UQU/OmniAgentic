@@ -1,7 +1,6 @@
 ---
 name: security-scan
-description: Scan your Claude Code configuration (.claude/ directory) for security.
-  Use when auditing a .
+description: Scan your Claude Code configuration
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: ai-first-engineering
-description: Engineering operating model for teams where AI agents generate a large
-  share of implementation output.
+description: Engineering operating model for teams where AI
 metadata:
   origin: ECC
 ---

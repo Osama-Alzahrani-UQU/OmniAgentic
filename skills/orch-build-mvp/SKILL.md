@@ -1,7 +1,6 @@
 ---
 name: orch-build-mvp
-description: Orchestrate bootstrapping a working MVP from a design or spec document
-  , ingest the doc.
+description: Orchestrate bootstrapping a working MVP
 metadata:
   origin: ECC
 ---

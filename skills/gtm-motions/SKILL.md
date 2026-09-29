@@ -1,7 +1,6 @@
 ---
 name: gtm-motions
-description: 'Identify the best GTM motions and tools across 7 motion types: Inbound,
-  Outbound, Paid Digital, Community.'
+description: Identify the best GTM motions and tools across
 ---
 # GTM Motions
 

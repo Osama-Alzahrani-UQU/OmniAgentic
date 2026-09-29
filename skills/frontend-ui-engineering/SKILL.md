@@ -1,7 +1,6 @@
 ---
 name: frontend-ui-engineering
-description: UI component implementation , responsive CSS layouts (Flexbox/Grid),
-  accessible semantic markup (WCAG/a11y).
+description: Modern frontend UI engineering and components
 ---
 # Frontend UI Engineering
 

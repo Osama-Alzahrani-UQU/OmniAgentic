@@ -1,7 +1,6 @@
 ---
 name: frontend-a11y
-description: Accessibility patterns for React and Next.js , semantic HTML, ARIA attributes,
-  form labeling.
+description: Accessibility patterns for React and Next
 metadata:
   origin: community
 ---

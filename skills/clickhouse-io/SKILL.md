@@ -1,6 +1,6 @@
 ---
 name: clickhouse-io
-description: ClickHouse database patterns, query optimization, analytics.
+description: ClickHouse database patterns
 metadata:
   origin: ECC
 ---

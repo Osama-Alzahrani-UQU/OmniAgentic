@@ -1,6 +1,6 @@
 ---
 name: ecc-tools-cost-audit
-description: Evidence-first ECC Tools burn and billing audit workflow.
+description: Evidence-first ECC Tools burn and billing
 metadata:
   origin: ECC
 ---

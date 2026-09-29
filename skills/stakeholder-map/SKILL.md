@@ -1,7 +1,6 @@
 ---
 name: stakeholder-map
-description: Build a stakeholder map using a power/interest grid, identify communication
-  strategies per quadrant.
+description: Build a stakeholder map using a power/interest
 ---
 ## Stakeholder Mapping & Communication Plan
 

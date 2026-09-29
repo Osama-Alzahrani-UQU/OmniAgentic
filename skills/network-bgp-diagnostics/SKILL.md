@@ -1,7 +1,6 @@
 ---
 name: network-bgp-diagnostics
-description: Diagnostics-only BGP troubleshooting patterns for neighbor state, route
-  exchange, prefix policy.
+description: Diagnostics-only BGP troubleshooting patterns
 metadata:
   origin: community
 ---

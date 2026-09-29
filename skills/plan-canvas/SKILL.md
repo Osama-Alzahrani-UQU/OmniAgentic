@@ -1,7 +1,6 @@
 ---
 name: plan-canvas
-description: Open plans and HTML artifacts in a local browser canvas where the human
-  annotates elements, chats.
+description: Open plans and HTML artifacts in a local
 metadata:
   version: 1.0.0
   origin: ECC

@@ -1,7 +1,6 @@
 ---
 name: react-testing
-description: React component testing with React Testing Library, Vitest/Jest, MSW
-  for network mocking.
+description: React component testing with React Testing
 metadata:
   origin: ECC
 ---

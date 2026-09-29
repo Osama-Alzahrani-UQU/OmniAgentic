@@ -1,7 +1,6 @@
 ---
 name: react-patterns
-description: React 18/19 patterns including hooks discipline, server/client component
-  boundaries.
+description: React 18/19 patterns, hooks, and components
 metadata:
   origin: ECC
 ---

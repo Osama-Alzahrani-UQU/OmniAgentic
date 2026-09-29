@@ -1,7 +1,6 @@
 ---
 name: homelab-vlan-segmentation
-description: Segmenting home networks into VLANs for IoT, guest, trusted, and server
-  traffic using UniFi, pfSense/OPNsense.
+description: Segmenting home networks into VLANs for IoT
 metadata:
   origin: community
 ---

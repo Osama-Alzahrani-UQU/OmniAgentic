@@ -1,7 +1,6 @@
 ---
 name: api-and-interface-design
-description: Internal software interface design , module boundaries, class contracts,
-  TypeScript interfaces, SDK ergonomics.
+description: Internal software interface design
 ---
 # API and Interface Design
 

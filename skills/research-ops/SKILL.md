@@ -1,6 +1,6 @@
 ---
 name: research-ops
-description: Evidence-first current-state research workflow for ECC.
+description: Evidence-first current-state research workflow
 metadata:
   origin: ECC
 ---

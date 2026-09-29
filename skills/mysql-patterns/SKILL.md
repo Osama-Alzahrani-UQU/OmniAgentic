@@ -1,6 +1,6 @@
 ---
 name: mysql-patterns
-description: MySQL and MariaDB schema, query, indexing, transaction, replication.
+description: MySQL and MariaDB schema
 metadata:
   origin: ECC
 ---

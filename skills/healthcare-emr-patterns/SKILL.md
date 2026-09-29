@@ -1,6 +1,6 @@
 ---
 name: healthcare-emr-patterns
-description: EMR/EHR development patterns for healthcare applications.
+description: EMR/EHR development patterns for healthcare
 metadata:
   version: 1.0.0
   origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel

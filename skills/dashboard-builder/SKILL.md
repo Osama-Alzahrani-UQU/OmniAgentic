@@ -1,7 +1,6 @@
 ---
 name: dashboard-builder
-description: Build monitoring dashboards that answer real operator questions for Grafana,
-  SigNoz, and similar platforms.
+description: Build monitoring dashboards that answer real
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

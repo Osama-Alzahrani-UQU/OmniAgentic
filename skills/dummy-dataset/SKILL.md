@@ -1,7 +1,6 @@
 ---
 name: dummy-dataset
-description: Generate realistic dummy datasets for testing with customizable columns,
-  constraints, and output formats (CSV.
+description: Generate realistic dummy datasets for testing
 ---
 # Dummy Dataset Generation
 

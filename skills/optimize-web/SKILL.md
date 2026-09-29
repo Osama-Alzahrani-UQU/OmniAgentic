@@ -1,7 +1,6 @@
 ---
 name: optimize-web
-description: Optimize Unity 6 WebGL and WebGPU builds for minimal download size and
-  fast startup.
+description: Optimize Unity 6 WebGL and WebGPU builds
 ---
 ## Performance Notes
 - Take your time to do this thoroughly.

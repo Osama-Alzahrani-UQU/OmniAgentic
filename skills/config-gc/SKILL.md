@@ -1,6 +1,6 @@
 ---
 name: config-gc
-description: Garbage collection for your Claude Code configuration.
+description: Garbage collection for your Claude Code
 metadata:
   origin: ECC
 ---

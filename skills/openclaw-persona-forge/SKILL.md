@@ -1,7 +1,6 @@
 ---
 name: openclaw-persona-forge
-description: 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。
-  如当前环境提供已审核的生图.
+description: 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡，
 metadata:
   origin: community
 ---

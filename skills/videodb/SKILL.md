@@ -1,6 +1,6 @@
 ---
 name: videodb
-description: See, Understand, Act on video and audio.
+description: See, Understand, Act on video and audio
 metadata:
   origin: ECC
 allowed-tools: Read Grep Glob Bash(python:*)

@@ -1,7 +1,6 @@
 ---
 name: interview-script
-description: Create a structured customer interview script with JTBD probing questions,
-  warm-up, core exploration.
+description: Create a structured customer interview script
 ---
 ## Customer Interview Script
 

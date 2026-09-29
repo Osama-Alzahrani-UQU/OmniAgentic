@@ -1,6 +1,6 @@
 ---
 name: kiln-setup-workspace
-description: Create and verify a Kiln asset workspace for a chosen coding-agent harness. Use before authoring when the current directory is the engine repository, an empty folder, or any project without a working kiln_workspace server.
+description: Create and verify a Kiln asset workspace
 license: MIT
 metadata:
   kiln-workflow: workspace

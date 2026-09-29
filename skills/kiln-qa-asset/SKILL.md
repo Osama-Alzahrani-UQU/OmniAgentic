@@ -1,6 +1,6 @@
 ---
 name: kiln-qa-asset
-description: Check a Kiln asset's geometry, views, export fidelity, and behavior in its destination project. Use for delivery review, loading, materials, animation, collision, or runtime defects.
+description: Check a Kiln asset's geometry
 license: MIT
 metadata:
   kiln-workflow: workspace

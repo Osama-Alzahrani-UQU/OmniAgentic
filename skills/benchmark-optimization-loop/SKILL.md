@@ -1,7 +1,6 @@
 ---
 name: benchmark-optimization-loop
-description: Use when the user asks to make something faster, try many variants, run
-  recursive optimization.
+description: The user asks to make something faster
 license: MIT
 metadata:
   origin: ECC

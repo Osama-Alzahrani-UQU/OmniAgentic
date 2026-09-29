@@ -1,6 +1,6 @@
 ---
 name: agent-harness-construction
-description: Design and optimize AI agent action spaces, tool definitions.
+description: Design and optimize AI agent action spaces
 metadata:
   origin: ECC
 ---

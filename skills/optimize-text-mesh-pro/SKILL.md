@@ -1,7 +1,6 @@
 ---
 name: optimize-text-mesh-pro
-description: Optimize TextMeshPro font assets, dynamic fallback atlases, SDF sampling,
-  and draw calls.
+description: Optimize TextMeshPro font assets
 ---
 
 # Optimize TextMeshPro

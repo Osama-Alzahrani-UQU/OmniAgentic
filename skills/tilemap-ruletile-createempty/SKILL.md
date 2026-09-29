@@ -1,7 +1,6 @@
 ---
 name: tilemap-ruletile-createempty
-description: Create custom empty RuleTile and HexagonalRuleTile assets for Unity 2D
-  Tilemaps.
+description: Create custom empty RuleTile
 required_packages:
   com.unity.2d.tilemap: '>=1.0.0'
   com.unity.2d.tilemap.extras: '>=4.0.0'

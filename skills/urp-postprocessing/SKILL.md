@@ -1,7 +1,6 @@
 ---
 name: urp-postprocessing
-description: Configure and debug URP Post-Processing Volumes, Bloom, Tonemapping,
-  and custom effects.
+description: Configure and debug URP Post-Processing Volumes
 required_packages:
   com.unity.render-pipelines.universal: '>=14.0.0'
 ---

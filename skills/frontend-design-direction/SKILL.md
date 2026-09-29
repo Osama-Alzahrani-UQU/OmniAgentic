@@ -1,7 +1,6 @@
 ---
 name: frontend-design-direction
-description: Design token audits and design system consistency validation across existing
-  production application screens.
+description: Design token audits and design system
 metadata:
   origin: community
 ---

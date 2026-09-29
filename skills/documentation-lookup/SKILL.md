@@ -1,7 +1,6 @@
 ---
 name: documentation-lookup
-description: Use up-to-date library and framework docs via Context7 MCP instead of
-  training data.
+description: Use up-to-date library and framework docs via
 metadata:
   origin: ECC
 ---

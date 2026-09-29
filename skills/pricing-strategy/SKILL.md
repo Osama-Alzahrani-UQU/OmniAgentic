@@ -1,7 +1,6 @@
 ---
 name: pricing-strategy
-description: Analyze and design pricing strategies including pricing models, competitive
-  pricing analysis.
+description: Analyze and design pricing strategies
 ---
 ## Pricing Strategy
 

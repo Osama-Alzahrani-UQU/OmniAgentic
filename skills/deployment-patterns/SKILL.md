@@ -1,7 +1,6 @@
 ---
 name: deployment-patterns
-description: Deployment workflows, CI/CD pipeline patterns, Docker containerization,
-  health checks, rollback strategies.
+description: Deployment workflows
 metadata:
   origin: ECC
 ---

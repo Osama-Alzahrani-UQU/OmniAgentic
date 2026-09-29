@@ -1,7 +1,6 @@
 ---
 name: investor-outreach
-description: Draft cold emails, warm intro blurbs, follow-ups, update emails, and
-  investor communications for fundraising.
+description: Draft cold emails, warm intro blurbs,
 metadata:
   origin: ECC
 ---

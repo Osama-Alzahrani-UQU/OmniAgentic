@@ -1,7 +1,6 @@
 ---
 name: agent-introspection-debugging
-description: Structured self-debugging workflow for AI agent failures using capture,
-  diagnosis, contained recovery.
+description: Structured self-debugging workflow for AI
 metadata:
   origin: ECC
 ---

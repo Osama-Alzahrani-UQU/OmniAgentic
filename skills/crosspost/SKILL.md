@@ -1,7 +1,6 @@
 ---
 name: crosspost
-description: Multi-platform content distribution across X, LinkedIn, Threads, and
-  Bluesky.
+description: Multi-platform content distribution across X
 metadata:
   origin: ECC
 ---

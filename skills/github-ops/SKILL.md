@@ -1,6 +1,6 @@
 ---
 name: github-ops
-description: GitHub repository operations, automation, and management.
+description: GitHub repository operations
 metadata:
   origin: ECC
 ---

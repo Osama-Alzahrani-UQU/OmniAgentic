@@ -1,6 +1,6 @@
 ---
 name: beachhead-segment
-description: Identify the first beachhead market segment for a product launch.
+description: Identify the first beachhead market segment
 ---
 # Beachhead Segment
 

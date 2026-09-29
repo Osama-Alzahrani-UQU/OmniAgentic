@@ -1,7 +1,6 @@
 ---
 name: netmiko-ssh-automation
-description: Safe Python Netmiko patterns for read-only collection, bounded batch
-  SSH, TextFSM parsing.
+description: Safe Python Netmiko patterns for read-only
 metadata:
   origin: community
 ---

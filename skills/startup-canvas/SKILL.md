@@ -1,7 +1,6 @@
 ---
 name: startup-canvas
-description: Generate a Startup Canvas combining Product Strategy (9 sections) and
-  Business Model (costs + revenue).
+description: Generate a Startup Canvas combining Product
 ---
 # Startup Canvas
 

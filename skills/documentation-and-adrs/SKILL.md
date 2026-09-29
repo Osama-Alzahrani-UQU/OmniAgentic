@@ -1,7 +1,6 @@
 ---
 name: documentation-and-adrs
-description: Comprehensive technical documentation engineering , system overviews,
-  developer guides, READMEs.
+description: Comprehensive technical documentation
 ---
 # Documentation and ADRs
 

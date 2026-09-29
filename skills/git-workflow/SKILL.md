@@ -1,6 +1,6 @@
 ---
 name: git-workflow
-description: Git branching strategies, rebase vs merge workflows, pull request mechanics.
+description: Git branching, rebase, merge, and PR mechanics
 metadata:
   origin: ECC
 ---

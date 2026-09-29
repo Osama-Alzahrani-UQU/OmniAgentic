@@ -1,7 +1,6 @@
 ---
 name: investor-materials
-description: Create and update pitch decks, one-pagers, investor memos, accelerator
-  applications, financial models.
+description: Create and update pitch decks
 metadata:
   origin: ECC
 ---

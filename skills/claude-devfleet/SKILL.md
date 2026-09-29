@@ -1,6 +1,6 @@
 ---
 name: claude-devfleet
-description: Orchestrate multi-agent coding tasks via Claude DevFleet , plan projects.
+description: Orchestrate multi-agent coding tasks via
 metadata:
   origin: community
 ---

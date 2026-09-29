@@ -1,7 +1,6 @@
 ---
 name: network-config-validation
-description: Pre-deployment checks for router and switch configuration, including
-  dangerous commands, duplicate addresses.
+description: Pre-deployment checks for router and switch
 metadata:
   origin: community
 ---

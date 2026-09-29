@@ -1,6 +1,6 @@
 ---
 name: scientific-thinking-scholar-evaluation
-description: Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections.
+description: Structured scholarly-work evaluation for papers
 metadata:
   origin: community
 ---

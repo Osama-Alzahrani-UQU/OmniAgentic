@@ -1,6 +1,6 @@
 ---
 name: make-interfaces-feel-better
-description: Apply concrete design-engineering details that make interfaces feel polished.
+description: Apply concrete design-engineering details that
 metadata:
   origin: community
 ---

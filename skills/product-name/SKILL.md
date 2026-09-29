@@ -1,7 +1,6 @@
 ---
 name: product-name
-description: Brainstorm 5 unique, memorable product names with rationale aligned to
-  brand values and target audience.
+description: Brainstorm 5 unique
 ---
 # Product Name
 

@@ -1,6 +1,6 @@
 ---
 name: ecc-hub
-description: On-demand bridge and catalog for the Everything Coding Companion (ECC) suite and 120 specialized domain agents.
+description: On-demand bridge and catalog
 ---
 # ECC Hub: Specialized Skills & Agent Catalog (`ecc-hub`)
 

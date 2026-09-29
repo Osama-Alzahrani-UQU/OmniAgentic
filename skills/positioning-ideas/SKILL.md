@@ -1,6 +1,6 @@
 ---
 name: positioning-ideas
-description: Brainstorm product positioning ideas differentiated from competitors.
+description: Brainstorm product positioning ideas
 ---
 # Positioning Ideas
 

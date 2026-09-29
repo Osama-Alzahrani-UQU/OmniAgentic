@@ -1,7 +1,6 @@
 ---
 name: kotlin-testing
-description: Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based
-  testing, and Kover coverage.
+description: Kotlin testing patterns with Kotest
 metadata:
   origin: ECC
 ---

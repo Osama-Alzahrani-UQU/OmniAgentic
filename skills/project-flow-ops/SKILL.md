@@ -1,7 +1,6 @@
 ---
 name: project-flow-ops
-description: Operate execution flow across GitHub and Linear by triaging issues and
-  pull requests, linking active work.
+description: Operate execution flow across GitHub
 metadata:
   origin: ECC
 ---

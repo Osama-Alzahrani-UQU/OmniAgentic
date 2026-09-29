@@ -1,7 +1,6 @@
 ---
 name: dev-team
-description: Simulate a collaborative dev team session where multiple role-based personas
-  (PM, Architect, Developer.
+description: Simulate a collaborative dev team session
 metadata:
   origin: community
   inspired-by: bmad-method (party mode)

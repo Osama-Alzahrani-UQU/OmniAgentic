@@ -1,7 +1,6 @@
 ---
 name: hexagonal-architecture
-description: Design, implement, and refactor Ports & Adapters systems with clear domain
-  boundaries, dependency inversion.
+description: Design, implement, and refactor Ports &
 metadata:
   origin: ECC
 ---

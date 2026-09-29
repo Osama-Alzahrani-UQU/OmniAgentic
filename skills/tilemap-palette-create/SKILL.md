@@ -1,7 +1,6 @@
 ---
 name: tilemap-palette-create
-description: Create and organize 2D Tilemap Palettes and tile assets for level design
-  in Unity.
+description: Create and organize 2D Tilemap Palettes
 required_packages:
   com.unity.2d.tilemap: '>=1.0.0'
 ---

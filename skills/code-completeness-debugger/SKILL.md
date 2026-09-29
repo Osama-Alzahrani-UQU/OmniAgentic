@@ -1,7 +1,6 @@
 ---
 name: code-completeness-debugger
-description: Audits and debugs the entire project before user delivery to detect and
-  complete any missing functions.
+description: Pre-delivery audit for zero missing code or TODOs
 ---
 # Pre-Delivery Code & Function Completeness Debugger (`code-completeness-debugger`)
 

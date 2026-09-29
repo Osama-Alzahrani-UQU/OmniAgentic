@@ -1,7 +1,6 @@
 ---
 name: metrics-dashboard
-description: Define and design a product metrics dashboard with key metrics, data
-  sources, visualization types.
+description: Define and design a product metrics dashboard
 ---
 ## Product Metrics Dashboard
 

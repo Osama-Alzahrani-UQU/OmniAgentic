@@ -1,7 +1,6 @@
 ---
 name: shipping-artifacts
-description: The durable documentation set that makes an AI-built (vibe-coded) app
-  reviewable before shipping.
+description: The durable documentation set that makes
 ---
 # Shipping Artifacts: The Docs That Make AI-Built Code Reviewable
 

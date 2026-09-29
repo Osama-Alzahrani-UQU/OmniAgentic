@@ -1,7 +1,6 @@
 ---
 name: python-patterns
-description: Pythonic idioms, PEP 8 standards, type hints, and best practices for
-  building robust, efficient.
+description: Pythonic idioms, PEP 8 standards, type hints,
 metadata:
   origin: ECC
 ---

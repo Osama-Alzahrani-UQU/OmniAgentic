@@ -1,6 +1,6 @@
 ---
 name: golang-patterns
-description: Idiomatic Go patterns, goroutine concurrency, error wrapping, and interface design.
+description: Idiomatic Go patterns
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: test-driven-development
-description: Micro-level Red-Green-Refactor development loop for implementing isolated
-  functions, verifying logic units.
+description: Test-driven development with robust test suites
 ---
 # Test-Driven Development
 

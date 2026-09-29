@@ -1,6 +1,6 @@
 ---
 name: kotlin-patterns
-description: Idiomatic Kotlin patterns, null safety, data classes, sealed hierarchies, and DSLs.
+description: Idiomatic Kotlin patterns
 metadata:
   origin: ECC
 ---

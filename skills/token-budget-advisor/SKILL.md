@@ -1,7 +1,6 @@
 ---
 name: token-budget-advisor
-description: Offers the user an informed choice about how much response depth to consume
-  before answering.
+description: Offers the user an informed choice about how
 metadata:
   origin: community
 ---

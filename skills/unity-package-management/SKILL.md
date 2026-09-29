@@ -1,6 +1,6 @@
 ---
 name: unity-package-management
-description: Manage Unity Package Manager (UPM) dependencies, registries, and manifest.json.
+description: Manage Unity Package Manager
 allowed-tools:
 - Bash
 - Read

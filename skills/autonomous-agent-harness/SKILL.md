@@ -1,7 +1,6 @@
 ---
 name: autonomous-agent-harness
-description: Transform Claude Code into a fully autonomous agent system with persistent
-  memory, scheduled operations.
+description: Transform Claude Code into a fully autonomous
 metadata:
   origin: ECC
 ---

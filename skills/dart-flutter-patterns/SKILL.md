@@ -1,7 +1,6 @@
 ---
 name: dart-flutter-patterns
-description: Production-ready Dart and Flutter patterns covering null safety, immutable
-  state, async composition.
+description: Production-ready Dart and Flutter patterns
 metadata:
   origin: ECC
 ---

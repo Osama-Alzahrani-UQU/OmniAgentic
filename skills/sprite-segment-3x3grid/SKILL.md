@@ -1,6 +1,6 @@
 ---
 name: sprite-segment-3x3grid
-description: Analyze 2D Sprite textures and segment 9-slice / 3x3 grid borders automatically.
+description: Analyze 2D Sprite textures and segment 9-slice
 ---
 # Sprite Color Grid Analysis
 

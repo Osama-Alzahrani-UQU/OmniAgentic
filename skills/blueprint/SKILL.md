@@ -1,6 +1,6 @@
 ---
 name: blueprint
-description: Turn a one-line objective into a step-by-step construction plan for multi-session.
+description: Turn a one-line objective into a step-by-step
 metadata:
   origin: community
 ---

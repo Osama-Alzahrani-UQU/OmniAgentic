@@ -1,6 +1,6 @@
 ---
 name: code-mentor
-description: Dedicated programming assistant and educational mentor.
+description: Dedicated programming assistant
 ---
 # Code Mentor & Educational Assistant Protocol
 

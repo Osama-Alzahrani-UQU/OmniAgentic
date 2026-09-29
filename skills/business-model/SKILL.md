@@ -1,6 +1,6 @@
 ---
 name: business-model
-description: Generate a Business Model Canvas with all 9 building blocks.
+description: Generate a Business Model Canvas with all 9
 ---
 # Business Model Canvas
 

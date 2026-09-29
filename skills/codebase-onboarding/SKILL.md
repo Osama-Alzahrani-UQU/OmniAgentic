@@ -1,7 +1,6 @@
 ---
 name: codebase-onboarding
-description: Analyze an unfamiliar codebase and generate a structured onboarding guide
-  with architecture map.
+description: Analyze an unfamiliar codebase and generate
 metadata:
   origin: ECC
 ---

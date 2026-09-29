@@ -1,7 +1,6 @@
 ---
 name: ui
-description: Master router and expert guide for Unity UI systems (UI Toolkit, uGUI
-  Canvas, and IMGUI).
+description: Master router and expert guide for Unity UI
 ---
 
 Determine the appropriate UI system for the project and route to the correct specialized skill.

@@ -1,7 +1,6 @@
 ---
 name: opportunity-solution-tree
-description: Build an Opportunity Solution Tree (OST) to structure product discovery
-  .
+description: Build an Opportunity Solution Tree
 ---
 ## Opportunity Solution Tree (OST)
 

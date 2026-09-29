@@ -1,7 +1,6 @@
 ---
 name: homelab-network-setup
-description: Practical home and homelab network planning for gateways, switches, access
-  points, IP ranges.
+description: Practical home and homelab network planning
 metadata:
   origin: community
 ---

@@ -1,7 +1,6 @@
 ---
 name: data-scraper-agent
-description: Build a fully automated AI-powered data collection agent for any public
-  source , job boards, prices, news.
+description: Build a fully automated AI-powered data
 metadata:
   origin: community
 ---

@@ -1,7 +1,6 @@
 ---
 name: inventory-demand-planning
-description: Codified expertise for demand forecasting, safety stock optimization,
-  replenishment planning.
+description: Codified expertise for demand forecasting
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

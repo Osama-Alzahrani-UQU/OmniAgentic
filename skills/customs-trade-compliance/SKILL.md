@@ -1,7 +1,6 @@
 ---
 name: customs-trade-compliance
-description: Codified expertise for customs documentation, tariff classification,
-  duty optimization.
+description: Codified expertise for customs documentation
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

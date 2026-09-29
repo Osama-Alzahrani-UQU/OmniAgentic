@@ -1,6 +1,6 @@
 ---
 name: neohorse-decision-engine
-description: Prefill-only decision inference, multi-agent routing harness, and Choice/Noul/Score evaluation using NeoHorse-Jev.
+description: Low-latency prefill agent decision routing
 metadata:
   origin: upstream
   author: TokenRhythm

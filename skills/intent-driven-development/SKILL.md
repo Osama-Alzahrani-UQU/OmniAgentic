@@ -1,6 +1,6 @@
 ---
 name: intent-driven-development
-description: Turn ambiguous or high-impact product and engineering changes into scoped.
+description: Turn ambiguous or high-impact product
 ---
 # Intent-Driven Development
 

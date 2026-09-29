@@ -1,6 +1,6 @@
 ---
 name: hipaa-compliance
-description: HIPAA-specific entrypoint for healthcare privacy and security work.
+description: HIPAA-specific entrypoint for healthcare
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

@@ -1,7 +1,6 @@
 ---
 name: django-tdd
-description: Django testing strategies with pytest-django, TDD methodology, factory_boy,
-  mocking, coverage.
+description: Django testing strategies with pytest-django
 metadata:
   origin: ECC
 ---

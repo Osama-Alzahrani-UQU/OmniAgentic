@@ -1,7 +1,6 @@
 ---
 name: springboot-patterns
-description: Spring Boot architecture patterns, REST API design, layered services,
-  data access, caching, async processing.
+description: Spring Boot architecture patterns
 metadata:
   origin: ECC
 ---

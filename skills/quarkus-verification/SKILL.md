@@ -1,6 +1,6 @@
 ---
 name: quarkus-verification
-description: 'Verification loop for Quarkus 3.x LTS: Maven/Gradle build, DevServices, JaCoCo, and native image checks.'
+description: Verification loop for Quarkus 3
 metadata:
   origin: ECC
 ---

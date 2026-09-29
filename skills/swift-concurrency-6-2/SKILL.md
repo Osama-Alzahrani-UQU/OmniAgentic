@@ -1,7 +1,6 @@
 ---
 name: swift-concurrency-6-2
-description: Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent.
-  Use when adopting Swift 6.
+description: Swift 6.2 Approachable Concurrency —
 ---
 # Swift 6.2 Approachable Concurrency
 

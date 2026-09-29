@@ -1,7 +1,6 @@
 ---
 name: loop-debug
-description: Enforces an autonomous iterative debug-and-repair loop (Test -> Diagnose
-  -> Fix -> Retest) and mandatory.
+description: Autonomous iterative Test-Diagnose-Fix-Retest loop
 ---
 # Loop Debug & Empirical Verification Protocol
 

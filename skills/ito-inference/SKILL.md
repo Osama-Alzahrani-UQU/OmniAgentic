@@ -1,6 +1,6 @@
 ---
 name: ito-inference
-description: Inspect and configure model serving endpoints on completed Itô compute bookings.
+description: Inspect and configure model serving endpoints
 metadata:
   origin: ECC
   status: scaffold

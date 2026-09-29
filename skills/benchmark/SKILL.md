@@ -1,7 +1,6 @@
 ---
 name: benchmark
-description: Use this skill to measure performance baselines, detect regressions before/after
-  PRs.
+description: Measure performance baselines
 license: MIT
 metadata:
   origin: ECC

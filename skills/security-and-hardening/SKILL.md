@@ -1,7 +1,6 @@
 ---
 name: security-and-hardening
-description: Defensive code hardening implementation , input sanitization, cryptographic
-  validation, memory safety.
+description: Defensive code hardening implementation
 ---
 # Security and Hardening
 

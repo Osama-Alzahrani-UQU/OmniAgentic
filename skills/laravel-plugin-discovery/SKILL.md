@@ -1,6 +1,6 @@
 ---
 name: laravel-plugin-discovery
-description: Discover and evaluate Laravel packages via LaraPlugins.io MCP.
+description: Discover and evaluate Laravel packages via
 metadata:
   origin: ECC
 ---

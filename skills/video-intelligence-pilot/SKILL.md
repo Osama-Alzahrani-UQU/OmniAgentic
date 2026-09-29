@@ -1,7 +1,6 @@
 ---
 name: video-intelligence-pilot
-description: Equips agents and sub-agents to extract, transcribe, analyze, and execute
-  tasks from video URLs (YouTube.
+description: Video and audio analysis and multimodal pipelines
 ---
 # Video Intelligence Pilot: Ingestion, Analysis & Execution Protocol
 

@@ -1,6 +1,6 @@
 ---
 name: angular-developer
-description: Generates Angular code and provides architectural guidance.
+description: Generates Angular code and provides
 metadata:
   origin: ECC
 ---

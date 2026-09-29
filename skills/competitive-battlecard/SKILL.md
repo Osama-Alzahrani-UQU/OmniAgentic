@@ -1,7 +1,6 @@
 ---
 name: competitive-battlecard
-description: Create sales-ready competitive battlecards comparing your product against
-  a specific competitor , positioning.
+description: Create sales-ready competitive battlecards
 ---
 ## Competitive Battlecard
 

@@ -1,7 +1,6 @@
 ---
 name: laravel-tdd
-description: Laravel testing strategies with PHPUnit, Pest, model factories, HTTP
-  tests, Sanctum authentication testing.
+description: Laravel testing strategies with PHPUnit
 metadata:
   origin: ECC
 ---

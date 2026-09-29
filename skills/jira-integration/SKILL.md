@@ -1,7 +1,6 @@
 ---
 name: jira-integration
-description: Use this skill when retrieving Jira tickets, analyzing requirements,
-  updating ticket status, adding comments.
+description: Use this skill when retrieving Jira tickets
 metadata:
   origin: ECC
 ---

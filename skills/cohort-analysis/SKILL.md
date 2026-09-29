@@ -1,7 +1,6 @@
 ---
 name: cohort-analysis
-description: Perform cohort analysis on user engagement data , retention curves, feature
-  adoption trends.
+description: Perform cohort analysis on user engagement data
 ---
 # Cohort Analysis & Retention Explorer
 

@@ -1,7 +1,6 @@
 ---
 name: council
-description: Convene a four-voice council for ambiguous decisions, tradeoffs, and
-  go/no-go calls.
+description: Convene a four-voice council for ambiguous
 metadata:
   origin: ECC
 ---

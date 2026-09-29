@@ -1,7 +1,6 @@
 ---
 name: blender-motion-state-inspection
-description: Use this skill when inspecting Blender characters, rigs, poses, animation
-  retargeting, ground contact.
+description: Use this skill when inspecting Blender
 metadata:
   origin: ECC
 tools: Read, Write, Edit, Bash, Grep, Glob

@@ -1,7 +1,6 @@
 ---
 name: homelab-pihole-dns
-description: Pi-hole installation, blocklist management, DNS-over-HTTPS setup, DHCP
-  integration, local DNS records.
+description: Pi-hole installation
 metadata:
   origin: community
 ---

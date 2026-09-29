@@ -1,7 +1,6 @@
 ---
 name: 2d-pixel-perfect
-description: Set up, diagnose, and fix 2D Pixel Perfect rendering and camera snapping
-  in Unity projects.
+description: Set up, diagnose, and fix 2D Pixel Perfect
 ---
 
 Set up, diagnose, and fix pixel perfect 2D rendering in Unity projects.

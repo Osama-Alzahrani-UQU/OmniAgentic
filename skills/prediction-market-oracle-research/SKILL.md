@@ -1,7 +1,6 @@
 ---
 name: prediction-market-oracle-research
-description: Research prediction markets as data sources or oracle signals for products,
-  agents, dashboards.
+description: Research prediction markets as data sources
 metadata:
   origin: ECC
 ---

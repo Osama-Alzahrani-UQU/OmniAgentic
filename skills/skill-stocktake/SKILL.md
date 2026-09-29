@@ -1,6 +1,6 @@
 ---
 name: skill-stocktake
-description: Use when auditing Claude skills and commands for quality.
+description: Auditing Claude skills and commands for quality
 metadata:
   origin: ECC
 ---

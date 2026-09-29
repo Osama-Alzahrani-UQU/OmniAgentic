@@ -1,7 +1,6 @@
 ---
 name: accessibility
-description: Design, implement, and audit inclusive digital products using WCAG 2.2
-  Level AA.
+description: Design, implement, and audit inclusive digital
 metadata:
   origin: ECC
 ---

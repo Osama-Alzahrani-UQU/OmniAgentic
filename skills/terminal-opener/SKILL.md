@@ -1,7 +1,6 @@
 ---
 name: terminal-opener
-description: Open an executable and its argument array in a visible terminal window
-  through a reusable.
+description: Open an executable and its argument array
 ---
 # Terminal Opener
 

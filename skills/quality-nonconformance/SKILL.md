@@ -1,7 +1,6 @@
 ---
 name: quality-nonconformance
-description: Codified expertise for quality control, non-conformance investigation,
-  root cause analysis, corrective action.
+description: Codified expertise for quality control
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

@@ -1,7 +1,6 @@
 ---
 name: gtm-strategy
-description: Create a go-to-market strategy covering marketing channels, messaging,
-  success metrics, and launch timeline.
+description: Create a go-to-market strategy
 ---
 # GTM Strategy
 

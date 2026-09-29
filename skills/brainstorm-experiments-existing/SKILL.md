@@ -1,7 +1,6 @@
 ---
 name: brainstorm-experiments-existing
-description: Design experiments to test assumptions for an existing product , prototypes,
-  A/B tests, spikes.
+description: Design experiments to test assumptions
 ---
 ## Design Experiments (Existing Product)
 

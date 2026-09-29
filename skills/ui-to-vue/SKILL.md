@@ -1,7 +1,6 @@
 ---
 name: ui-to-vue
-description: Use when the user has UI screenshots or design exports that need batch
-  conversion into Vue 3 components.
+description: The user has UI screenshots or design exports
 metadata:
   origin: community
 ---

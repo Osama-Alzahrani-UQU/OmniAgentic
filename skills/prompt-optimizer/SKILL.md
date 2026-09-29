@@ -1,6 +1,6 @@
 ---
 name: prompt-optimizer
-description: Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks).
+description: Analyze raw prompts
 metadata:
   origin: community
   author: YannJY02

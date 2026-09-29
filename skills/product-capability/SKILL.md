@@ -1,6 +1,6 @@
 ---
 name: product-capability
-description: Translate PRD intent, roadmap asks.
+description: Translate PRD intent, roadmap asks
 metadata:
   origin: ECC
 ---

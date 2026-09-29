@@ -1,7 +1,6 @@
 ---
 name: logistics-exception-management
-description: Codified expertise for handling freight exceptions, shipment delays,
-  damages, losses, and carrier disputes.
+description: Codified expertise for handling freight
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

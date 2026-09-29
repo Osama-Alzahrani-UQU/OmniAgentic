@@ -1,7 +1,6 @@
 ---
 name: manim-video
-description: Build reusable Manim explainers for technical concepts, graphs, system
-  diagrams, and product walkthroughs.
+description: Build reusable Manim explainers for technical
 metadata:
   origin: ECC
 ---

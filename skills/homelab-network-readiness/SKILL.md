@@ -1,6 +1,6 @@
 ---
 name: homelab-network-readiness
-description: Readiness checklist for homelab VLAN segmentation, local DNS filtering.
+description: Readiness checklist for homelab VLAN
 metadata:
   origin: community
 ---

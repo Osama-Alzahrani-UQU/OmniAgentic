@@ -1,7 +1,6 @@
 ---
 name: laravel-verification
-description: 'Verification loop for Laravel projects: env checks, linting, static
-  analysis, tests with coverage.'
+description: Verification loop for Laravel projects
 metadata:
   origin: ECC
 ---

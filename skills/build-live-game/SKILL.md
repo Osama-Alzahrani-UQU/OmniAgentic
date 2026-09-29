@@ -1,7 +1,6 @@
 ---
 name: build-live-game
-description: Build and operate live games with Unity Gaming Services (Auth, Cloud
-  Save, Cloud Code, Economy).
+description: Build and operate live games with Unity Gaming
 ---
 
 # Build a Live Game With Unity Gaming Services

@@ -1,6 +1,6 @@
 ---
 name: ci-cd-and-automation
-description: Automates CI/CD pipeline setup.
+description: Automates CI/CD pipeline setup
 ---
 # CI/CD and Automation
 

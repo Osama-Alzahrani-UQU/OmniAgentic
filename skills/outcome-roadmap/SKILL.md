@@ -1,7 +1,6 @@
 ---
 name: outcome-roadmap
-description: Transform an output-focused roadmap into an outcome-focused one that
-  communicates strategic intent.
+description: Transform an output-focused roadmap into
 ---
 # Transform Roadmap to Outcome-Focused Format
 

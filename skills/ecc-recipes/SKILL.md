@@ -1,7 +1,6 @@
 ---
 name: ecc-recipes
-description: Map a described workflow to the right ECC command-GROUP with run-order
-  and stop condition.
+description: Map a described workflow to the right ECC
 argument-hint: <workflow description | empty=list all>
 origin: community
 author: KyawZinLatt

@@ -1,7 +1,6 @@
 ---
 name: healthcare-phi-compliance
-description: Protected Health Information (PHI) and Personally Identifiable Information
-  (PII) compliance patterns for.
+description: Protected Health Information
 metadata:
   version: 1.0.0
   origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel

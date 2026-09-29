@@ -1,7 +1,6 @@
 ---
 name: android-clean-architecture
-description: Clean Architecture patterns for Android and Kotlin Multiplatform projects
-  , module structure, dependency rules.
+description: Clean Architecture patterns for Android
 metadata:
   origin: ECC
 ---

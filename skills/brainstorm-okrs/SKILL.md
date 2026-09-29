@@ -1,6 +1,6 @@
 ---
 name: brainstorm-okrs
-description: Brainstorm team-level OKRs aligned with company objectives .
+description: Brainstorm team-level OKRs aligned
 ---
 # Brainstorm Team OKRs
 

@@ -1,7 +1,6 @@
 ---
 name: strategy-red-team
-description: Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions
-  before reality does.
+description: Red-team a PRD, roadmap, or strategy
 ---
 # Strategy Red-Team: Attack the Assumptions Before Reality Does
 

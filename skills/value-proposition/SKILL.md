@@ -1,7 +1,6 @@
 ---
 name: value-proposition
-description: Design a detailed value proposition using a 6-part JTBD template , Who,
-  Why, What before, How, What after.
+description: Design a detailed value proposition using
 ---
 # Value Proposition
 

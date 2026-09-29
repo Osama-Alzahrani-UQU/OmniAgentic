@@ -1,7 +1,6 @@
 ---
 name: frontend-slides
-description: Create stunning, animation-rich HTML presentations from scratch or by
-  converting PowerPoint files.
+description: Create stunning, animation-rich HTML
 metadata:
   origin: ECC
 ---

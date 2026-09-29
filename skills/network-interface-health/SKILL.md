@@ -1,7 +1,6 @@
 ---
 name: network-interface-health
-description: Diagnose interface errors, drops, CRCs, duplex mismatches, flapping,
-  speed negotiation issues.
+description: Diagnose interface errors
 metadata:
   origin: community
 ---

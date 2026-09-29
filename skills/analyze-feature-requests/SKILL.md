@@ -1,7 +1,6 @@
 ---
 name: analyze-feature-requests
-description: Analyze and prioritize a list of feature requests by theme, strategic
-  alignment, impact, effort, and risk.
+description: Analyze and prioritize a list of feature
 ---
 ## Analyze Feature Requests
 

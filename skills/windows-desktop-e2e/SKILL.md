@@ -1,6 +1,6 @@
 ---
 name: windows-desktop-e2e
-description: E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC.
+description: E2E testing for Windows native desktop apps
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: rust-patterns
-description: Idiomatic Rust patterns, ownership, error handling, traits, concurrency,
-  and best practices for building safe.
+description: Idiomatic Rust patterns
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: docker-patterns
-description: Docker and Docker Compose patterns for local development, hardened CLI
-  installer harnesses, container security.
+description: Docker, Compose, and hardened container patterns
 ---
 # Docker Patterns
 

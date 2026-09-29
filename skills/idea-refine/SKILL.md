@@ -1,7 +1,6 @@
 ---
 name: idea-refine
-description: Refines raw ideas into sharp, actionable concepts through structured
-  divergent and convergent thinking.
+description: Refines raw ideas into sharp
 ---
 # Idea Refine
 

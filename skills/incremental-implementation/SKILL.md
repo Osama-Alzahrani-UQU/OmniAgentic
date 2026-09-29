@@ -1,6 +1,6 @@
 ---
 name: incremental-implementation
-description: Delivers changes incrementally in thin, verifiable slices.
+description: Delivers changes incrementally in thin
 ---
 # Incremental Implementation
 

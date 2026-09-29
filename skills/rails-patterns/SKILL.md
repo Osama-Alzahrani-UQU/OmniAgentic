@@ -1,6 +1,6 @@
 ---
 name: rails-patterns
-description: Ruby on Rails framework patterns for Rails 7.1+ and 8.x apps.
+description: Ruby on Rails framework patterns for Rails 7
 origin: community
 ---
 # Rails Patterns

@@ -1,7 +1,6 @@
 ---
 name: audio-setup-mixers
-description: Route scene Audio Sources into Unity Audio Mixers, groups, and snapshots
-  automatically.
+description: Route scene Audio Sources into Unity Audio
 ---
 # Audio Mixer Setup
 

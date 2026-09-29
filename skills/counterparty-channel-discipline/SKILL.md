@@ -1,6 +1,6 @@
 ---
 name: counterparty-channel-discipline
-description: Per-channel strict prompts, mention gating, silent observation.
+description: Per-channel strict prompts
 ---
 # Counterparty Channel Discipline
 

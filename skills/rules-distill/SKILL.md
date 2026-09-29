@@ -1,7 +1,6 @@
 ---
 name: rules-distill
-description: Scan skills to extract cross-cutting principles and distill them into
-  rules , append, revise.
+description: Scan skills to extract cross-cutting
 metadata:
   origin: ECC
 ---

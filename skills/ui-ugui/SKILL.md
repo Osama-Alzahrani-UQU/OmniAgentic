@@ -1,7 +1,6 @@
 ---
 name: ui-ugui
-description: Design, layout, and script Unity uGUI Canvas hierarchies, RectTransforms,
-  and ScrollViews.
+description: Design, layout, and script Unity uGUI Canvas
 ---
 
 Understand existing Unity uGUI, make targeted edits, and generate new Canvas-based hierarchies.

@@ -1,7 +1,6 @@
 ---
 name: initialize-ai-navigation
-description: 'Configure Unity AI Navigation: NavMesh surfaces, agents, obstacles,
-  and off-mesh links.'
+description: Configure Unity AI Navigation
 ---
 
 Determine what the user needs and guide them through navigation setup. See [navigation-system.md](references/navigation-system.md) for expanded component details, API notes, code recipes, and troubleshooting.

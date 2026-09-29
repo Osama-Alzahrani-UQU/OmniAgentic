@@ -1,7 +1,6 @@
 ---
 name: system-repair-hero
-description: Windows system file integrity, component store repair, and filesystem
-  diagnostic skill.
+description: Windows system file integrity
 ---
 # Windows System Integrity & Repair Hero
 

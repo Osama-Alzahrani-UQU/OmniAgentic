@@ -1,7 +1,6 @@
 ---
 name: recursive-decision-ledger
-description: Use when the user asks for repeated rollouts, marked decision processes,
-  high-dimensional search.
+description: The user asks for repeated rollouts
 license: MIT
 metadata:
   origin: ECC

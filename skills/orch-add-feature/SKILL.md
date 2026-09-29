@@ -1,7 +1,6 @@
 ---
 name: orch-add-feature
-description: Orchestrate building a brand-new feature end to end , research, plan,
-  TDD implementation, review.
+description: Orchestrate building a brand-new feature end
 metadata:
   origin: ECC
 ---

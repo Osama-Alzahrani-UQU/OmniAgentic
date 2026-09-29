@@ -1,7 +1,6 @@
 ---
 name: brand-discovery
-description: Use when a brand needs to discover or articulate its identity through
-  structured multi-session interviews.
+description: A brand needs to discover or articulate its
 ---
 # Brand Discovery
 

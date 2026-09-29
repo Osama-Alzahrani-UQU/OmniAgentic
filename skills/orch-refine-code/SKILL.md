@@ -1,7 +1,6 @@
 ---
 name: orch-refine-code
-description: Orchestrate a behavior-preserving refactor , confirm tests are green,
-  restructure without changing behavior.
+description: Orchestrate a behavior-preserving refactor
 metadata:
   origin: ECC
 ---

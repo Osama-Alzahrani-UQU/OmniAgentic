@@ -1,6 +1,6 @@
 ---
 name: cpp-coding-standards
-description: C++ coding standards based on the C++ Core Guidelines (isocpp.github.io).
+description: C++ coding standards based on the C++ Core
 metadata:
   origin: ECC
 ---

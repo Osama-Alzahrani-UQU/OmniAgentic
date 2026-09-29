@@ -1,6 +1,6 @@
 ---
 name: retro
-description: Facilitate a structured sprint retrospective , what went well, what didn't.
+description: Facilitate a structured sprint retrospective
 ---
 ## Sprint Retrospective Facilitator
 

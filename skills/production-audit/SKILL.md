@@ -1,7 +1,6 @@
 ---
 name: production-audit
-description: Local-evidence production readiness audit for shipped apps, pre-launch
-  reviews, post-merge checks.
+description: Local-evidence production readiness audit
 metadata:
   origin: community
 ---

@@ -1,7 +1,6 @@
 ---
 name: returns-reverse-logistics
-description: Codified expertise for returns authorization, receipt and inspection,
-  disposition decisions, refund processing.
+description: Codified expertise for returns authorization
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

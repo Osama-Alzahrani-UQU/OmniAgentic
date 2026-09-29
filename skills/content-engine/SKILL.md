@@ -1,7 +1,6 @@
 ---
 name: content-engine
-description: Create platform-native content systems for X, LinkedIn, TikTok, YouTube,
-  newsletters.
+description: Create platform-native content systems for X
 metadata:
   origin: ECC
 ---

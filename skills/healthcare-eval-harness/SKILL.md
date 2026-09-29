@@ -1,6 +1,6 @@
 ---
 name: healthcare-eval-harness
-description: Patient safety evaluation harness for healthcare application deployments.
+description: Patient safety evaluation harness
 metadata:
   version: 1.0.0
   origin: Health1 Super Speciality Hospitals — contributed by Dr. Keyur Patel

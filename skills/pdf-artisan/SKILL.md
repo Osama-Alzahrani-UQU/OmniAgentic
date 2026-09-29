@@ -1,7 +1,6 @@
 ---
 name: pdf-artisan
-description: Guides agents and sub-agents to generate high-fidelity, beautifully styled
-  PDF documents (invoices, reports.
+description: Guides agents and sub-agents to generate
 ---
 # PDF Artisan Protocol
 

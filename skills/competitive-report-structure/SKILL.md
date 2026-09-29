@@ -1,7 +1,6 @@
 ---
 name: competitive-report-structure
-description: Use after benchmark-methodology has produced scored competitor profile
-  cards.
+description: Use after benchmark-methodology has produced
 ---
 # Competitive Report Structure
 

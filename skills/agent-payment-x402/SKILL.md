@@ -1,7 +1,6 @@
 ---
 name: agent-payment-x402
-description: Add x402 payment execution to AI agents with per-task budgets, spending
-  controls, and non-custodial wallets.
+description: Add x402 payment execution to AI agents
 metadata:
   origin: community
 ---

@@ -1,7 +1,6 @@
 ---
 name: vue-patterns
-description: Vue.js 3 Composition API patterns, component architecture, reactivity
-  best practices, Pinia state management.
+description: Vue.js 3 Composition API patterns, component
 origin: ECC
 ---
 # Vue.js Patterns and Best Practices

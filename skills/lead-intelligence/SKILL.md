@@ -1,6 +1,6 @@
 ---
 name: lead-intelligence
-description: AI-native lead intelligence and outreach pipeline.
+description: AI-native lead intelligence and outreach
 metadata:
   origin: ECC
 ---

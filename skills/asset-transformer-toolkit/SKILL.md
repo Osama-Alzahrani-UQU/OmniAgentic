@@ -1,7 +1,6 @@
 ---
 name: asset-transformer-toolkit
-description: Import and optimize 3D models and point clouds using Unity Asset Transformer
-  Toolkit (Pixyz).
+description: Import and optimize 3D models and point clouds
 required_packages:
   com.unity.industry.toolkit: '>=4.0.0'
 ---

@@ -1,7 +1,6 @@
 ---
 name: review-resume
-description: Comprehensive PM resume review and tailoring against 10 best practices
-  including XYZ+S formula.
+description: Comprehensive PM resume review and tailoring
 ---
 # Resume Review for Product Managers
 

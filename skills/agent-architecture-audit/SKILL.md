@@ -1,6 +1,6 @@
 ---
 name: agent-architecture-audit
-description: Full-stack diagnostic for agent and LLM applications.
+description: Full-stack diagnostic for agent and LLM
 metadata:
   origin: oh-my-agent-check
 tools: Read, Write, Edit, Bash, Grep, Glob

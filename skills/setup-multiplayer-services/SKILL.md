@@ -1,7 +1,6 @@
 ---
 name: setup-multiplayer-services
-description: Build online multiplayer games using Netcode for GameObjects, Lobby,
-  Relay, and Matchmaker.
+description: Build online multiplayer games using Netcode
 ---
 
 # Multiplayer SDK (Unity Multiplayer Services)

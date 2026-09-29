@@ -1,7 +1,6 @@
 ---
 name: nutrient-document-processing
-description: Process, convert, OCR, extract, redact, sign, and fill documents using
-  the Nutrient DWS API.
+description: Process, convert, OCR, extract, redact, sign,
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: code-review-and-quality
-description: Multi-axis quality gate for PRs and commits , assesses code architecture,
-  style conventions, readability.
+description: Comprehensive code review and defect discovery
 ---
 # Code Review and Quality
 

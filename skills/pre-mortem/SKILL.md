@@ -1,6 +1,6 @@
 ---
 name: pre-mortem
-description: Run a pre-mortem risk analysis on a PRD or launch plan.
+description: Run a pre-mortem risk analysis on a PRD
 ---
 # Pre-Mortem: Risk Analysis for Product Launch
 

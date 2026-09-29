@@ -1,7 +1,6 @@
 ---
 name: defi-amm-security
-description: Security checklist for Solidity AMM contracts, liquidity pools, and swap
-  flows.
+description: Security checklist for Solidity AMM contracts
 metadata:
   version: 1.0.0
   origin: ECC direct-port adaptation

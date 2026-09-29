@@ -1,7 +1,6 @@
 ---
 name: perl-security
-description: Comprehensive Perl security covering taint mode, input validation, safe
-  process execution.
+description: Comprehensive Perl security covering taint mode
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: levelplay-unity-integration
-description: Integrate Unity LevelPlay Ads Mediation SDK (rewarded, interstitial,
-  and banner ads).
+description: Integrate Unity LevelPlay Ads Mediation SDK
 ---
 
 # LevelPlay Unity package/SDK Integration

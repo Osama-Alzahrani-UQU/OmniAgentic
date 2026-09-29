@@ -1,7 +1,6 @@
 ---
 name: benchmark-methodology
-description: Use after competitive-platform-analysis has produced a tiered competitor
-  set.
+description: Use after competitive-platform-analysis has
 license: MIT
 ---
 # Benchmark Methodology

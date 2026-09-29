@@ -1,7 +1,6 @@
 ---
 name: gateguard
-description: Fact-forcing gate that blocks Edit/Write/Bash (including MultiEdit) and
-  demands concrete investigation.
+description: Fact-forcing gate that blocks Edit/Write/Bash
 metadata:
   origin: community
 ---

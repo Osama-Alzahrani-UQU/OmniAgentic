@@ -1,6 +1,6 @@
 ---
 name: cpp-testing
-description: Use only when writing/updating/fixing C++ tests, configuring GoogleTest/CTest.
+description: Use only when writing/updating/fixing C++ tests
 metadata:
   origin: ECC
 ---

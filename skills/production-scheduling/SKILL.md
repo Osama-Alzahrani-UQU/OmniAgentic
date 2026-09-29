@@ -1,7 +1,6 @@
 ---
 name: production-scheduling
-description: Codified expertise for production scheduling, job sequencing, line balancing,
-  changeover optimization.
+description: Codified expertise for production scheduling
 license: Apache-2.0
 homepage: https://github.com/affaan-m/everything-claude-code
 metadata:

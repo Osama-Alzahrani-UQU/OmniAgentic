@@ -1,7 +1,6 @@
 ---
 name: pytorch-patterns
-description: PyTorch deep learning patterns and best practices for building robust,
-  efficient.
+description: PyTorch deep learning patterns and best
 metadata:
   origin: ECC
 ---

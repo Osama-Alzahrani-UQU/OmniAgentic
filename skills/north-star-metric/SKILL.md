@@ -1,7 +1,6 @@
 ---
 name: north-star-metric
-description: Define a North Star Metric and 3-5 supporting input metrics that form
-  a metrics constellation.
+description: Define a North Star Metric and 3-5 supporting
 ---
 # North Star Metric
 

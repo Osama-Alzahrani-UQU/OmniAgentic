@@ -1,6 +1,6 @@
 ---
 name: fal-ai-media
-description: Unified media generation via fal.ai MCP — image, video, and audio.
+description: Unified media generation via fal
 metadata:
   origin: ECC
 ---

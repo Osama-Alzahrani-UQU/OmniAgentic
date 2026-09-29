@@ -1,6 +1,6 @@
 ---
 name: job-stories
-description: Create job stories using the 'When [situation], I want to [motivation].
+description: Create job stories using the 'When [situation]
 ---
 # Job Stories
 

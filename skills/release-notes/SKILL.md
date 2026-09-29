@@ -1,6 +1,6 @@
 ---
 name: release-notes
-description: Generate user-facing release notes from tickets, PRDs, or changelogs.
+description: Generate user-facing release notes from tickets
 ---
 ## Release Notes Generator
 

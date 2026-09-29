@@ -1,7 +1,6 @@
 ---
 name: privacy-policy
-description: Draft a detailed privacy policy covering data types, jurisdiction, GDPR
-  and compliance considerations.
+description: Draft a detailed privacy policy covering data
 ---
 # Privacy Policy Generator
 

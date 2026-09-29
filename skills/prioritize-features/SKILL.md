@@ -1,6 +1,6 @@
 ---
 name: prioritize-features
-description: Prioritize a backlog of feature ideas based on impact, effort, risk.
+description: Prioritize a backlog of feature ideas based
 ---
 ## Prioritize Feature Backlog
 

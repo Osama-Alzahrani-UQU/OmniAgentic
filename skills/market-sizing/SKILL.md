@@ -1,7 +1,6 @@
 ---
 name: market-sizing
-description: Estimate market size using TAM, SAM, and SOM with top-down and bottom-up
-  approaches.
+description: Estimate market size using TAM
 ---
 # Estimate Market Size (TAM, SAM, SOM)
 

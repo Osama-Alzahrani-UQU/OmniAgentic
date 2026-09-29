@@ -1,6 +1,6 @@
 ---
 name: product-lens
-description: Use this skill to validate the "why" before building, run product diagnostics.
+description: Validate the "why" before building
 metadata:
   origin: ECC
 ---

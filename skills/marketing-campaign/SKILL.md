@@ -1,6 +1,6 @@
 ---
 name: marketing-campaign
-description: End-to-end marketing campaign planning and execution.
+description: End-to-end marketing campaign planning
 metadata:
   origin: ECC
 ---

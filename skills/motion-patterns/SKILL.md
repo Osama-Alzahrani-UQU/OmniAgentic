@@ -1,7 +1,6 @@
 ---
 name: motion-patterns
-description: Production-ready animation patterns for React / Next.js , button, modal,
-  toast, stagger, page transitions.
+description: Production-ready animation patterns for React
 tags:
 - motion
 - animation

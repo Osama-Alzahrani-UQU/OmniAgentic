@@ -1,7 +1,6 @@
 ---
 name: canary-watch
-description: Use this skill to monitor and verify a deployed URL after releases ,
-  checks HTTP endpoints, SSE streams.
+description: Monitor and verify a deployed URL after releases
 metadata:
   origin: ECC
 ---

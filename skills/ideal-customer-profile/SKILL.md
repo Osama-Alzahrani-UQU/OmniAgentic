@@ -1,7 +1,6 @@
 ---
 name: ideal-customer-profile
-description: Identify the Ideal Customer Profile (ICP) from research data with demographics,
-  behaviors, JTBD, and needs.
+description: Identify the Ideal Customer Profile
 ---
 # Ideal Customer Profile
 

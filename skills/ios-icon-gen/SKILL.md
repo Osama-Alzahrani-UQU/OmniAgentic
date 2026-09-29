@@ -1,7 +1,6 @@
 ---
 name: ios-icon-gen
-description: Generate iOS app icons as PNG imagesets for Xcode asset catalogs from
-  SF Symbols (5000+ Apple-native) or.
+description: Generate iOS app icons as PNG imagesets
 metadata:
   origin: community
 ---

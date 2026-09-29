@@ -1,7 +1,6 @@
 ---
 name: strategic-compact
-description: Suggests manual context compaction at logical intervals to preserve context
-  through task phases rather.
+description: Suggests manual context compaction at logical
 metadata:
   origin: ECC
 ---

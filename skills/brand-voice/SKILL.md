@@ -1,7 +1,6 @@
 ---
 name: brand-voice
-description: Build a source-derived writing style profile from real posts, essays,
-  launch notes, docs, or site copy.
+description: Build a source-derived writing style profile
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,6 @@
 ---
 name: kiln-refine-asset
-description: Refine an existing Kiln asset through bounded source reads, exact revision edits, and targeted image feedback. Use for repairs, variants, or proportion changes.
+description: Refine an existing Kiln asset through bounded
 license: MIT
 metadata:
   kiln-workflow: workspace

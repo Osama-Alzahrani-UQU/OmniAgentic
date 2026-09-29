@@ -1,6 +1,6 @@
 ---
 name: agentic-os
-description: Build persistent multi-agent operating systems on Claude Code.
+description: Build persistent multi-agent operating systems
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: game-arabic-localizer
-description: 'Equips agents and sub-agents with comprehensive game localization and
-  Arabic translation expertise: text.'
+description: Arabic game localization and RTL typography
 ---
 # Game Arabic Localizer: Translation & Typography Protocol
 

@@ -1,6 +1,6 @@
 ---
 name: remotion-video-creation
-description: Best practices for Remotion - Video creation in React.
+description: Best practices for Remotion - Video creation
 metadata:
   tags: remotion, video, react, animation, composition, three.js, lottie
 ---

@@ -1,7 +1,6 @@
 ---
 name: social-publisher
-description: Agent-driven scheduling and publishing of social media posts across 13
-  platforms via SocialClaw.
+description: Agent-driven scheduling and publishing
 metadata:
   origin: community
 ---

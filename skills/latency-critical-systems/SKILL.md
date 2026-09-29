@@ -1,7 +1,6 @@
 ---
 name: latency-critical-systems
-description: Use for latency-sensitive systems such as realtime dashboards, market
-  data, streaming agents.
+description: Use for latency-sensitive systems such as
 license: MIT
 metadata:
   origin: ECC

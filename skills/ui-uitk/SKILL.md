@@ -1,7 +1,6 @@
 ---
 name: ui-uitk
-description: Author modern Unity 6+ UI Toolkit interfaces using UXML, USS styling,
-  and C# data binding.
+description: Author modern Unity 6+ UI Toolkit interfaces
 ---
 
 Understand existing Unity UI Toolkit code, make targeted edits, generate new UXML/USS files, Manipulators, and handle UI runtime binding.

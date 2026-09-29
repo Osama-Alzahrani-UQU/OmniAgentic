@@ -1,6 +1,6 @@
 ---
 name: tinystruct-patterns
-description: Expert guidance for developing with the tinystruct Java framework.
+description: Expert guidance for developing
 metadata:
   origin: ECC
 ---

@@ -1,7 +1,6 @@
 ---
 name: unity-cli
-description: Control Unity Editor and Unity Hub from the terminal via the official
-  Unity CLI.
+description: Control Unity Editor and Hub from terminal
 allowed-tools:
 - Bash
 ---

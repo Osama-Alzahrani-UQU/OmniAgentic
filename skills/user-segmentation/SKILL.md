@@ -1,6 +1,6 @@
 ---
 name: user-segmentation
-description: Segment users from feedback data based on behavior, JTBD, and needs.
+description: Segment users from feedback data based
 ---
 # User Segmentation
 

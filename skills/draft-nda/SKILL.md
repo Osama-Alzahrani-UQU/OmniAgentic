@@ -1,7 +1,6 @@
 ---
 name: draft-nda
-description: Draft a detailed Non-Disclosure Agreement between two parties covering
-  information types, jurisdiction.
+description: Draft a detailed Non-Disclosure Agreement
 ---
 # NDA (Non-Disclosure Agreement) Drafting
 

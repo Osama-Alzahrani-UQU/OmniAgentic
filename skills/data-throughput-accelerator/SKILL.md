@@ -1,7 +1,6 @@
 ---
 name: data-throughput-accelerator
-description: Use when large data ingestion, backfill, export, ETL, warehouse loading,
-  manifest catch-up.
+description: Large data ingestion
 license: MIT
 metadata:
   origin: ECC

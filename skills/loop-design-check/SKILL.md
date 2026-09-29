@@ -1,7 +1,6 @@
 ---
 name: loop-design-check
-description: Design a goal-oriented agent loop, and review it for the ways loops go
-  wrong, spinning and burning tokens.
+description: Design a goal-oriented agent loop
 metadata:
   origin: ECC
 ---

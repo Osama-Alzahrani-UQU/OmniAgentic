@@ -1,7 +1,6 @@
 ---
 name: prioritize-assumptions
-description: Prioritize assumptions using an Impact × Risk matrix and suggest experiments
-  for each.
+description: Prioritize assumptions using an Impact × Risk
 ---
 ## Prioritize Assumptions
 

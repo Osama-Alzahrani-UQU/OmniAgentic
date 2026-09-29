@@ -1,6 +1,6 @@
 ---
 name: springboot-verification
-description: 'Verification loop for Spring Boot: Actuator health, SpotBugs, MockMvc tests, and OWASP dependency scans.'
+description: Verification loop for Spring Boot
 metadata:
   origin: ECC
 ---

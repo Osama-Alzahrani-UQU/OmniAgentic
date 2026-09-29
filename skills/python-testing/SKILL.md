@@ -1,7 +1,6 @@
 ---
 name: python-testing
-description: Python testing strategies using pytest, TDD methodology, fixtures, mocking,
-  parametrization.
+description: Python testing strategies using pytest
 metadata:
   origin: ECC
 ---

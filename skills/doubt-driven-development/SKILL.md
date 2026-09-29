@@ -1,7 +1,6 @@
 ---
 name: doubt-driven-development
-description: Subjects every non-trivial decision to a fresh-context adversarial review
-  before it stands.
+description: Subjects every non-trivial decision
 ---
 # Doubt-Driven Development
 

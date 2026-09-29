@@ -1,6 +1,6 @@
 ---
 name: desktop-automator
-description: Enables desktop and GUI automation on Windows.
+description: Enables desktop and GUI automation on Windows
 ---
 # Desktop Automator Skill
 

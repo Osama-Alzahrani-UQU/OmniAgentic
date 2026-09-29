@@ -1,6 +1,6 @@
 ---
 name: experience-learner
-description: Automatically records encountered technical issues, bugs.
+description: Consults and updates troubleshooting history
 ---
 # Continuous Experience Learner & Issue Memory Protocol (`experience-learner`)
 

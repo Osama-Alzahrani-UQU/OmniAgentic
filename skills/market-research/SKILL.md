@@ -1,6 +1,6 @@
 ---
 name: market-research
-description: Conduct market research, competitive analysis, investor due diligence.
+description: Conduct market research
 metadata:
   origin: ECC
 ---

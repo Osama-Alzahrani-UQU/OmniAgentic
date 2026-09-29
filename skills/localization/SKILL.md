@@ -1,7 +1,6 @@
 ---
 name: localization
-description: Configure Unity Localization packages, locales, String/Asset tables,
-  and Smart Strings.
+description: Configure Unity Localization packages
 ---
 
 This guide covers setting up and configuring Unity Localization, including locales, String and Asset Tables, Addressables integration, and CJK font support via Asset Tables.

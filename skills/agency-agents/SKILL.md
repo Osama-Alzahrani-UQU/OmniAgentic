@@ -1,6 +1,6 @@
 ---
 name: agency-agents
-description: On-demand bridge and catalog for 279 specialized Agency Agents across 18 enterprise divisions.
+description: On-demand bridge and catalog for 279
 metadata:
   origin: upstream
   author: msitarzewski

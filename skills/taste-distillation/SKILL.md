@@ -1,7 +1,6 @@
 ---
 name: taste-distillation
-description: Measure a set of reference videos into a reusable style pack , colour
-  grade as a 3D LUT.
+description: Measure a set of reference videos into
 metadata:
   origin: ECC
 ---

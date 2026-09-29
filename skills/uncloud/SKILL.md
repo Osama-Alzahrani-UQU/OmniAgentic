@@ -1,7 +1,6 @@
 ---
 name: uncloud
-description: Use when managing an Uncloud cluster , deploying services, configuring
-  Caddy ingress.
+description: Managing an Uncloud cluster
 metadata:
   origin: ECC
 ---

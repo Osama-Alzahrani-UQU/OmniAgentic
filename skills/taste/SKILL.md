@@ -1,7 +1,6 @@
 ---
 name: taste
-description: A creative-direction (taste) layer for music videos and short-form edits
-  in the angelcore / cloud-trance.
+description: A creative-direction
 origin: ECC
 ---
 # Taste

@@ -1,7 +1,6 @@
 ---
 name: request-completeness-sentinel
-description: Enforces 100% complete fulfillment of all user requests, sub-tasks, and
-  constraints without omission.
+description: 100% fulfillment of all user requests and tasks
 ---
 # Request Completeness Sentinel Protocol (`request-completeness-sentinel`)
 

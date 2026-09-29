@@ -1,6 +1,6 @@
 ---
 name: ai-regression-testing
-description: Regression testing strategies for AI-assisted development.
+description: Regression testing strategies for AI-assisted
 metadata:
   origin: ECC
 ---

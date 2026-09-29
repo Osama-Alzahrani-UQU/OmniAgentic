@@ -1,7 +1,6 @@
 ---
 name: click-path-audit
-description: Trace every user-facing button/touchpoint through its full state change
-  sequence to find bugs where.
+description: Trace every user-facing button/touchpoint
 metadata:
   origin: community
 ---

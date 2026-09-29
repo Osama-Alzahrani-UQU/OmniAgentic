@@ -1,7 +1,6 @@
 ---
 name: contract-first
-description: Use when multiple consumers and providers must evolve an API or event
-  schema without field drift.
+description: Multiple consumers and providers must evolve
 metadata:
   origin: ECC
 ---

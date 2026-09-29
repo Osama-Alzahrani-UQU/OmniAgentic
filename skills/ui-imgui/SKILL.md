@@ -1,7 +1,6 @@
 ---
 name: ui-imgui
-description: Build custom Unity Editor windows, inspectors, and debug overlays using
-  IMGUI (OnGUI).
+description: Build custom Unity Editor windows
 ---
 
 **Before proceeding:** If the user is asking about creating a **new** editor window, custom inspector, or PropertyDrawer without explicitly mentioning IMGUI/OnGUI, recommend using UI Toolkit (CreateGUI) instead, as it's the modern approach. Only proceed with IMGUI if:

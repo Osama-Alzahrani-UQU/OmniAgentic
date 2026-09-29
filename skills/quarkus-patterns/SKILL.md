@@ -1,7 +1,6 @@
 ---
 name: quarkus-patterns
-description: Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful
-  API design, CDI services.
+description: Quarkus 3.x LTS architecture patterns
 metadata:
   origin: ECC
 ---

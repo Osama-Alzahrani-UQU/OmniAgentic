@@ -1,7 +1,6 @@
 ---
 name: orch-change-feature
-description: Orchestrate altering an existing, working feature to new desired behavior,
-  update its tests to the new spec.
+description: Orchestrate altering an existing
 metadata:
   origin: ECC
 ---

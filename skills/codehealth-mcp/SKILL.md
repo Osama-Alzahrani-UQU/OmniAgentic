@@ -1,7 +1,6 @@
 ---
 name: codehealth-mcp
-description: Real-time structural Code Health via CodeScene MCP , review before edits,
-  verify score deltas after changes.
+description: Real-time structural Code Health via CodeScene
 metadata:
   origin: community
 ---

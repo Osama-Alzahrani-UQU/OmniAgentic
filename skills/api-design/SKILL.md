@@ -1,7 +1,6 @@
 ---
 name: api-design
-description: RESTful HTTP API design patterns , resource naming, HTTP status codes,
-  pagination, query filtering.
+description: RESTful HTTP API design patterns
 metadata:
   origin: ECC
 ---

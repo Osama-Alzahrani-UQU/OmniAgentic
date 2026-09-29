@@ -1,7 +1,6 @@
 ---
 name: concise-responder
-description: Enforces ultra-short, direct, and minimal user-facing responses (1-2
-  lines max) after 100% completion.
+description: Enforces ultra-short
 ---
 # Concise Responder & Sub-Agent Precision Protocol
 

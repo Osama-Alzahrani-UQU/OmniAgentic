@@ -1,6 +1,6 @@
 ---
 name: competitor-analysis
-description: Analyze competitors with strengths, weaknesses, and differentiation opportunities.
+description: Analyze competitors with strengths
 ---
 # Competitor Analysis
 

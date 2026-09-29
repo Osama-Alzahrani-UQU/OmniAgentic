@@ -1,6 +1,6 @@
 ---
 name: product-vision
-description: Brainstorm an inspiring, achievable.
+description: Brainstorm an inspiring, achievable
 ---
 # Product Vision
 

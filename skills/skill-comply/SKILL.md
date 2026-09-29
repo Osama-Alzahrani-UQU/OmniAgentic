@@ -1,6 +1,6 @@
 ---
 name: skill-comply
-description: Visualize whether skills, rules, and agent definitions are actually followed.
+description: Visualize whether skills
 metadata:
   origin: ECC
 tools: Read, Bash

@@ -1,7 +1,6 @@
 ---
 name: game-mod-artisan
-description: 'Equips agents and sub-agents with advanced game and software modding
-  expertise: Unity (BepInEx/Harmony C#).'
+description: Advanced game and software modding expertise
 ---
 # Game Mod Artisan: Engineering & Modding Protocol
 

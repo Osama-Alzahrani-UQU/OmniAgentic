@@ -1,7 +1,6 @@
 ---
 name: test-scenarios
-description: Create comprehensive test scenarios from user stories with test objectives,
-  starting conditions, user roles.
+description: Create comprehensive test scenarios from user
 ---
 # Test Scenarios
 

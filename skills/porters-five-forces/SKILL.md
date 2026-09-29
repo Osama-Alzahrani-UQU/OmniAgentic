@@ -1,7 +1,6 @@
 ---
 name: porters-five-forces
-description: Perform Porter's Five Forces analysis , competitive rivalry, supplier
-  power, buyer power.
+description: Perform Porter's Five Forces analysis
 ---
 # Porter's Five Forces
 

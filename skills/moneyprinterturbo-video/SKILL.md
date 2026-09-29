@@ -1,7 +1,8 @@
 ---
 name: moneyprinterturbo-video
-description: Generate automated short-form videos, reels, and voice-over content from prompts, scripts, and footage using MoneyPrinterTurbo.
-compatibility: Requires an AI agent with terminal, network, filesystem, and long-running command support. Supports macOS and Windows and uses uv exclusively.
+description: Automated video and reel generation pipeline
+compatibility: Requires an AI agent with terminal, network, filesystem, and long-running
+  command support. Supports macOS and Windows and uses uv exclusively.
 metadata:
   origin: upstream
   author: harry0703@hotmail.com

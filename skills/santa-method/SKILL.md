@@ -1,6 +1,6 @@
 ---
 name: santa-method
-description: Multi-agent adversarial verification with convergence loop.
+description: Multi-agent adversarial verification
 metadata:
   origin: Ronald Skelton - Founder, RapportScore.ai
 ---

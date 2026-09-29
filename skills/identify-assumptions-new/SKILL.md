@@ -1,7 +1,6 @@
 ---
 name: identify-assumptions-new
-description: Identify risky assumptions for a new product idea across 8 risk categories
-  including Go-to-Market, Strategy.
+description: Identify risky assumptions for a new product
 ---
 ## Identify Assumptions (New Product)
 

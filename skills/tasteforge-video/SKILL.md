@@ -1,7 +1,6 @@
 ---
 name: tasteforge-video
-description: Use for file-driven multimodal image, video, and 3D-asset discovery,
-  taste interviews.
+description: Use for file-driven multimodal image
 metadata:
   origin: ECC
 ---

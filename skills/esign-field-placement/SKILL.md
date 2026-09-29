@@ -1,6 +1,6 @@
 ---
 name: esign-field-placement
-description: Deterministic method for placing signature, date.
+description: Deterministic method for placing signature, date
 ---
 # E-Signature Field Placement
 

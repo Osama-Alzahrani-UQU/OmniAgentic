@@ -1,6 +1,6 @@
 ---
 name: spec-driven-development
-description: Creates specs before coding.
+description: Creates specs before coding
 ---
 # Spec-Driven Development
 

@@ -1,7 +1,6 @@
 ---
 name: market-segments
-description: Identify 3-5 potential customer segments with demographics, JTBD, and
-  product fit analysis.
+description: Identify 3-5 potential customer segments
 ---
 # Market Segments
 

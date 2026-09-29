@@ -1,6 +1,6 @@
 ---
 name: omniroute-gateway
-description: Operate OmniRoute self-hosted AI gateway for 350+ providers, quota-aware fallback, and RTK token compression.
+description: OmniRoute AI gateway for 350+ providers
 metadata:
   origin: upstream
   author: Diego Souza

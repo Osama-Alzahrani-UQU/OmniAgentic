@@ -1,7 +1,6 @@
 ---
 name: pestle-analysis
-description: Perform a PESTLE analysis covering Political, Economic, Social, Technological,
-  Legal.
+description: Perform a PESTLE analysis covering Political
 ---
 # PESTLE Analysis
 

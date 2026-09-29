@@ -1,7 +1,6 @@
 ---
 name: adaptive-ui-designer
-description: Specializes in designing domain-adaptive user interfaces (e.g., Gaming,
-  SaaS, E-commerce.
+description: Designing domain-adaptive user interfaces
 ---
 # Adaptive UI & Style Cloning Protocol
 

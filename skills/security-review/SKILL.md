@@ -1,7 +1,6 @@
 ---
 name: security-review
-description: Endpoint, API, and feature security audit, authentication flows, authorization
-  checks, secret management.
+description: Endpoint, API, and feature security audit,
 metadata:
   origin: ECC
 ---

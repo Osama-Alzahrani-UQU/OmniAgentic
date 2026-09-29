@@ -1,7 +1,6 @@
 ---
 name: kotlin-ktor-patterns
-description: Ktor server patterns including routing DSL, plugins, authentication,
-  Koin DI, kotlinx.serialization.
+description: Ktor server patterns including routing DSL
 metadata:
   origin: ECC
 ---

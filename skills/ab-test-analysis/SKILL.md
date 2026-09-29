@@ -1,7 +1,6 @@
 ---
 name: ab-test-analysis
-description: Analyze A/B test results with statistical significance, sample size validation,
-  confidence intervals.
+description: Analyze A/B test results with statistical
 ---
 ## A/B Test Analysis
 

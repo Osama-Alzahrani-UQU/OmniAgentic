@@ -1,7 +1,6 @@
 ---
 name: coding-standards
-description: Baseline cross-project coding conventions for naming, readability, immutability,
-  and code-quality review.
+description: Baseline cross-project coding conventions
 metadata:
   origin: ECC
 ---

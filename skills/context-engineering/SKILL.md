@@ -1,6 +1,6 @@
 ---
 name: context-engineering
-description: Optimizes agent context setup.
+description: Optimizes agent context setup
 ---
 # Context Engineering
 

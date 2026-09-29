@@ -1,6 +1,6 @@
 ---
 name: dmux-workflows
-description: Multi-agent orchestration using dmux (tmux pane manager for AI agents).
+description: Multi-agent orchestration using dmux
 metadata:
   origin: ECC
 ---

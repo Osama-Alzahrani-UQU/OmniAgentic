@@ -1,7 +1,6 @@
 ---
 name: constraint-driven-development
-description: Establishes a project's quality bar as a written contract and stops agents
-  quietly lowering it.
+description: Establishes a project's quality bar as
 ---
 # Constraint-Driven Development
 

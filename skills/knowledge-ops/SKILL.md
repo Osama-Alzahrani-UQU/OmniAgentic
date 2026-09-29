@@ -1,7 +1,6 @@
 ---
 name: knowledge-ops
-description: Knowledge base management, ingestion, sync, and retrieval across multiple
-  storage layers (local files.
+description: Knowledge base management
 metadata:
   origin: ECC
 ---

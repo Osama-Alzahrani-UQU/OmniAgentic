@@ -1,7 +1,6 @@
 ---
 name: motion-advanced
-description: Advanced motion patterns for React / Next.js , drag & drop, gestures,
-  text animations, SVG path drawing.
+description: Advanced motion patterns for React / Next
 tags:
 - motion
 - animation

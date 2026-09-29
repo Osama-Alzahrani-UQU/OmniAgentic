@@ -1,6 +1,6 @@
 ---
 name: debugging-and-error-recovery
-description: Guides systematic root-cause debugging.
+description: Guides systematic root-cause debugging
 ---
 # Debugging and Error Recovery
 

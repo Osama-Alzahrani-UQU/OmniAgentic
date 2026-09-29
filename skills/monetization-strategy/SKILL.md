@@ -1,7 +1,6 @@
 ---
 name: monetization-strategy
-description: Brainstorm 3-5 monetization strategies with audience fit, risks, and
-  validation experiments.
+description: Brainstorm 3-5 monetization strategies
 ---
 # Monetization Strategy
 

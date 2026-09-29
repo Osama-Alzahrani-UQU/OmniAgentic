@@ -1,7 +1,6 @@
 ---
 name: nestjs-patterns
-description: NestJS architecture patterns for modules, controllers, providers, DTO
-  validation, guards, interceptors, config.
+description: NestJS architecture patterns for modules
 metadata:
   origin: ECC
 ---

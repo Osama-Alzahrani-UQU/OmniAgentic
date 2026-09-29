@@ -1,7 +1,6 @@
 ---
 name: sentiment-analysis
-description: Analyze user feedback data to identify segments with sentiment scores,
-  JTBD.
+description: Analyze user feedback data to identify
 ---
 # Sentiment Analysis
 

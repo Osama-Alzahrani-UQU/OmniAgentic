@@ -1,6 +1,6 @@
 ---
 name: messages-ops
-description: Evidence-first live messaging workflow for ECC.
+description: Evidence-first live messaging workflow for ECC
 metadata:
   origin: ECC
 ---

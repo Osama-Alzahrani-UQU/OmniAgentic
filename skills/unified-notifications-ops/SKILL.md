@@ -1,7 +1,6 @@
 ---
 name: unified-notifications-ops
-description: Operate notifications as one ECC-native workflow across GitHub, Linear,
-  desktop alerts, hooks.
+description: Operate notifications as one ECC-native
 metadata:
   origin: ECC
 ---

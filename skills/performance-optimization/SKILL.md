@@ -1,7 +1,6 @@
 ---
 name: performance-optimization
-description: Optimizes application performance across frontend, backend, queries,
-  and databases.
+description: Optimizes application performance across
 ---
 # Performance Optimization
 

@@ -1,7 +1,6 @@
 ---
 name: brainstorm-ideas-existing
-description: Brainstorm product ideas for an existing product using multi-perspective
-  ideation from PM, Designer.
+description: Brainstorm product ideas for an existing
 ---
 ## Brainstorm Product Ideas (Existing Product)
 

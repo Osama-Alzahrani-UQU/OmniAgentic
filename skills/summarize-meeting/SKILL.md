@@ -1,7 +1,6 @@
 ---
 name: summarize-meeting
-description: Summarize a meeting transcript into structured notes with date, participants,
-  topic, key decisions.
+description: Summarize a meeting transcript into structured
 ---
 # Summarize Meeting
 

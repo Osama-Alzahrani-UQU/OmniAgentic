@@ -1,6 +1,6 @@
 ---
 name: deprecation-and-migration
-description: Manages deprecation and migration.
+description: Manages deprecation and migration
 ---
 # Deprecation and Migration
 

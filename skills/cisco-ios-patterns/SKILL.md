@@ -1,7 +1,6 @@
 ---
 name: cisco-ios-patterns
-description: Cisco IOS and IOS-XE review patterns for show commands, config hierarchy,
-  wildcard masks, ACL placement.
+description: Cisco IOS and IOS-XE review patterns for show
 metadata:
   origin: community
 ---

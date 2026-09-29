@@ -1,7 +1,6 @@
 ---
 name: django-security
-description: Django security best practices, authentication, authorization, CSRF protection,
-  SQL injection prevention.
+description: Django security best practices
 metadata:
   origin: ECC
 ---

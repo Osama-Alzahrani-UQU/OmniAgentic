@@ -1,7 +1,6 @@
 ---
 name: physics-3d-collision
-description: Diagnose and fix 3D PhysX collisions, triggers, layers, and Rigidbody
-  interpolation in Unity.
+description: Diagnose and fix 3D PhysX collisions
 ---
 
 # Skill: physics-3d-collision (PhysX MonoBehaviour)

@@ -1,7 +1,6 @@
 ---
 name: kubernetes-patterns
-description: Kubernetes workload patterns, resource management, RBAC, probes, autoscaling,
-  ConfigMap/Secret handling.
+description: Kubernetes workload patterns
 metadata:
   origin: ECC
 ---

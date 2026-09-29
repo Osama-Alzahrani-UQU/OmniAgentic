@@ -1,7 +1,6 @@
 ---
 name: hermes-imports
-description: Convert local Hermes operator workflows into sanitized ECC skills and
-  release-pack artifacts.
+description: Convert local Hermes operator workflows into
 metadata:
   origin: ECC
 ---

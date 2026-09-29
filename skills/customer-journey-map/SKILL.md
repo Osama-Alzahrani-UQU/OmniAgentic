@@ -1,7 +1,6 @@
 ---
 name: customer-journey-map
-description: Create an end-to-end customer journey map with stages, touchpoints, emotions,
-  pain points, and opportunities.
+description: Create an end-to-end customer journey map
 ---
 ## Customer Journey Map
 

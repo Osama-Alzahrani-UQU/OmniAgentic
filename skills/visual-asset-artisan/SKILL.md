@@ -1,6 +1,6 @@
 ---
 name: visual-asset-artisan
-description: Specializes in high-fidelity AI image generation, asset optimization.
+description: High-fidelity AI image generation
 ---
 # Visual Asset Artisan: Generation & Aesthetic Integration Protocol
 

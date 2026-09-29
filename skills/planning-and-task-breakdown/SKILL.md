@@ -1,6 +1,6 @@
 ---
 name: planning-and-task-breakdown
-description: Breaks work into ordered tasks.
+description: Breaks work into ordered tasks
 ---
 # Planning and Task Breakdown
 

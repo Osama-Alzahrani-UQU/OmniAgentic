@@ -1,7 +1,6 @@
 ---
 name: ecc-guide
-description: Guide users through ECC's current agents, skills, commands, hooks, rules,
-  install profiles.
+description: Guide users through ECC's current agents
 metadata:
   origin: community
 ---

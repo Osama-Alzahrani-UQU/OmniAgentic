@@ -1,7 +1,6 @@
 ---
 name: lean-canvas
-description: Generate a Lean Canvas with problem, solution, metrics, cost structure,
-  UVP, unfair advantage, channels.
+description: Generate a Lean Canvas with problem
 ---
 # Lean Canvas
 

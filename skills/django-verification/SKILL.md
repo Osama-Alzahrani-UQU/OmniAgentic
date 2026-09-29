@@ -1,7 +1,6 @@
 ---
 name: django-verification
-description: 'Verification loop for Django projects: migrations, linting, tests with
-  coverage, security scans.'
+description: Verification loop for Django projects
 metadata:
   origin: ECC
 ---

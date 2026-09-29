@@ -1,6 +1,6 @@
 ---
 name: source-driven-development
-description: Grounds every implementation decision in official documentation.
+description: Grounds every implementation decision
 ---
 # Source-Driven Development
 

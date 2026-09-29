@@ -1,6 +1,6 @@
 ---
 name: user-stories
-description: Create user stories following the 3 C's (Card, Conversation.
+description: Create user stories following the 3 C's
 ---
 # User Stories
 

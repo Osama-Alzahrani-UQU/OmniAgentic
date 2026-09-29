@@ -1,7 +1,6 @@
 ---
 name: fastapi-patterns
-description: FastAPI best practices covering project structure, Pydantic v2 schemas,
-  dependency injection, async handlers.
+description: FastAPI best practices, Pydantic, and async APIs
 metadata:
   origin: ECC
 ---

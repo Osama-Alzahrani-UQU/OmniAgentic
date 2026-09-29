@@ -1,6 +1,6 @@
 ---
 name: inherit-legacy-style
-description: Legacy-project style inheritance skill.
+description: Legacy-project style inheritance skill
 metadata:
   origin: community
 allowed-tools: Read, Glob, Grep, Bash, Edit, Write, AskUserQuestion

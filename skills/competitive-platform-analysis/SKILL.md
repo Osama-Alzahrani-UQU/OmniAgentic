@@ -1,6 +1,6 @@
 ---
 name: competitive-platform-analysis
-description: Use when scoping a competitive landscape , identifying, categorising.
+description: Scoping a competitive landscape
 ---
 # Competitive Platform Analysis
 

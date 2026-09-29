@@ -1,7 +1,6 @@
 ---
 name: jpa-patterns
-description: JPA/Hibernate patterns for entity design, relationships, query optimization,
-  transactions, auditing, indexing.
+description: JPA/Hibernate patterns for entity design
 metadata:
   origin: ECC
 ---

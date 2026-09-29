@@ -1,7 +1,6 @@
 ---
 name: liquid-glass-design
-description: iOS 26 Liquid Glass design system , dynamic glass material with blur,
-  reflection.
+description: IOS 26 Liquid Glass design system
 ---
 # Liquid Glass Design System (iOS 26)
 

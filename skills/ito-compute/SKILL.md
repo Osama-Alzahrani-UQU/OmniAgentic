@@ -1,7 +1,6 @@
 ---
 name: ito-compute
-description: Query live GPU inventory, submit an authenticated Itô fixed-rate RFQ,
-  inspect RFQ or procurement status.
+description: Query live GPU inventory
 ---
 # Itô Compute
 

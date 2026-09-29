@@ -1,6 +1,6 @@
 ---
 name: automation-audit-ops
-description: Evidence-first automation inventory and overlap audit workflow for ECC.
+description: Evidence-first automation inventory
 metadata:
   origin: ECC
 ---

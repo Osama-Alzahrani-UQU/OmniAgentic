@@ -1,6 +1,6 @@
 ---
 name: brainstorm-experiments-new
-description: Design lean startup experiments (pretotypes) for a new product.
+description: Design lean startup experiments
 ---
 ## Design Lean Startup Experiments (New Product)
 

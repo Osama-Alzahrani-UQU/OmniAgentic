@@ -1,7 +1,6 @@
 ---
 name: plankton-code-quality
-description: Write-time code quality enforcement using Plankton , auto-formatting,
-  linting.
+description: Write-time code quality enforcement using
 metadata:
   origin: community
 ---

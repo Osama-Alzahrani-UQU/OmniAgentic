@@ -1,7 +1,6 @@
 ---
 name: django-celery
-description: Django + Celery async task patterns , configuration, task design, beat
-  scheduling, retries, canvas workflows.
+description: Django + Celery async task patterns
 metadata:
   origin: ECC
 ---

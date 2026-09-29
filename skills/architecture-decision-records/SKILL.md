@@ -1,7 +1,6 @@
 ---
 name: architecture-decision-records
-description: Format, record, and maintain Architecture Decision Records (ADRs) using
-  standardized MADR templates for.
+description: Format, record, and maintain Architecture
 metadata:
   origin: ECC
 ---

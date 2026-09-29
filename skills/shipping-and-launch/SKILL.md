@@ -1,6 +1,6 @@
 ---
 name: shipping-and-launch
-description: Prepares production launches.
+description: Prepares production launches
 ---
 # Shipping and Launch
 

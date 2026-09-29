@@ -1,7 +1,6 @@
 ---
 name: laravel-security
-description: Laravel security best practices , authentication, authorization, Eloquent
-  safety, CSRF, XSS prevention.
+description: Laravel security best practices
 metadata:
   origin: ECC
 ---

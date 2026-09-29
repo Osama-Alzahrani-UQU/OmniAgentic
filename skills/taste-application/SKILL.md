@@ -1,7 +1,6 @@
 ---
 name: taste-application
-description: Generate new video against a distilled style pack and cut it into a finished
-  piece .
+description: Generate new video against a distilled style
 metadata:
   origin: ECC
 ---

@@ -1,6 +1,6 @@
 ---
 name: observability-and-instrumentation
-description: Instruments code so production behavior is visible and diagnosable.
+description: Instruments code so production behavior is
 ---
 # Observability and Instrumentation
 

@@ -1,7 +1,6 @@
 ---
 name: interview-me
-description: Extracts what the user actually wants instead of what they think they
-  should want.
+description: Extracts what the user actually wants instead
 ---
 # Interview Me
 

@@ -1,7 +1,6 @@
 ---
 name: sprint-plan
-description: Plan a sprint with capacity estimation, story selection, dependency mapping,
-  and risk identification.
+description: Plan a sprint with capacity estimation
 ---
 ## Sprint Planning
 

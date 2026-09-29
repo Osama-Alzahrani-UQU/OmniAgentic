@@ -1,7 +1,6 @@
 ---
 name: marketing-ideas
-description: Generate 5 creative, cost-effective marketing ideas with channels, messaging,
-  and engagement rationale.
+description: Generate 5 creative
 ---
 # Marketing Ideas
 

@@ -1,6 +1,6 @@
 ---
 name: ui-demo
-description: Record polished UI demo videos using Playwright.
+description: Record polished UI demo videos using Playwright
 metadata:
   origin: ECC
 ---

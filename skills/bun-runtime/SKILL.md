@@ -1,6 +1,6 @@
 ---
 name: bun-runtime
-description: Bun as runtime, package manager, bundler, and test runner.
+description: Bun as runtime, package manager, bundler,
 metadata:
   origin: ECC
 ---

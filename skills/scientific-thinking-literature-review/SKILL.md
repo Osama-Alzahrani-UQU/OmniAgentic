@@ -1,6 +1,6 @@
 ---
 name: scientific-thinking-literature-review
-description: Systematic literature-review workflow for academic, biomedical, technical, and scientific topics.
+description: Systematic literature-review workflow
 metadata:
   origin: community
 ---

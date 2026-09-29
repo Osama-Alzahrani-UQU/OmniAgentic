@@ -1,7 +1,6 @@
 ---
 name: generate-editor-search-query
-description: Generate Unity Quick Search queries and open the Unity Search window
-  with precision filters.
+description: Generate Unity Quick Search queries and open
 enabled: true
 modes:
 - agent

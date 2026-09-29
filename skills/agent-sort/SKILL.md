@@ -1,7 +1,6 @@
 ---
 name: agent-sort
-description: Build an evidence-backed ECC install plan for a specific repo by sorting
-  skills, commands, rules, hooks.
+description: Build an evidence-backed ECC install plan
 metadata:
   origin: ECC
 ---
