@@ -59,6 +59,11 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
 * **Role**: Creators & Research Team
 * **Contribution**: NeoHorse-1 agentic post-training routing harness for recursive self-improvement (RSI), routing-guided curriculum SFT, and NeoHorse-Jev prefill-only inference engine (Choice, Noul, Score) for ultra-low-latency agent routing.
 
+### 7. Diego Souza (@diegosouzapw)
+* **Project**: [OmniRoute](https://github.com/diegosouzapw/OmniRoute)
+* **Role**: Creator & Primary Maintainer
+* **Contribution**: Unified self-hosted AI gateway aggregating 350+ providers, 1,300+ models, quota-aware fallback cascades, and RTK + Caveman prompt compression saving 15% to 95% of tokens.
+
 ---
 
 ## 🏛️ Open-Source Ecosystem Credits
@@ -90,3 +95,5 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
   المطورون لحزمة مهارات محرك الألعاب `Unity 6` والشبكات ومعالجة الرسوميات.
 * **فريق أبحاث TokenRhythm (@TokenRhythm)**:
   المطورون لمشروع `NeoHorse` و `NeoHorse-Jev` لنظام التوجيه واتخاذ القرارات الذكية الفورية (Prefill-Only Decisions) وحلقات التطوير الذاتي المتكرر (RSI).
+* **دييغو سوزا (Diego Souza - @diegosouzapw)**:
+  المطور والمبتكر لمشروع `OmniRoute`، البوابة الذكية الموحدة لربط أكثر من 350 مزود ذكاء اصطناعي وأكثر من 1300 نموذج وخوارزميات ضغط المطالبات (RTK).

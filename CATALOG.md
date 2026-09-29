@@ -1,10 +1,10 @@
-# Complete Catalog: 446 Skills & 146 Specialized Agents
+# Complete Catalog: 447 Skills & 147 Specialized Agents
 
-This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), **Unity Technologies**, and **TokenRhythm** (NeoHorse).
+This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), **Unity Technologies**, **TokenRhythm** (NeoHorse), and **Diego Souza** (OmniRoute).
 
 ---
 
-## Part 1: 146 Specialized Agents (agents/)
+## Part 1: 147 Specialized Agents (agents/)
 
 | # | Agent Name | Description |
 | :--- | :--- | :--- |
@@ -100,64 +100,65 @@ This catalog lists every verified skill and specialized subagent included in the
 | 90 | **network-troubleshooter** | Diagnoses network connectivity, routing, DNS, interface, and policy symptoms with a read-only OSI-layer workflow and evidence-backed root cause summary. |
 | 91 | **nextjs-expert** | Expert in Next.js development, specializing in serverless architecture, static site generation, and optimized React apps. |
 | 92 | **observability-engineer** | Build production-ready monitoring, logging, and tracing systems. Implements comprehensive observability strategies, SLI/SLO management, and incident response workflows. Use PROACTIVELY for monitoring infrastructure, performance optimization, or production reliability. |
-| 93 | **opensource-forker** | Fork any project for open-sourcing. Copies files, strips secrets and credentials (20+ patterns), replaces internal references with placeholders, generates .env.example, and cleans git history. First stage of the opensource-pipeline skill. |
-| 94 | **opensource-packager** | Generate complete open-source packaging for a sanitized project. Produces CLAUDE.md, setup.sh, README.md, LICENSE, CONTRIBUTING.md, and GitHub issue templates. Makes any repo immediately usable with Claude Code. Third stage of the opensource-pipeline skill. |
-| 95 | **opensource-sanitizer** | Verify an open-source fork is fully sanitized before release. Scans for leaked secrets, PII, internal references, and dangerous files using 20+ regex patterns. Generates a PASS/FAIL/PASS-WITH-WARNINGS report. Second stage of the opensource-pipeline skill. Use PROACTIVELY before any public release. |
-| 96 | **performance-optimizer** | Performance analysis and optimization specialist. Use PROACTIVELY for identifying bottlenecks, optimizing slow code, reducing bundle sizes, and improving runtime performance. Profiling, memory leaks, render optimization, and algorithmic improvements. |
-| 97 | **persona-walkthrough-specialist** | Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks |
-| 98 | **php-reviewer** | Expert PHP code reviewer specializing in PSR-12 compliance, PHP type system, Eloquent ORM patterns, security, and performance. Use for all PHP code changes. MUST BE USED for PHP projects. |
-| 99 | **planner** | Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks. |
-| 100 | **playwright-expert** | Expert in Playwright testing for modern web applications. Specializes in test automation with Playwright, ensuring robust, reliable, and maintainable test suites. |
-| 101 | **postgres-expert** | Expert in PostgreSQL database management and optimization, handling complex SQL queries, indexing strategies, and ensuring high-performance database systems. |
-| 102 | **pr-test-analyzer** | Review pull request test coverage quality and completeness, with emphasis on behavioral coverage and real bug prevention. |
-| 103 | **prisma-expert** | Write efficient, type-safe, and maintainable database queries using Prisma. Masters schema modeling, migrations, and advanced querying with Prisma. Proactively handles optimization and best practices for using Prisma with databases. |
-| 104 | **project-supervisor-orchestrator** | Supervises multi-agent execution pipelines, routes tasks to specialist subagents, and verifies end-to-end integration. |
-| 105 | **prompt-engineer** | Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts. |
-| 106 | **python-reviewer** | Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects. |
-| 107 | **pytorch-build-resolver** | PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes. |
-| 108 | **query-clarifier** | Translates broad or ambiguous tasks into crisp, unambiguous technical specifications so subagents execute with zero guesswork. |
-| 109 | **rag-pipeline-reviewer** | Reviews RAG (Retrieval-Augmented Generation) pipelines for retrieval quality, chunking strategy, embedding choices, and evaluation coverage. Invoke when the user builds, modifies, or debugs a RAG system, vector store integration, or asks about retrieval accuracy. |
-| 110 | **react-build-resolver** | Diagnose and fix React build failures across Vite, webpack, Next.js, CRA, Parcel, esbuild, and Bun. Handles JSX/TSX compile errors, hydration mismatches, server/client component boundary failures, missing types, and bundler-specific configuration issues with minimal, surgical changes. MUST BE USED when a React build fails. |
-| 111 | **react-reviewer** | Expert React/JSX code reviewer specializing in hook correctness, render performance, server/client component boundaries, accessibility, and React-specific security. Use for any change touching .tsx/.jsx files or React component logic. MUST BE USED for React projects. |
-| 112 | **redis-expert** | Expert in Redis for in-memory data storage, caching, and real-time analytics. |
-| 113 | **refactor-cleaner** | Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it. |
-| 114 | **research-brief-generator** | Transform complex research questions or academic material into structured study briefs and executive academic outlines. |
-| 115 | **reverse-engineering-specialist** | Binary reverse engineering and dynamic analysis specialist mastering x64dbg, Ghidra, IDA Pro, PE/ELF internals, assembly (x86/x64/ARM), API hooking, and Frida instrumentation. |
-| 116 | **roblox-avatar-creator** | Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline |
-| 117 | **roblox-experience-designer** | Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences |
-| 118 | **roblox-systems-scripter** | Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences |
-| 119 | **rust-build-resolver** | Rust build, compilation, and dependency error resolution specialist. Fixes cargo build errors, borrow checker issues, and Cargo.toml problems with minimal changes. Use when Rust builds fail. |
-| 120 | **rust-reviewer** | Expert Rust code reviewer specializing in ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Use for all Rust code changes. MUST BE USED for Rust projects. |
-| 121 | **security-reviewer** | Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities. |
-| 122 | **seo-specialist** | SEO specialist for technical SEO audits, on-page optimization, structured data, Core Web Vitals, and content/keyword mapping. Use for site audits, meta tag reviews, schema markup, sitemap and robots issues, and SEO remediation plans. |
-| 123 | **silent-failure-hunter** | Review code for silent failures, swallowed errors, bad fallbacks, and missing error propagation. |
-| 124 | **spec-miner** | Extracts behavioral specs from existing codebases for OpenSpec. Produces flat Requirement and Invariant blocks with structured metadata (entities, enforced, id, test anchors). Outputs openspec/specs/<capability>/spec.md. Fully self-bootstrapping — no dependency on codebase-onboarding. Use when onboarding a brownfield project to spec-driven development. |
-| 125 | **statistician** | Expert in quantitative research methodology, experimental design, and statistical inference — pressure-tests claims, designs sound studies, and separates real signal from noise, chance, and bias |
-| 126 | **swift-build-resolver** | Swift/Xcode build, compilation, and dependency error resolution specialist. Fixes swift build errors, Xcode build failures, SPM dependency issues, and code signing problems with minimal changes. Use when Swift builds fail. |
-| 127 | **swift-reviewer** | Expert Swift code reviewer specializing in protocol-oriented design, value semantics, ARC memory management, Swift Concurrency, and idiomatic patterns. Use for all Swift code changes. MUST BE USED for Swift projects. |
-| 128 | **tailwind-expert** | Expert in Tailwind CSS for efficient and responsive styling of web projects, utilizing utility-first approaches and responsive design principles. |
-| 129 | **task-decomposition-expert** | Decomposes complex objectives into dependency-ordered DAG sub-tasks with explicit input/output contracts for subagents. |
-| 130 | **tauri-expert** | Expert in Tauri for building cross-platform desktop applications leveraging web technologies. |
-| 131 | **tdd-guide** | Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage. |
-| 132 | **terraform-specialist** | Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation. |
-| 133 | **type-design-analyzer** | Analyze type design for encapsulation, invariant expression, usefulness, and enforcement. |
-| 134 | **typescript-reviewer** | Expert TypeScript/JavaScript code reviewer specializing in type safety, async correctness, Node/web security, and idiomatic patterns. Use for all TypeScript and JavaScript code changes. MUST BE USED for TypeScript/JavaScript projects. |
-| 135 | **unreal-multiplayer-architect** | Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5 |
-| 136 | **unreal-systems-engineer** | Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects |
-| 137 | **unreal-technical-artist** | Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects |
-| 138 | **unreal-world-builder** | Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences |
-| 139 | **url-context-validator** | Validates URLs, references, and external documentation links cited by agents to prevent broken or hallucinated links. |
-| 140 | **vector-db-expert** | Expert in Vector Databases, handling indexing, querying, and optimization of vector data. |
-| 141 | **visionos-spatial-engineer** | Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation |
-| 142 | **vue-reviewer** | Expert Vue.js code reviewer specializing in Composition API correctness, reactivity pitfalls, component architecture, template security, and Vue-specific performance. Use for any change touching .vue, .ts/.js files with Vue imports, or Vue ecosystem code (Pinia, Vue Router, Nuxt). MUST BE USED for Vue projects. |
-| 143 | **websocket-expert** | Specializes in WebSocket protocol, implementation, and application. Provides expertise for real-time data exchange using WebSockets. |
-| 144 | **whimsy-injector** | Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy |
-| 145 | **windows-desktop-automator** | Windows GUI and desktop automation engineer specializing in Win32 API, UIAutomation, PowerShell, PyWinAuto, WPF/WinForms, and silent unattended software deployment. |
-| 146 | **windows-forensics-hunter** | Windows OS internals, malware forensics, and system repair specialist. Masters persistence hunting (Registry, WMI, Scheduled Tasks, Services), process memory inspection, and DISM/SFC recovery. |
+| 93 | **omniroute-traffic-architect** | AI gateway architect and multi-provider traffic engineer for OmniRoute, model routing cascades, and free-tier optimization. |
+| 94 | **opensource-forker** | Fork any project for open-sourcing. Copies files, strips secrets and credentials (20+ patterns), replaces internal references with placeholders, generates .env.example, and cleans git history. First stage of the opensource-pipeline skill. |
+| 95 | **opensource-packager** | Generate complete open-source packaging for a sanitized project. Produces CLAUDE.md, setup.sh, README.md, LICENSE, CONTRIBUTING.md, and GitHub issue templates. Makes any repo immediately usable with Claude Code. Third stage of the opensource-pipeline skill. |
+| 96 | **opensource-sanitizer** | Verify an open-source fork is fully sanitized before release. Scans for leaked secrets, PII, internal references, and dangerous files using 20+ regex patterns. Generates a PASS/FAIL/PASS-WITH-WARNINGS report. Second stage of the opensource-pipeline skill. Use PROACTIVELY before any public release. |
+| 97 | **performance-optimizer** | Performance analysis and optimization specialist. Use PROACTIVELY for identifying bottlenecks, optimizing slow code, reducing bundle sizes, and improving runtime performance. Profiling, memory leaks, render optimization, and algorithmic improvements. |
+| 98 | **persona-walkthrough-specialist** | Simulate cognitive walkthroughs of web pages from a defined persona's psychological perspective — captures emotional reactions and rational thought at each scroll position, then delivers structured CRO reports grounded in LIFT, Cialdini, and Fogg frameworks |
+| 99 | **php-reviewer** | Expert PHP code reviewer specializing in PSR-12 compliance, PHP type system, Eloquent ORM patterns, security, and performance. Use for all PHP code changes. MUST BE USED for PHP projects. |
+| 100 | **planner** | Expert planning specialist for complex features and refactoring. Use PROACTIVELY when users request feature implementation, architectural changes, or complex refactoring. Automatically activated for planning tasks. |
+| 101 | **playwright-expert** | Expert in Playwright testing for modern web applications. Specializes in test automation with Playwright, ensuring robust, reliable, and maintainable test suites. |
+| 102 | **postgres-expert** | Expert in PostgreSQL database management and optimization, handling complex SQL queries, indexing strategies, and ensuring high-performance database systems. |
+| 103 | **pr-test-analyzer** | Review pull request test coverage quality and completeness, with emphasis on behavioral coverage and real bug prevention. |
+| 104 | **prisma-expert** | Write efficient, type-safe, and maintainable database queries using Prisma. Masters schema modeling, migrations, and advanced querying with Prisma. Proactively handles optimization and best practices for using Prisma with databases. |
+| 105 | **project-supervisor-orchestrator** | Supervises multi-agent execution pipelines, routes tasks to specialist subagents, and verifies end-to-end integration. |
+| 106 | **prompt-engineer** | Expert prompt engineer specializing in advanced prompting techniques, LLM optimization, and AI system design. Masters chain-of-thought, constitutional AI, and production prompt strategies. Use when building AI features, improving agent performance, or crafting system prompts. |
+| 107 | **python-reviewer** | Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects. |
+| 108 | **pytorch-build-resolver** | PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes. |
+| 109 | **query-clarifier** | Translates broad or ambiguous tasks into crisp, unambiguous technical specifications so subagents execute with zero guesswork. |
+| 110 | **rag-pipeline-reviewer** | Reviews RAG (Retrieval-Augmented Generation) pipelines for retrieval quality, chunking strategy, embedding choices, and evaluation coverage. Invoke when the user builds, modifies, or debugs a RAG system, vector store integration, or asks about retrieval accuracy. |
+| 111 | **react-build-resolver** | Diagnose and fix React build failures across Vite, webpack, Next.js, CRA, Parcel, esbuild, and Bun. Handles JSX/TSX compile errors, hydration mismatches, server/client component boundary failures, missing types, and bundler-specific configuration issues with minimal, surgical changes. MUST BE USED when a React build fails. |
+| 112 | **react-reviewer** | Expert React/JSX code reviewer specializing in hook correctness, render performance, server/client component boundaries, accessibility, and React-specific security. Use for any change touching .tsx/.jsx files or React component logic. MUST BE USED for React projects. |
+| 113 | **redis-expert** | Expert in Redis for in-memory data storage, caching, and real-time analytics. |
+| 114 | **refactor-cleaner** | Dead code cleanup and consolidation specialist. Use PROACTIVELY for removing unused code, duplicates, and refactoring. Runs analysis tools (knip, depcheck, ts-prune) to identify dead code and safely removes it. |
+| 115 | **research-brief-generator** | Transform complex research questions or academic material into structured study briefs and executive academic outlines. |
+| 116 | **reverse-engineering-specialist** | Binary reverse engineering and dynamic analysis specialist mastering x64dbg, Ghidra, IDA Pro, PE/ELF internals, assembly (x86/x64/ARM), API hooking, and Frida instrumentation. |
+| 117 | **roblox-avatar-creator** | Roblox UGC and avatar pipeline specialist - Masters Roblox's avatar system, UGC item creation, accessory rigging, texture standards, and the Creator Marketplace submission pipeline |
+| 118 | **roblox-experience-designer** | Roblox platform UX and monetization specialist - Masters engagement loop design, DataStore-driven progression, Roblox monetization systems (Passes, Developer Products, UGC), and player retention for Roblox experiences |
+| 119 | **roblox-systems-scripter** | Roblox platform engineering specialist - Masters Luau, the client-server security model, RemoteEvents/RemoteFunctions, DataStore, and module architecture for scalable Roblox experiences |
+| 120 | **rust-build-resolver** | Rust build, compilation, and dependency error resolution specialist. Fixes cargo build errors, borrow checker issues, and Cargo.toml problems with minimal changes. Use when Rust builds fail. |
+| 121 | **rust-reviewer** | Expert Rust code reviewer specializing in ownership, lifetimes, error handling, unsafe usage, and idiomatic patterns. Use for all Rust code changes. MUST BE USED for Rust projects. |
+| 122 | **security-reviewer** | Security vulnerability detection and remediation specialist. Use PROACTIVELY after writing code that handles user input, authentication, API endpoints, or sensitive data. Flags secrets, SSRF, injection, unsafe crypto, and OWASP Top 10 vulnerabilities. |
+| 123 | **seo-specialist** | SEO specialist for technical SEO audits, on-page optimization, structured data, Core Web Vitals, and content/keyword mapping. Use for site audits, meta tag reviews, schema markup, sitemap and robots issues, and SEO remediation plans. |
+| 124 | **silent-failure-hunter** | Review code for silent failures, swallowed errors, bad fallbacks, and missing error propagation. |
+| 125 | **spec-miner** | Extracts behavioral specs from existing codebases for OpenSpec. Produces flat Requirement and Invariant blocks with structured metadata (entities, enforced, id, test anchors). Outputs openspec/specs/<capability>/spec.md. Fully self-bootstrapping — no dependency on codebase-onboarding. Use when onboarding a brownfield project to spec-driven development. |
+| 126 | **statistician** | Expert in quantitative research methodology, experimental design, and statistical inference — pressure-tests claims, designs sound studies, and separates real signal from noise, chance, and bias |
+| 127 | **swift-build-resolver** | Swift/Xcode build, compilation, and dependency error resolution specialist. Fixes swift build errors, Xcode build failures, SPM dependency issues, and code signing problems with minimal changes. Use when Swift builds fail. |
+| 128 | **swift-reviewer** | Expert Swift code reviewer specializing in protocol-oriented design, value semantics, ARC memory management, Swift Concurrency, and idiomatic patterns. Use for all Swift code changes. MUST BE USED for Swift projects. |
+| 129 | **tailwind-expert** | Expert in Tailwind CSS for efficient and responsive styling of web projects, utilizing utility-first approaches and responsive design principles. |
+| 130 | **task-decomposition-expert** | Decomposes complex objectives into dependency-ordered DAG sub-tasks with explicit input/output contracts for subagents. |
+| 131 | **tauri-expert** | Expert in Tauri for building cross-platform desktop applications leveraging web technologies. |
+| 132 | **tdd-guide** | Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage. |
+| 133 | **terraform-specialist** | Expert Terraform/OpenTofu specialist mastering advanced IaC automation, state management, and enterprise infrastructure patterns. Handles complex module design, multi-cloud deployments, GitOps workflows, policy as code, and CI/CD integration. Covers migration strategies, security best practices, and modern IaC ecosystems. Use PROACTIVELY for advanced IaC, state management, or infrastructure automation. |
+| 134 | **type-design-analyzer** | Analyze type design for encapsulation, invariant expression, usefulness, and enforcement. |
+| 135 | **typescript-reviewer** | Expert TypeScript/JavaScript code reviewer specializing in type safety, async correctness, Node/web security, and idiomatic patterns. Use for all TypeScript and JavaScript code changes. MUST BE USED for TypeScript/JavaScript projects. |
+| 136 | **unreal-multiplayer-architect** | Unreal Engine networking specialist - Masters Actor replication, GameMode/GameState architecture, server-authoritative gameplay, network prediction, and dedicated server setup for UE5 |
+| 137 | **unreal-systems-engineer** | Performance and hybrid architecture specialist - Masters C++/Blueprint continuum, Nanite geometry, Lumen GI, and Gameplay Ability System for AAA-grade Unreal Engine projects |
+| 138 | **unreal-technical-artist** | Unreal Engine visual pipeline specialist - Masters the Material Editor, Niagara VFX, Procedural Content Generation, and the art-to-engine pipeline for UE5 projects |
+| 139 | **unreal-world-builder** | Open-world and environment specialist - Masters UE5 World Partition, Landscape, procedural foliage, HLOD, and large-scale level streaming for seamless open-world experiences |
+| 140 | **url-context-validator** | Validates URLs, references, and external documentation links cited by agents to prevent broken or hallucinated links. |
+| 141 | **vector-db-expert** | Expert in Vector Databases, handling indexing, querying, and optimization of vector data. |
+| 142 | **visionos-spatial-engineer** | Native visionOS spatial computing, SwiftUI volumetric interfaces, and Liquid Glass design implementation |
+| 143 | **vue-reviewer** | Expert Vue.js code reviewer specializing in Composition API correctness, reactivity pitfalls, component architecture, template security, and Vue-specific performance. Use for any change touching .vue, .ts/.js files with Vue imports, or Vue ecosystem code (Pinia, Vue Router, Nuxt). MUST BE USED for Vue projects. |
+| 144 | **websocket-expert** | Specializes in WebSocket protocol, implementation, and application. Provides expertise for real-time data exchange using WebSockets. |
+| 145 | **whimsy-injector** | Expert creative specialist focused on adding personality, delight, and playful elements to brand experiences. Creates memorable, joyful interactions that differentiate brands through unexpected moments of whimsy |
+| 146 | **windows-desktop-automator** | Windows GUI and desktop automation engineer specializing in Win32 API, UIAutomation, PowerShell, PyWinAuto, WPF/WinForms, and silent unattended software deployment. |
+| 147 | **windows-forensics-hunter** | Windows OS internals, malware forensics, and system repair specialist. Masters persistence hunting (Registry, WMI, Scheduled Tasks, Services), process memory inspection, and DISM/SFC recovery. |
 
 ---
 
-## Part 2: 446 Production Skills (skills/)
+## Part 2: 447 Production Skills (skills/)
 
 | # | Skill Name | Description |
 | :--- | :--- | :--- |
@@ -439,177 +440,178 @@ This catalog lists every verified skill and specialized subagent included in the
 | 276 | **nutrient-document-processing** | Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. |
 | 277 | **nuxt4-patterns** | Nuxt 4 app patterns for hydration safety, performance, route rules, lazy loading. |
 | 278 | **observability-and-instrumentation** | Instruments code so production behavior is visible and diagnosable. |
-| 279 | **openclaw-persona-forge** | 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图. |
-| 280 | **opensource-pipeline** | Open-source pipeline: fork, sanitize, and package private projects for safe public release. |
-| 281 | **opportunity-solution-tree** | Build an Opportunity Solution Tree (OST) to structure product discovery . |
-| 282 | **optimize-audio** | Optimize Unity 6 audio memory, CPU overhead, compression formats, and load types. |
-| 283 | **optimize-text-mesh-pro** | Optimize TextMeshPro font assets, dynamic fallback atlases, SDF sampling, and draw calls. |
-| 284 | **optimize-web** | Optimize Unity 6 WebGL and WebGPU builds for minimal download size and fast startup. |
-| 285 | **orch-add-feature** | Orchestrate building a brand-new feature end to end , research, plan, TDD implementation, review. |
-| 286 | **orch-build-mvp** | Orchestrate bootstrapping a working MVP from a design or spec document , ingest the doc. |
-| 287 | **orch-change-feature** | Orchestrate altering an existing, working feature to new desired behavior, update its tests to the new spec. |
-| 288 | **orch-fix-defect** | Orchestrate fixing a bug , reproduce it as a failing regression test, fix to green, review, and gated commit. |
-| 289 | **orch-pipeline** | Shared orchestration engine for the orch-* skill family. |
-| 290 | **orch-refine-code** | Orchestrate a behavior-preserving refactor , confirm tests are green, restructure without changing behavior. |
-| 291 | **outcome-roadmap** | Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. |
-| 292 | **parallel-execution-optimizer** | Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls. |
-| 293 | **pdf-artisan** | Guides agents and sub-agents to generate high-fidelity, beautifully styled PDF documents (invoices, reports. |
-| 294 | **performance-optimization** | Optimizes application performance across frontend, backend, queries, and databases. |
-| 295 | **perl-patterns** | Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. |
-| 296 | **perl-security** | Comprehensive Perl security covering taint mode, input validation, safe process execution. |
-| 297 | **perl-testing** | Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover. |
-| 298 | **pestle-analysis** | Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal. |
-| 299 | **physics-3d-collision** | Diagnose and fix 3D PhysX collisions, triggers, layers, and Rigidbody interpolation in Unity. |
-| 300 | **plan-canvas** | Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats. |
-| 301 | **plan-orchestrate** | Read a plan document, decompose it into steps, design a per-step agent chain from the ECC catalogue. |
-| 302 | **plankton-code-quality** | Write-time code quality enforcement using Plankton , auto-formatting, linting. |
-| 303 | **planning-and-task-breakdown** | Breaks work into ordered tasks. |
-| 304 | **porters-five-forces** | Perform Porter's Five Forces analysis , competitive rivalry, supplier power, buyer power. |
-| 305 | **positioning-ideas** | Brainstorm product positioning ideas differentiated from competitors. |
-| 306 | **postgres-patterns** | PostgreSQL database patterns for query optimization, schema design, indexing, and security. |
-| 307 | **pre-mortem** | Run a pre-mortem risk analysis on a PRD or launch plan. |
-| 308 | **prediction-market-oracle-research** | Research prediction markets as data sources or oracle signals for products, agents, dashboards. |
-| 309 | **prediction-market-risk-review** | Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality. |
-| 310 | **pricing-strategy** | Analyze and design pricing strategies including pricing models, competitive pricing analysis. |
-| 311 | **prioritization-frameworks** | Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates, RICE, ICE. |
-| 312 | **prioritize-assumptions** | Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. |
-| 313 | **prioritize-features** | Prioritize a backlog of feature ideas based on impact, effort, risk. |
-| 314 | **prisma-patterns** | Prisma ORM patterns for TypeScript backends , schema design, query optimization, transactions, pagination. |
-| 315 | **privacy-policy** | Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations. |
-| 316 | **product-capability** | Translate PRD intent, roadmap asks. |
-| 317 | **product-lens** | Use this skill to validate the "why" before building, run product diagnostics. |
-| 318 | **product-name** | Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. |
-| 319 | **product-strategy** | Create a comprehensive product strategy using the 9-section Product Strategy Canvas , vision, segments, costs. |
-| 320 | **product-vision** | Brainstorm an inspiring, achievable. |
-| 321 | **production-audit** | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks. |
-| 322 | **production-scheduling** | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization. |
-| 323 | **project-auditor-fixes** | Analyze and resolve code, asset, and project settings issues reported by Unity Project Auditor. |
-| 324 | **project-flow-ops** | Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work. |
-| 325 | **prompt-optimizer** | Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks). |
-| 326 | **python-patterns** | Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient. |
-| 327 | **python-testing** | Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization. |
-| 328 | **pytorch-patterns** | PyTorch deep learning patterns and best practices for building robust, efficient. |
-| 329 | **quality-nonconformance** | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action. |
-| 330 | **quarkus-patterns** | Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services. |
-| 331 | **quarkus-security** | Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF. |
-| 332 | **quarkus-tdd** | Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. |
-| 333 | **quarkus-verification** | Verification loop for Quarkus 3.x LTS: Maven/Gradle build, DevServices, JaCoCo, and native image checks. |
-| 334 | **rails-patterns** | Ruby on Rails framework patterns for Rails 7.1+ and 8.x apps. |
-| 335 | **ralphinho-rfc-pipeline** | RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. |
-| 336 | **react-native-patterns** | React Native and Expo app patterns , Expo Router navigation, state separation (server/client/route/form). |
-| 337 | **react-patterns** | React 18/19 patterns including hooks discipline, server/client component boundaries. |
-| 338 | **react-performance** | React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best. |
-| 339 | **react-testing** | React component testing with React Testing Library, Vitest/Jest, MSW for network mocking. |
-| 340 | **recsys-pipeline-architect** | Design composable recommendation, ranking. |
-| 341 | **recursive-decision-ledger** | Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search. |
-| 342 | **redis-patterns** | Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub. |
-| 343 | **regex-vs-llm-structured-text** | Decision framework for choosing between regex and LLM when parsing structured text , start with regex. |
-| 344 | **release-notes** | Generate user-facing release notes from tickets, PRDs, or changelogs. |
-| 345 | **remotion-video-creation** | Best practices for Remotion - Video creation in React. |
-| 346 | **repo-scan** | Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. |
-| 347 | **request-completeness-sentinel** | Enforces 100% complete fulfillment of all user requests, sub-tasks, and constraints without omission. |
-| 348 | **research-ops** | Evidence-first current-state research workflow for ECC. |
-| 349 | **retro** | Facilitate a structured sprint retrospective , what went well, what didn't. |
-| 350 | **returns-reverse-logistics** | Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing. |
-| 351 | **review-resume** | Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula. |
-| 352 | **rules-distill** | Scan skills to extract cross-cutting principles and distill them into rules , append, revise. |
-| 353 | **rust-patterns** | Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe. |
-| 354 | **rust-testing** | Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking. |
-| 355 | **santa-method** | Multi-agent adversarial verification with convergence loop. |
-| 356 | **scientific-db-pubmed-database** | Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup. |
-| 357 | **scientific-db-uspto-database** | USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks. |
-| 358 | **scientific-pkg-gget** | gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches. |
-| 359 | **scientific-thinking-literature-review** | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics. |
-| 360 | **scientific-thinking-scholar-evaluation** | Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections. |
-| 361 | **search-first** | Research-before-coding workflow. |
-| 362 | **security-and-hardening** | Defensive code hardening implementation , input sanitization, cryptographic validation, memory safety. |
-| 363 | **security-bounty-hunter** | Hunt for exploitable, bounty-worthy security issues in repositories. |
-| 364 | **security-review** | Endpoint, API, and feature security audit, authentication flows, authorization checks, secret management. |
-| 365 | **security-scan** | Scan your Claude Code configuration (.claude/ directory) for security. Use when auditing a . |
-| 366 | **sentiment-analysis** | Analyze user feedback data to identify segments with sentiment scores, JTBD. |
-| 367 | **seo** | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data. |
-| 368 | **setup-multiplayer-services** | Build online multiplayer games using Netcode for GameObjects, Lobby, Relay, and Matchmaker. |
-| 369 | **setup-vivox-voice-chat** | Integrate and configure Unity Vivox 3D positional voice chat and text channels. |
-| 370 | **shader-graph-create-custom-node** | Create custom Unity Shader Graph nodes and sub-graphs backed by HLSL functions. |
-| 371 | **shipping-and-launch** | Prepares production launches. |
-| 372 | **shipping-artifacts** | The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. |
-| 373 | **skill-comply** | Visualize whether skills, rules, and agent definitions are actually followed. |
-| 374 | **skill-scout** | Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. |
-| 375 | **skill-stocktake** | Use when auditing Claude skills and commands for quality. |
-| 376 | **social-graph-ranker** | Weighted social-graph ranking for warm intro discovery, bridge scoring. |
-| 377 | **social-publisher** | Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. |
-| 378 | **source-driven-development** | Grounds every implementation decision in official documentation. |
-| 379 | **spec-driven-development** | Creates specs before coding. |
-| 380 | **springboot-patterns** | Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing. |
-| 381 | **springboot-security** | Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting. |
-| 382 | **springboot-tdd** | Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. |
-| 383 | **springboot-verification** | Verification loop for Spring Boot: Actuator health, SpotBugs, MockMvc tests, and OWASP dependency scans. |
-| 384 | **sprint-plan** | Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. |
-| 385 | **sprite-editor** | Programmatically edit Unity Sprite slicing, borders, pivots, and physics shapes via C#. |
-| 386 | **sprite-segment-3x3grid** | Analyze 2D Sprite textures and segment 9-slice / 3x3 grid borders automatically. |
-| 387 | **sql-queries** | Generate SQL queries from natural language descriptions. |
-| 388 | **stakeholder-map** | Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant. |
-| 389 | **startup-canvas** | Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue). |
-| 390 | **strategic-compact** | Suggests manual context compaction at logical intervals to preserve context through task phases rather. |
-| 391 | **strategy-red-team** | Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. |
-| 392 | **summarize-interview** | Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals. |
-| 393 | **summarize-meeting** | Summarize a meeting transcript into structured notes with date, participants, topic, key decisions. |
-| 394 | **swift-actor-persistence** | Thread-safe data persistence in Swift using actors , in-memory cache with file-backed storage. |
-| 395 | **swift-concurrency-6-2** | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent. Use when adopting Swift 6. |
-| 396 | **swift-protocol-di-testing** | Protocol-based dependency injection for testable Swift code , mock file system, network. |
-| 397 | **swiftui-patterns** | SwiftUI architecture patterns, state management with @Observable, view composition, navigation. |
-| 398 | **swot-analysis** | Perform a detailed SWOT analysis , strengths, weaknesses, opportunities. |
-| 399 | **system-repair-hero** | Windows system file integrity, component store repair, and filesystem diagnostic skill. |
-| 400 | **taste** | A creative-direction (taste) layer for music videos and short-form edits in the angelcore / cloud-trance. |
-| 401 | **taste-application** | Generate new video against a distilled style pack and cut it into a finished piece . |
-| 402 | **taste-distillation** | Measure a set of reference videos into a reusable style pack , colour grade as a 3D LUT. |
-| 403 | **tasteforge-video** | Use for file-driven multimodal image, video, and 3D-asset discovery, taste interviews. |
-| 404 | **tdd-workflow** | Full-lifecycle test automation framework, coverage gates (80%+ unit, integration, E2E). |
-| 405 | **team-agent-orchestration** | Run team-based orchestration for agent squads using work items, ownership, agent Kanban, merge gates. |
-| 406 | **team-builder** | Interactive agent picker for composing and dispatching parallel teams. |
-| 407 | **terminal-opener** | Open an executable and its argument array in a visible terminal window through a reusable. |
-| 408 | **terminal-ops** | Evidence-first repo execution workflow for ECC. |
-| 409 | **test-driven-development** | Micro-level Red-Green-Refactor development loop for implementing isolated functions, verifying logic units. |
-| 410 | **test-scenarios** | Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles. |
-| 411 | **theme-factory** | Toolkit for styling artifacts with a theme. |
-| 412 | **tilemap-palette-create** | Create and organize 2D Tilemap Palettes and tile assets for level design in Unity. |
-| 413 | **tilemap-ruletile-createempty** | Create custom empty RuleTile and HexagonalRuleTile assets for Unity 2D Tilemaps. |
-| 414 | **tilemap-ruletile-createfromsegment** | Generate auto-tiling Unity RuleTile assets directly from segmented spritesheets. |
-| 415 | **tinystruct-patterns** | Expert guidance for developing with the tinystruct Java framework. |
-| 416 | **token-budget-advisor** | Offers the user an informed choice about how much response depth to consume before answering. |
-| 417 | **ui** | Master router and expert guide for Unity UI systems (UI Toolkit, uGUI Canvas, and IMGUI). |
-| 418 | **ui-demo** | Record polished UI demo videos using Playwright. |
-| 419 | **ui-imgui** | Build custom Unity Editor windows, inspectors, and debug overlays using IMGUI (OnGUI). |
-| 420 | **ui-to-vue** | Use when the user has UI screenshots or design exports that need batch conversion into Vue 3 components. |
-| 421 | **ui-ugui** | Design, layout, and script Unity uGUI Canvas hierarchies, RectTransforms, and ScrollViews. |
-| 422 | **ui-uitk** | Author modern Unity 6+ UI Toolkit interfaces using UXML, USS styling, and C# data binding. |
-| 423 | **uncloud** | Use when managing an Uncloud cluster , deploying services, configuring Caddy ingress. |
-| 424 | **unified-memory** | Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode. |
-| 425 | **unified-notifications-ops** | Operate notifications as one ECC-native workflow across GitHub, Linear, desktop alerts, hooks. |
-| 426 | **unity-cli** | Control Unity Editor and Unity Hub from the terminal via the official Unity CLI. |
-| 427 | **unity-package-management** | Manage Unity Package Manager (UPM) dependencies, registries, and manifest.json. |
-| 428 | **urp-postprocessing** | Configure and debug URP Post-Processing Volumes, Bloom, Tonemapping, and custom effects. |
-| 429 | **user-personas** | Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. |
-| 430 | **user-segmentation** | Segment users from feedback data based on behavior, JTBD, and needs. |
-| 431 | **user-stories** | Create user stories following the 3 C's (Card, Conversation. |
-| 432 | **using-agent-skills** | Discovers and invokes agent skills. |
-| 433 | **validate-urp-render-graph-renderer-feature** | Validate and migrate Unity 6+ URP ScriptableRendererFeatures to the RenderGraph API. |
-| 434 | **value-prop-statements** | Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. |
-| 435 | **value-proposition** | Design a detailed value proposition using a 6-part JTBD template , Who, Why, What before, How, What after. |
-| 436 | **video-editing** | AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. |
-| 437 | **video-intelligence-pilot** | Equips agents and sub-agents to extract, transcribe, analyze, and execute tasks from video URLs (YouTube. |
-| 438 | **videodb** | See, Understand, Act on video and audio. |
-| 439 | **visa-doc-translate** | Translate visa application documents (images) to English and create a bilingual PDF with original and. |
-| 440 | **visual-asset-artisan** | Specializes in high-fidelity AI image generation, asset optimization. |
-| 441 | **vite-patterns** | Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode. |
-| 442 | **vue-patterns** | Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management. |
-| 443 | **windows-desktop-e2e** | E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC. |
-| 444 | **workspace-surface-audit** | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup. |
-| 445 | **wwas** | Create product backlog items in Why-What-Acceptance format , independent, valuable. |
-| 446 | **x-api** | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. |
+| 279 | **omniroute-gateway** | Operate OmniRoute self-hosted AI gateway for 350+ providers, quota-aware fallback, and RTK token compression. |
+| 280 | **openclaw-persona-forge** | 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图. |
+| 281 | **opensource-pipeline** | Open-source pipeline: fork, sanitize, and package private projects for safe public release. |
+| 282 | **opportunity-solution-tree** | Build an Opportunity Solution Tree (OST) to structure product discovery . |
+| 283 | **optimize-audio** | Optimize Unity 6 audio memory, CPU overhead, compression formats, and load types. |
+| 284 | **optimize-text-mesh-pro** | Optimize TextMeshPro font assets, dynamic fallback atlases, SDF sampling, and draw calls. |
+| 285 | **optimize-web** | Optimize Unity 6 WebGL and WebGPU builds for minimal download size and fast startup. |
+| 286 | **orch-add-feature** | Orchestrate building a brand-new feature end to end , research, plan, TDD implementation, review. |
+| 287 | **orch-build-mvp** | Orchestrate bootstrapping a working MVP from a design or spec document , ingest the doc. |
+| 288 | **orch-change-feature** | Orchestrate altering an existing, working feature to new desired behavior, update its tests to the new spec. |
+| 289 | **orch-fix-defect** | Orchestrate fixing a bug , reproduce it as a failing regression test, fix to green, review, and gated commit. |
+| 290 | **orch-pipeline** | Shared orchestration engine for the orch-* skill family. |
+| 291 | **orch-refine-code** | Orchestrate a behavior-preserving refactor , confirm tests are green, restructure without changing behavior. |
+| 292 | **outcome-roadmap** | Transform an output-focused roadmap into an outcome-focused one that communicates strategic intent. |
+| 293 | **parallel-execution-optimizer** | Use when the user wants a task done much faster through parallel work, concurrent agents, batched tool calls. |
+| 294 | **pdf-artisan** | Guides agents and sub-agents to generate high-fidelity, beautifully styled PDF documents (invoices, reports. |
+| 295 | **performance-optimization** | Optimizes application performance across frontend, backend, queries, and databases. |
+| 296 | **perl-patterns** | Modern Perl 5.36+ idioms, best practices, and conventions for building robust, maintainable Perl applications. |
+| 297 | **perl-security** | Comprehensive Perl security covering taint mode, input validation, safe process execution. |
+| 298 | **perl-testing** | Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover. |
+| 299 | **pestle-analysis** | Perform a PESTLE analysis covering Political, Economic, Social, Technological, Legal. |
+| 300 | **physics-3d-collision** | Diagnose and fix 3D PhysX collisions, triggers, layers, and Rigidbody interpolation in Unity. |
+| 301 | **plan-canvas** | Open plans and HTML artifacts in a local browser canvas where the human annotates elements, chats. |
+| 302 | **plan-orchestrate** | Read a plan document, decompose it into steps, design a per-step agent chain from the ECC catalogue. |
+| 303 | **plankton-code-quality** | Write-time code quality enforcement using Plankton , auto-formatting, linting. |
+| 304 | **planning-and-task-breakdown** | Breaks work into ordered tasks. |
+| 305 | **porters-five-forces** | Perform Porter's Five Forces analysis , competitive rivalry, supplier power, buyer power. |
+| 306 | **positioning-ideas** | Brainstorm product positioning ideas differentiated from competitors. |
+| 307 | **postgres-patterns** | PostgreSQL database patterns for query optimization, schema design, indexing, and security. |
+| 308 | **pre-mortem** | Run a pre-mortem risk analysis on a PRD or launch plan. |
+| 309 | **prediction-market-oracle-research** | Research prediction markets as data sources or oracle signals for products, agents, dashboards. |
+| 310 | **prediction-market-risk-review** | Review prediction-market, basket, oracle, and trading-agent workflows for compliance, safety, data-quality. |
+| 311 | **pricing-strategy** | Analyze and design pricing strategies including pricing models, competitive pricing analysis. |
+| 312 | **prioritization-frameworks** | Reference guide to 9 prioritization frameworks with formulas, when-to-use guidance, and templates, RICE, ICE. |
+| 313 | **prioritize-assumptions** | Prioritize assumptions using an Impact × Risk matrix and suggest experiments for each. |
+| 314 | **prioritize-features** | Prioritize a backlog of feature ideas based on impact, effort, risk. |
+| 315 | **prisma-patterns** | Prisma ORM patterns for TypeScript backends , schema design, query optimization, transactions, pagination. |
+| 316 | **privacy-policy** | Draft a detailed privacy policy covering data types, jurisdiction, GDPR and compliance considerations. |
+| 317 | **product-capability** | Translate PRD intent, roadmap asks. |
+| 318 | **product-lens** | Use this skill to validate the "why" before building, run product diagnostics. |
+| 319 | **product-name** | Brainstorm 5 unique, memorable product names with rationale aligned to brand values and target audience. |
+| 320 | **product-strategy** | Create a comprehensive product strategy using the 9-section Product Strategy Canvas , vision, segments, costs. |
+| 321 | **product-vision** | Brainstorm an inspiring, achievable. |
+| 322 | **production-audit** | Local-evidence production readiness audit for shipped apps, pre-launch reviews, post-merge checks. |
+| 323 | **production-scheduling** | Codified expertise for production scheduling, job sequencing, line balancing, changeover optimization. |
+| 324 | **project-auditor-fixes** | Analyze and resolve code, asset, and project settings issues reported by Unity Project Auditor. |
+| 325 | **project-flow-ops** | Operate execution flow across GitHub and Linear by triaging issues and pull requests, linking active work. |
+| 326 | **prompt-optimizer** | Analyze raw prompts, identify intent and gaps, match ECC components (skills/commands/agents/hooks). |
+| 327 | **python-patterns** | Pythonic idioms, PEP 8 standards, type hints, and best practices for building robust, efficient. |
+| 328 | **python-testing** | Python testing strategies using pytest, TDD methodology, fixtures, mocking, parametrization. |
+| 329 | **pytorch-patterns** | PyTorch deep learning patterns and best practices for building robust, efficient. |
+| 330 | **quality-nonconformance** | Codified expertise for quality control, non-conformance investigation, root cause analysis, corrective action. |
+| 331 | **quarkus-patterns** | Quarkus 3.x LTS architecture patterns with Camel for messaging, RESTful API design, CDI services. |
+| 332 | **quarkus-security** | Quarkus Security best practices for authentication, authorization, JWT/OIDC, RBAC, input validation, CSRF. |
+| 333 | **quarkus-tdd** | Test-driven development for Quarkus 3.x LTS using JUnit 5, Mockito, REST Assured, Camel testing, and JaCoCo. |
+| 334 | **quarkus-verification** | Verification loop for Quarkus 3.x LTS: Maven/Gradle build, DevServices, JaCoCo, and native image checks. |
+| 335 | **rails-patterns** | Ruby on Rails framework patterns for Rails 7.1+ and 8.x apps. |
+| 336 | **ralphinho-rfc-pipeline** | RFC-driven multi-agent DAG execution pattern with quality gates, merge queues, and work unit orchestration. |
+| 337 | **react-native-patterns** | React Native and Expo app patterns , Expo Router navigation, state separation (server/client/route/form). |
+| 338 | **react-patterns** | React 18/19 patterns including hooks discipline, server/client component boundaries. |
+| 339 | **react-performance** | React and Next.js performance optimization patterns adapted from Vercel Engineering's React Best. |
+| 340 | **react-testing** | React component testing with React Testing Library, Vitest/Jest, MSW for network mocking. |
+| 341 | **recsys-pipeline-architect** | Design composable recommendation, ranking. |
+| 342 | **recursive-decision-ledger** | Use when the user asks for repeated rollouts, marked decision processes, high-dimensional search. |
+| 343 | **redis-patterns** | Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub. |
+| 344 | **regex-vs-llm-structured-text** | Decision framework for choosing between regex and LLM when parsing structured text , start with regex. |
+| 345 | **release-notes** | Generate user-facing release notes from tickets, PRDs, or changelogs. |
+| 346 | **remotion-video-creation** | Best practices for Remotion - Video creation in React. |
+| 347 | **repo-scan** | Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. |
+| 348 | **request-completeness-sentinel** | Enforces 100% complete fulfillment of all user requests, sub-tasks, and constraints without omission. |
+| 349 | **research-ops** | Evidence-first current-state research workflow for ECC. |
+| 350 | **retro** | Facilitate a structured sprint retrospective , what went well, what didn't. |
+| 351 | **returns-reverse-logistics** | Codified expertise for returns authorization, receipt and inspection, disposition decisions, refund processing. |
+| 352 | **review-resume** | Comprehensive PM resume review and tailoring against 10 best practices including XYZ+S formula. |
+| 353 | **rules-distill** | Scan skills to extract cross-cutting principles and distill them into rules , append, revise. |
+| 354 | **rust-patterns** | Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe. |
+| 355 | **rust-testing** | Rust testing patterns including unit tests, integration tests, async testing, property-based testing, mocking. |
+| 356 | **santa-method** | Multi-agent adversarial verification with convergence loop. |
+| 357 | **scientific-db-pubmed-database** | Direct PubMed and NCBI E-utilities search workflows for biomedical literature, MeSH queries, PMID lookup. |
+| 358 | **scientific-db-uspto-database** | USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks. |
+| 359 | **scientific-pkg-gget** | gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches. |
+| 360 | **scientific-thinking-literature-review** | Systematic literature-review workflow for academic, biomedical, technical, and scientific topics. |
+| 361 | **scientific-thinking-scholar-evaluation** | Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections. |
+| 362 | **search-first** | Research-before-coding workflow. |
+| 363 | **security-and-hardening** | Defensive code hardening implementation , input sanitization, cryptographic validation, memory safety. |
+| 364 | **security-bounty-hunter** | Hunt for exploitable, bounty-worthy security issues in repositories. |
+| 365 | **security-review** | Endpoint, API, and feature security audit, authentication flows, authorization checks, secret management. |
+| 366 | **security-scan** | Scan your Claude Code configuration (.claude/ directory) for security. Use when auditing a . |
+| 367 | **sentiment-analysis** | Analyze user feedback data to identify segments with sentiment scores, JTBD. |
+| 368 | **seo** | Audit, plan, and implement SEO improvements across technical SEO, on-page optimization, structured data. |
+| 369 | **setup-multiplayer-services** | Build online multiplayer games using Netcode for GameObjects, Lobby, Relay, and Matchmaker. |
+| 370 | **setup-vivox-voice-chat** | Integrate and configure Unity Vivox 3D positional voice chat and text channels. |
+| 371 | **shader-graph-create-custom-node** | Create custom Unity Shader Graph nodes and sub-graphs backed by HLSL functions. |
+| 372 | **shipping-and-launch** | Prepares production launches. |
+| 373 | **shipping-artifacts** | The durable documentation set that makes an AI-built (vibe-coded) app reviewable before shipping. |
+| 374 | **skill-comply** | Visualize whether skills, rules, and agent definitions are actually followed. |
+| 375 | **skill-scout** | Search existing local, marketplace, GitHub, and web skill sources before creating a new skill. |
+| 376 | **skill-stocktake** | Use when auditing Claude skills and commands for quality. |
+| 377 | **social-graph-ranker** | Weighted social-graph ranking for warm intro discovery, bridge scoring. |
+| 378 | **social-publisher** | Agent-driven scheduling and publishing of social media posts across 13 platforms via SocialClaw. |
+| 379 | **source-driven-development** | Grounds every implementation decision in official documentation. |
+| 380 | **spec-driven-development** | Creates specs before coding. |
+| 381 | **springboot-patterns** | Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing. |
+| 382 | **springboot-security** | Spring Security best practices for authn/authz, validation, CSRF, secrets, headers, rate limiting. |
+| 383 | **springboot-tdd** | Test-driven development for Spring Boot using JUnit 5, Mockito, MockMvc, Testcontainers, and JaCoCo. |
+| 384 | **springboot-verification** | Verification loop for Spring Boot: Actuator health, SpotBugs, MockMvc tests, and OWASP dependency scans. |
+| 385 | **sprint-plan** | Plan a sprint with capacity estimation, story selection, dependency mapping, and risk identification. |
+| 386 | **sprite-editor** | Programmatically edit Unity Sprite slicing, borders, pivots, and physics shapes via C#. |
+| 387 | **sprite-segment-3x3grid** | Analyze 2D Sprite textures and segment 9-slice / 3x3 grid borders automatically. |
+| 388 | **sql-queries** | Generate SQL queries from natural language descriptions. |
+| 389 | **stakeholder-map** | Build a stakeholder map using a power/interest grid, identify communication strategies per quadrant. |
+| 390 | **startup-canvas** | Generate a Startup Canvas combining Product Strategy (9 sections) and Business Model (costs + revenue). |
+| 391 | **strategic-compact** | Suggests manual context compaction at logical intervals to preserve context through task phases rather. |
+| 392 | **strategy-red-team** | Red-team a PRD, roadmap, or strategy by attacking its load-bearing assumptions before reality does. |
+| 393 | **summarize-interview** | Summarize a customer interview transcript into a structured template with JTBD, satisfaction signals. |
+| 394 | **summarize-meeting** | Summarize a meeting transcript into structured notes with date, participants, topic, key decisions. |
+| 395 | **swift-actor-persistence** | Thread-safe data persistence in Swift using actors , in-memory cache with file-backed storage. |
+| 396 | **swift-concurrency-6-2** | Swift 6.2 Approachable Concurrency — single-threaded by default, @concurrent. Use when adopting Swift 6. |
+| 397 | **swift-protocol-di-testing** | Protocol-based dependency injection for testable Swift code , mock file system, network. |
+| 398 | **swiftui-patterns** | SwiftUI architecture patterns, state management with @Observable, view composition, navigation. |
+| 399 | **swot-analysis** | Perform a detailed SWOT analysis , strengths, weaknesses, opportunities. |
+| 400 | **system-repair-hero** | Windows system file integrity, component store repair, and filesystem diagnostic skill. |
+| 401 | **taste** | A creative-direction (taste) layer for music videos and short-form edits in the angelcore / cloud-trance. |
+| 402 | **taste-application** | Generate new video against a distilled style pack and cut it into a finished piece . |
+| 403 | **taste-distillation** | Measure a set of reference videos into a reusable style pack , colour grade as a 3D LUT. |
+| 404 | **tasteforge-video** | Use for file-driven multimodal image, video, and 3D-asset discovery, taste interviews. |
+| 405 | **tdd-workflow** | Full-lifecycle test automation framework, coverage gates (80%+ unit, integration, E2E). |
+| 406 | **team-agent-orchestration** | Run team-based orchestration for agent squads using work items, ownership, agent Kanban, merge gates. |
+| 407 | **team-builder** | Interactive agent picker for composing and dispatching parallel teams. |
+| 408 | **terminal-opener** | Open an executable and its argument array in a visible terminal window through a reusable. |
+| 409 | **terminal-ops** | Evidence-first repo execution workflow for ECC. |
+| 410 | **test-driven-development** | Micro-level Red-Green-Refactor development loop for implementing isolated functions, verifying logic units. |
+| 411 | **test-scenarios** | Create comprehensive test scenarios from user stories with test objectives, starting conditions, user roles. |
+| 412 | **theme-factory** | Toolkit for styling artifacts with a theme. |
+| 413 | **tilemap-palette-create** | Create and organize 2D Tilemap Palettes and tile assets for level design in Unity. |
+| 414 | **tilemap-ruletile-createempty** | Create custom empty RuleTile and HexagonalRuleTile assets for Unity 2D Tilemaps. |
+| 415 | **tilemap-ruletile-createfromsegment** | Generate auto-tiling Unity RuleTile assets directly from segmented spritesheets. |
+| 416 | **tinystruct-patterns** | Expert guidance for developing with the tinystruct Java framework. |
+| 417 | **token-budget-advisor** | Offers the user an informed choice about how much response depth to consume before answering. |
+| 418 | **ui** | Master router and expert guide for Unity UI systems (UI Toolkit, uGUI Canvas, and IMGUI). |
+| 419 | **ui-demo** | Record polished UI demo videos using Playwright. |
+| 420 | **ui-imgui** | Build custom Unity Editor windows, inspectors, and debug overlays using IMGUI (OnGUI). |
+| 421 | **ui-to-vue** | Use when the user has UI screenshots or design exports that need batch conversion into Vue 3 components. |
+| 422 | **ui-ugui** | Design, layout, and script Unity uGUI Canvas hierarchies, RectTransforms, and ScrollViews. |
+| 423 | **ui-uitk** | Author modern Unity 6+ UI Toolkit interfaces using UXML, USS styling, and C# data binding. |
+| 424 | **uncloud** | Use when managing an Uncloud cluster , deploying services, configuring Caddy ingress. |
+| 425 | **unified-memory** | Share durable, inspectable context and handoffs between Claude, Codex, Hermes, Cursor, OpenCode. |
+| 426 | **unified-notifications-ops** | Operate notifications as one ECC-native workflow across GitHub, Linear, desktop alerts, hooks. |
+| 427 | **unity-cli** | Control Unity Editor and Unity Hub from the terminal via the official Unity CLI. |
+| 428 | **unity-package-management** | Manage Unity Package Manager (UPM) dependencies, registries, and manifest.json. |
+| 429 | **urp-postprocessing** | Configure and debug URP Post-Processing Volumes, Bloom, Tonemapping, and custom effects. |
+| 430 | **user-personas** | Create refined user personas from research data — 3 personas with JTBD, pains, gains, and unexpected insights. |
+| 431 | **user-segmentation** | Segment users from feedback data based on behavior, JTBD, and needs. |
+| 432 | **user-stories** | Create user stories following the 3 C's (Card, Conversation. |
+| 433 | **using-agent-skills** | Discovers and invokes agent skills. |
+| 434 | **validate-urp-render-graph-renderer-feature** | Validate and migrate Unity 6+ URP ScriptableRendererFeatures to the RenderGraph API. |
+| 435 | **value-prop-statements** | Generate value proposition statements for marketing, sales, and onboarding from existing value propositions. |
+| 436 | **value-proposition** | Design a detailed value proposition using a 6-part JTBD template , Who, Why, What before, How, What after. |
+| 437 | **video-editing** | AI-assisted video editing workflows for cutting, structuring, and augmenting real footage. |
+| 438 | **video-intelligence-pilot** | Equips agents and sub-agents to extract, transcribe, analyze, and execute tasks from video URLs (YouTube. |
+| 439 | **videodb** | See, Understand, Act on video and audio. |
+| 440 | **visa-doc-translate** | Translate visa application documents (images) to English and create a bilingual PDF with original and. |
+| 441 | **visual-asset-artisan** | Specializes in high-fidelity AI image generation, asset optimization. |
+| 442 | **vite-patterns** | Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode. |
+| 443 | **vue-patterns** | Vue.js 3 Composition API patterns, component architecture, reactivity best practices, Pinia state management. |
+| 444 | **windows-desktop-e2e** | E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC. |
+| 445 | **workspace-surface-audit** | Audit the active repo, MCP servers, plugins, connectors, env surfaces, and harness setup. |
+| 446 | **wwas** | Create product backlog items in Why-What-Acceptance format , independent, valuable. |
+| 447 | **x-api** | X/Twitter API integration for posting tweets, threads, reading timelines, search, and analytics. |
 
 ---
 
-# الفهرس الشامل: 446 مهارة هندسية و 146 وكيلاً تخصصياً
+# الفهرس الشامل: 447 مهارة هندسية و 147 وكيلاً تخصصياً
 
-يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
+يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse) و Diego Souza (OmniRoute)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.

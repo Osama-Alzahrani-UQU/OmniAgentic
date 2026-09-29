@@ -1,8 +1,8 @@
 # 🚀 OmniAgentic | Enterprise Multi-Agent Operating Suite
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Skills-446%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="445 Skills" />
-  <img src="https://img.shields.io/badge/Specialized%20Agents-146%20Verified-30D158?style=for-the-badge&logo=openai&logoColor=white" alt="145 Agents" />
+  <img src="https://img.shields.io/badge/Total%20Skills-447%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="445 Skills" />
+  <img src="https://img.shields.io/badge/Specialized%20Agents-147%20Verified-30D158?style=for-the-badge&logo=openai&logoColor=white" alt="145 Agents" />
   <img src="https://img.shields.io/badge/Token%20Savings-~19,000%20Tokens/Turn-FF9F0A?style=for-the-badge&logo=speedtest&logoColor=white" alt="Token Savings" />
   <img src="https://img.shields.io/badge/Target%20Platforms-Antigravity%20|%20Claude%20|%20Codex-BF5AF2?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Platforms" />
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="License" />
@@ -15,7 +15,7 @@
 <p align="center">
   <b>Engineered & Maintained by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
   <span>Computer Science • Umm Al-Qura University</span><br>
-  <sub>Integrated with pioneering open-source work by <b>Maciej Sitarzewski</b>, <b>Harry</b>, <b>Matthew Kissinger</b>, <b>Affaan Mustafa</b>, <b>Unity Technologies</b> & <b>TokenRhythm</b></sub>
+  <sub>Integrated with pioneering open-source work by <b>Maciej Sitarzewski</b>, <b>Harry</b>, <b>Matthew Kissinger</b>, <b>Affaan Mustafa</b>, <b>Unity Technologies</b>, <b>TokenRhythm</b> & <b>Diego Souza</b></sub>
 </p>
 
 <p align="center">
@@ -35,7 +35,7 @@
 <a name="english-documentation"></a>
 ## 🌟 Executive Overview
 
-The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **446 curated, production-tested engineering skills** and **146 autonomous specialized subagents**.
+The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **447 curated, production-tested engineering skills** and **147 autonomous specialized subagents**.
 
 Engineered specifically to solve the common failure modes of modern agentic workflows (hallucinations, token bloat, forgotten instructions, dropped functions, and tool deadlocks), this suite implements a formal **Zero-Hallucination & Token-Efficiency Protocol** with an autonomous `Test -> Diagnose -> Fix -> Retest` pre-delivery verification loop.
 
@@ -103,6 +103,14 @@ OmniAgentic proudly builds upon, adapts, and integrates breakthrough open-source
       </a><br />
       <small><a href="https://github.com/TokenRhythm/NeoHorse">NeoHorse & Jev</a></small>
     </td>
+    <td align="center" width="160">
+      <a href="https://github.com/diegosouzapw">
+        <img src="https://github.com/diegosouzapw.png?size=80" width="80px;" alt="Diego Souza" style="border-radius: 50%;" /><br />
+        <sub><b>Diego Souza</b></sub><br />
+        <sub>@diegosouzapw</sub>
+      </a><br />
+      <small><a href="https://github.com/diegosouzapw/OmniRoute">OmniRoute</a></small>
+    </td>
   </tr>
 </table>
 
@@ -127,7 +135,7 @@ flowchart TD
 (context-manager)"]
     end
 
-    subgraph AgentFleet["146 Specialized Domain Subagents"]
+    subgraph AgentFleet["147 Specialized Domain Subagents"]
         direction TB
         Academic["🎓 Academic & Student Suite
 (academic-researcher, exam-coach, latex-thesis)"]
@@ -141,7 +149,7 @@ flowchart TD
 (python, rust, react, typescript, go, build-resolvers)"]
     end
 
-    subgraph SkillsMatrix["446 Curated Production Skills"]
+    subgraph SkillsMatrix["447 Curated Production Skills"]
         SkillsHub["On-Demand Skill Hubs
 (ecc-hub / agency-agents / skill-scout)"]
         ActiveSkills["Active Skills Engine
@@ -164,9 +172,9 @@ flowchart TD
 ---
 
 <a name="agents-showcase"></a>
-## 🤖 146 Specialized Subagents Fleet
+## 🤖 147 Specialized Subagents Fleet
 
-All 146 subagents are defined as structured personas located in `agents/`. They are invoked dynamically via `invoke_subagent` / `define_subagent` at zero baseline token overhead:
+All 147 subagents are defined as structured personas located in `agents/`. They are invoked dynamically via `invoke_subagent` / `define_subagent` at zero baseline token overhead:
 
 ### 1. University Student & Academic Research Suite (14 Agents)
 * **`academic-researcher`**: Searches and analyzes peer-reviewed literature, scholarly journals, and research methodologies.
@@ -236,14 +244,14 @@ All 146 subagents are defined as structured personas located in `agents/`. They 
 * **Code Reviewers (21)**: `code-reviewer`, `cpp-reviewer`, `csharp-reviewer`, `database-reviewer`, `django-reviewer`, `fastapi-reviewer`, `flutter-reviewer`, `fsharp-reviewer`, `go-reviewer`, `healthcare-reviewer`, `java-reviewer`, `kotlin-reviewer`, `mle-reviewer`, `network-config-reviewer`, `php-reviewer`, `python-reviewer`, `react-reviewer`, `rust-reviewer`, `swift-reviewer`, `typescript-reviewer`, `vue-reviewer`.
 * **Architecture & Quality (36)**: `architect`, `code-architect`, `planner`, `spec-miner`, `security-reviewer`, `performance-optimizer`, `refactor-cleaner`, `silent-failure-hunter`, `tdd-guide`, and more.
 
-*(Browse the complete alphabetical directory of all 146 agents in [CATALOG.md](CATALOG.md)).*
+*(Browse the complete alphabetical directory of all 147 agents in [CATALOG.md](CATALOG.md)).*
 
 ---
 
 <a name="skills-catalog"></a>
-## 🛠️ 446 Production Skills Catalog
+## 🛠️ 447 Production Skills Catalog
 
-All 446 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
+All 447 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
 
 * **Core Operational Sentinels**: `loop-debug`, `code-completeness-debugger`, `request-completeness-sentinel`, `concise-responder`, `bilingual-clean-layout`, `end-to-end-executor`, `experience-learner`, `zero-duplicate-guard`.
 * **Meta-Hubs & Ecosystem Bridges**: `ecc-hub` (ECC catalog), `agency-agents` (The Agency catalog), `skill-scout` (skill discovery).
@@ -321,8 +329,8 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 ```
 OmniAgentic/
-├── skills/                     # 446 Production Engineering Skills
-├── agents/                     # 146 Specialized Domain Subagents
+├── skills/                     # 447 Production Engineering Skills
+├── agents/                     # 147 Specialized Domain Subagents
 ├── rules/                      # Cross-Platform Operational Rules Matrix
 │   ├── GEMINI.md               # Antigravity Global Rules
 │   ├── CLAUDE.md               # Claude Desktop & Claude Code Rules
@@ -372,6 +380,7 @@ This framework stands on the shoulders of giants. We express our sincere gratitu
 * **[Kiln](https://github.com/matthew-kissinger/kiln)**: Created and maintained by **[Matthew Kissinger](https://github.com/matthew-kissinger)** (@matthew-kissinger) for the procedural 3D modeling engine, Three.js geometry recipes, and vision-in-the-loop rendering architecture.
 * **[Everything Claude Code (ECC)](https://github.com/affaan-m/everything-claude-code)**: Created and maintained by **[Affaan Mustafa](https://github.com/affaan-m)** (@affaan-m) and core contributors (**[haelyra](https://github.com/haelyra)**, **[pangerlkr](https://github.com/pangerlkr)**, **[gaurav0107](https://github.com/gaurav0107)**) for the foundational multi-agent concepts, specialized domain personas, and curated engineering skills catalog.
 * **[TokenRhythm (NeoHorse & NeoHorse-Jev)](https://github.com/TokenRhythm/NeoHorse)**: Created and maintained by **[TokenRhythm](https://github.com/TokenRhythm)** (@TokenRhythm) for the NeoHorse-1 agentic post-training routing harness for recursive self-improvement (RSI) and NeoHorse-Jev prefill-only inference engine (Choice, Noul, Score).
+* **[Diego Souza (OmniRoute)](https://github.com/diegosouzapw/OmniRoute)**: Created and maintained by **[Diego Souza](https://github.com/diegosouzapw)** (@diegosouzapw) for the self-hosted unified AI gateway aggregating 350+ providers, 1,300+ models, quota-aware fallback cascades, and RTK + Caveman prompt compression saving 15% to 95% of tokens.
 * **Anthropic & Claude Community**: For the pioneer prompt engineering patterns and Model Context Protocol (MCP) tooling ecosystem.
 * **Open-Source AI Community**: For continuous benchmarks, defensive testing frameworks, and multi-agent coordination paradigms.
 
@@ -389,7 +398,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 # 🇸🇦 دليل التوثيق باللغة العربية (Arabic Documentation)
 
 ### 📌 نبذة تنفيذية عن المشروع
-تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **446 مهارة هندسية معتمدة** و **146 وكيلاً فرعياً تخصصياً**.
+تعتبر منظومة **OmniAgentic** إطار عمل معماري متكامل للوكلاء البرمجيين، تم تصميمه وهندسته ليمنح بيئات ومساعدي الذكاء الاصطناعي (**Antigravity IDE** و **Claude Desktop / Claude Code** و **OpenAI Codex CLI**) ترسانة برمجية موحدة تضم **447 مهارة هندسية معتمدة** و **147 وكيلاً فرعياً تخصصياً**.
 
 تم بناء هذه المنظومة خصيصاً للقضاء على التحديات والعيوب الشائعة في الوكلاء الحاليين (مثل: الهلوسة، استنزاف الرموز / Tokens، نسيان متطلبات المستخدم، الأكواد الناقصة أو المختصرة، وتوقف الجلسات)، من خلال تطبيق حلقة فحص وتصحيح ذاتية إلزامية (`Test -> Diagnose -> Fix -> Retest`) قبل تسليم أي كود.
 
@@ -406,8 +415,8 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ```
 OmniAgentic/
-├── skills/                     # 446 مهارة برمجية وفنية جاهزة ومحدثة
-├── agents/                     # 146 وكيلاً تخصصياً بصيغة Markdown
+├── skills/                     # 447 مهارة برمجية وفنية جاهزة ومحدثة
+├── agents/                     # 147 وكيلاً تخصصياً بصيغة Markdown
 ├── rules/                      # القواعد العامة الصارمة لكل منصة
 │   ├── GEMINI.md               # قواعد Antigravity IDE العامة
 │   ├── CLAUDE.md               # قواعد Claude Desktop & Claude Code
@@ -457,6 +466,7 @@ chmod +x ./scripts/install.sh
 * **عفان مصطفى (Affaan Mustafa - @affaan-m)** وفريقه: المبتكر والمطور لمشروع `Everything Claude Code (ECC)` للمفاهيم التأسيسية وترسانة المهارات البرمجية وهندسة الوكلاء.
 * **فريق مهندسي Unity Technologies (@Unity-Technologies)**: المطورون الرسميون لحزمة مهارات محرك الألعاب `Unity 6` والشبكات متعددة اللاعبين ومعالجة الرسوميات.
 * **فريق أبحاث TokenRhythm (@TokenRhythm)**: المطورون لمشروع `NeoHorse` و `NeoHorse-Jev` لنظام التوجيه واتخاذ القرارات الذكية الفورية (Prefill-Only Decisions) وحلقات التطوير الذاتي المتكرر (RSI).
+* **دييغو سوزا (Diego Souza - @diegosouzapw)**: المطور والمبتكر لمشروع `OmniRoute`، البوابة الذكية الموحدة لربط أكثر من 350 مزود ذكاء اصطناعي وأكثر من 1300 نموذج وخوارزميات ضغط المطالبات (RTK).
 * **مجتمع الذكاء الاصطناعي والمصادر المفتوحة**: لدعم بروتوكولات الوكلاء المتعددة وتطوير منظومة الأدوات المفتوحة.
 
 ---
