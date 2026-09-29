@@ -1,6 +1,6 @@
 # Complete Catalog: 445 Skills & 145 Specialized Agents
 
-This catalog lists every verified skill and specialized subagent included in the suite.
+This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), and **Unity Technologies**.
 
 ---
 
@@ -610,4 +610,4 @@ This catalog lists every verified skill and specialized subagent included in the
 
 # الفهرس الشامل: 445 مهارة هندسية و 145 وكيلاً تخصصياً
 
-يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
+يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء.

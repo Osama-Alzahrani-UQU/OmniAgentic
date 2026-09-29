@@ -13,17 +13,20 @@
 </p>
 
 <p align="center">
-  <b>Developed & Engineered by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
-  <span>Computer Science • Umm Al-Qura University</span>
+  <b>Engineered & Maintained by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
+  <span>Computer Science • Umm Al-Qura University</span><br>
+  <sub>Integrated with pioneering open-source work by <b>Maciej Sitarzewski</b>, <b>Harry</b>, <b>Matthew Kissinger</b>, <b>Affaan Mustafa</b> & <b>Unity Technologies</b></sub>
 </p>
 
 <p align="center">
   <a href="#english-documentation">English Documentation</a> •
+  <a href="#upstream-creators">Upstream Creators</a> •
   <a href="#agents-showcase">Agents Showcase</a> •
   <a href="#skills-catalog">Skills Catalog</a> •
   <a href="#installation--setup">Installation Guide</a> •
   <a href="#acknowledgments--credits">Acknowledgments</a> •
   <a href="CATALOG.md">Full Catalog</a> •
+  <a href="AUTHORS.md">Authors & Credits</a> •
   <a href="#arabic-documentation">Arabic Documentation</a>
 </p>
 
@@ -42,6 +45,58 @@ Engineered specifically to solve the common failure modes of modern agentic work
 3. **Zero-Omission Sentinel (`request-completeness-sentinel`)**: Guarantees that every single user constraint, sub-task, and formatting rule is tracked and satisfied without truncated code, missing functions, or placeholder stubs (`TODO` / `pass`).
 4. **Academic & Student Excellence Suite**: 14 purpose-built subagents designed for university coursework, literature reviews, active-recall study coaching, quantitative statistics, thesis LaTeX typesetting, and graduation capstone architecture.
 5. **Universal Portability**: Identical, seamless execution across **Antigravity**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI** with cross-platform automated installers (`install.ps1` / `install.sh`).
+
+---
+
+<a name="upstream-creators"></a>
+### 🌟 Upstream Creators & Open-Source Pioneers
+
+OmniAgentic proudly builds upon, adapts, and integrates breakthrough open-source projects created by world-class software engineers and AI researchers:
+
+<table align="center">
+  <tr>
+    <td align="center" width="160">
+      <a href="https://github.com/msitarzewski">
+        <img src="https://github.com/msitarzewski.png?size=80" width="80px;" alt="Maciej Sitarzewski" style="border-radius: 50%;" /><br />
+        <sub><b>Maciej Sitarzewski</b></sub><br />
+        <sub>@msitarzewski</sub>
+      </a><br />
+      <small><a href="https://github.com/msitarzewski/agency-agents">The Agency (Agency Agents)</a></small>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/harry0703">
+        <img src="https://github.com/harry0703.png?size=80" width="80px;" alt="Harry" style="border-radius: 50%;" /><br />
+        <sub><b>Harry</b></sub><br />
+        <sub>@harry0703</sub>
+      </a><br />
+      <small><a href="https://github.com/harry0703/MoneyPrinterTurbo">MoneyPrinterTurbo</a></small>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/matthew-kissinger">
+        <img src="https://github.com/matthew-kissinger.png?size=80" width="80px;" alt="Matthew Kissinger" style="border-radius: 50%;" /><br />
+        <sub><b>Matthew Kissinger</b></sub><br />
+        <sub>@matthew-kissinger</sub>
+      </a><br />
+      <small><a href="https://github.com/matthew-kissinger/kiln">Kiln (3D Engine)</a></small>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/affaan-m">
+        <img src="https://github.com/affaan-m.png?size=80" width="80px;" alt="Affaan Mustafa" style="border-radius: 50%;" /><br />
+        <sub><b>Affaan Mustafa</b></sub><br />
+        <sub>@affaan-m</sub>
+      </a><br />
+      <small><a href="https://github.com/affaan-m/everything-claude-code">Everything Claude Code</a></small>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/Unity-Technologies">
+        <img src="https://github.com/Unity-Technologies.png?size=80" width="80px;" alt="Unity Technologies" style="border-radius: 50%;" /><br />
+        <sub><b>Unity Technologies</b></sub><br />
+        <sub>@Unity-Technologies</sub>
+      </a><br />
+      <small><a href="https://github.com/Unity-Technologies/skills">Unity Official Skills</a></small>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -385,14 +440,14 @@ chmod +x ./scripts/install.sh
 
 ---
 
-### 🙏 شكر وإسناد للمصادر المفتوحة
-تعتمد هذه المنظومة على جهود رائدة من مجتمع المصادر المفتوحة، ونتوجه بالشكر والامتنان لكافة المطورين والمشاريع الأصلية التي تم الاستناد عليها وتطويرها:
-* **The Agency (Agency Agents)**: للمطور Maciej Sitarzewski (@msitarzewski) لحزمة الوكلاء المؤسسية عبر 18 قطاعاً تخصصياً.
-* **MoneyPrinterTurbo**: للمطور Harry (@harry0703) لمنظومة توليد وإنتاج الفيديو الذاتي المتقدم.
-* **Unity Technologies Official Skills**: للمهندسين والمطورين في شركة Unity Technologies لحزمة 33 مهارة معتمدة لمحرك Unity 6.
-* **Kiln**: للمطور Matthew Kissinger (@matthew-kissinger) لنظام النمذجة الإجرائية ثلاثية الأبعاد.
-* **Everything Claude Code (ECC)**: للمطور Affaan Mustafa (@affaan-m) وفريقه للمفاهيم التأسيسية وترسانة المهارات البرمجية.
-* مجتمع الذكاء الاصطناعي والمصادر المفتوحة لدعم بروتوكولات الوكلاء المتعددة.
+### 🙏 شكر وإسناد للمبتكرين والمصادر المفتوحة
+تعتمد هذه المنظومة على جهود رائدة من نخبة من المطورين ومجتمع المصادر المفتوحة، ونتوجه بالعرفان والشكر والتقدير للأشخاص والمطورين الأصليين الذين بنينا على إبداعاتهم:
+* **ماسيج سيتارزيفسكي (Maciej Sitarzewski - @msitarzewski)**: المبتكر والمطور لمشروع `The Agency (Agency Agents)` ومزود المنظومة بأكثر من 270 شخصية تخصصية ذكية عبر 18 قطاعاً مؤسسياً.
+* **هاري (Harry - @harry0703)**: المبتكر والمطور لمشروع `MoneyPrinterTurbo` لمنظومة توليد وإنتاج الفيديو الذاتي المتقدم والمزامنة الصوتية عبر الذكاء الاصطناعي.
+* **ماثيو كيسنجر (Matthew Kissinger - @matthew-kissinger)**: المبتكر والمطور لمشروع `Kiln` لنظام النمذجة الإجرائية ثلاثية الأبعاد والتوليد الهندسي التفاعلي.
+* **عفان مصطفى (Affaan Mustafa - @affaan-m)** وفريقه: المبتكر والمطور لمشروع `Everything Claude Code (ECC)` للمفاهيم التأسيسية وترسانة المهارات البرمجية وهندسة الوكلاء.
+* **فريق مهندسي Unity Technologies (@Unity-Technologies)**: المطورون الرسميون لحزمة مهارات محرك الألعاب `Unity 6` والشبكات متعددة اللاعبين ومعالجة الرسوميات.
+* **مجتمع الذكاء الاصطناعي والمصادر المفتوحة**: لدعم بروتوكولات الوكلاء المتعددة وتطوير منظومة الأدوات المفتوحة.
 
 ---
 
