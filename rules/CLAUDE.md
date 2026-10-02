@@ -46,6 +46,19 @@ These rules apply universally across all conversations, workspaces, and sub-agen
 9. **Mandatory Skill & Sub-Agent Deduplication Guard (`zero-duplicate-guard`)**:
    - **منع تكرار المهارات والوكلاء الفرعيين نهائياً**: قبل تثبيت أو إنشاء أي مهارة (`Skill`) أو وكيل فرعي (`Sub-Agent`) جديد، يلتزم الوكيل بفحص كافة المهارات (`C:\Users\goldl\.gemini\config\skills\`) والوكلاء (`C:\Users\goldl\.gemini\ecc\agents\`) للتحقق من عدم وجود أي تكرار في الاسم (`name`)، الوصف (`description`)، أو المحتوى (`SHA-256 body hash`)، ودمج أو استبعاد أي عنصر مكرر فوراً مع التحقق الآلي عبر `verify_suite.py`.
 
+10. **Universal Sub-Agent Skill Inheritance & Cross-Platform Portability Protocol (`subagent-skill-inheritance` & `universal-portability`)**:
+    - **إلزامية وراثة وتفعيل المهارات للوكلاء الفرعيين (`subagent-skill-binding`)**: عند تفويض أي مهمة إلى أي وكيل فرعي (`sub-agent`) مهما كان النموذج المستخدم (`Claude Opus 4.6`, `Claude 3.7 Sonnet`, `Gemini Pro`, `GPT-4o`, `Codex`):
+      1. يلتزم الوكيل الرئيسي بتحديد المهارة التخصصية المطلوبة ومسار ملفها (`SKILL.md`) صراحةً داخل نص التوجيه (`Prompt`).
+      2. يُلزم الوكيل الفرعي بقراءة ملف المهارة عبر `view_file` فور بدء التشغيل كأول خطوة وقبل اتخاذ أي إجراء برمجي.
+      3. في حال لم يحدد الوكيل الرئيسي مهارة، يلتزم الوكيل الفرعي بالبحث الذاتي في مسارات المهارات المحلية الموحدة وقراءة المهارة ذات الصلة بمهمته.
+    - **المسارات الموحدة لاستكشاف المهارات عبر المنصات (`multi-runtime-path-resolver`)**:
+      - مسار مساحة العمل الحالية (`Workspace`): `.agents/skills/<skill>/SKILL.md` أو `skills/<skill>/SKILL.md` أو `.claude/skills/<skill>/SKILL.md`.
+      - مسار Antigravity و Gemini العام: `~/.gemini/config/skills/<skill>/SKILL.md`.
+      - مسار Claude Code و Claude Desktop: `~/.claude/skills/<skill>/SKILL.md`.
+      - مسار OpenAI Codex CLI: `~/.codex/skills/<skill>/SKILL.md`.
+      - مسار Cursor IDE: `~/.cursor/skills/<skill>/SKILL.md`.
+    - **التوثيق الإلزامي للمهارة في التقرير الداخلي (`subagent-skill-compliance-report`)**: يلتزم كل وكيل فرعي بتضمين اسم المهارة المطبقة ومسارها ومطابقة خطواتها بنسبة 100% في تقريره الفني الداخلي الموجه للوكيل الرئيسي تأكيداً على التفعيل.
+
 ---
 
 ## 2. Core Active Skills Matrix
@@ -60,6 +73,7 @@ These rules apply universally across all conversations, workspaces, and sub-agen
 | **`end-to-end-executor`** | 100% autonomous execution; strict ban on delegating scripts, installers, or commands to the user. |
 | **`experience-learner`** | Consults and updates `C:\Users\goldl\.gemini\knowledge\troubleshooting_history.md` across all conversations. |
 | **`zero-duplicate-guard`** | Enforces 0 duplicate skills and 0 duplicate sub-agents across name, description, and SHA-256 content hash. |
+| **`subagent-skill-inheritance`** | Enforces 100% skill inheritance, cross-platform portability, and explicit SKILL.md reading across all sub-agents. |
 
 ---
 

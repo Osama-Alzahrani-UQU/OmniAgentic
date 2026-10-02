@@ -1,7 +1,7 @@
 # 🚀 OmniAgentic | Enterprise Multi-Agent Operating Suite
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Total%20Skills-460%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="445 Skills" />
+  <img src="https://img.shields.io/badge/Total%20Skills-461%20Production%20Grade-0A84FF?style=for-the-badge&logo=anthropic&logoColor=white" alt="445 Skills" />
   <img src="https://img.shields.io/badge/Specialized%20Agents-147%20Verified-30D158?style=for-the-badge&logo=openai&logoColor=white" alt="145 Agents" />
   <img src="https://img.shields.io/badge/Token%20Savings-~19,000%20Tokens/Turn-FF9F0A?style=for-the-badge&logo=speedtest&logoColor=white" alt="Token Savings" />
   <img src="https://img.shields.io/badge/Target%20Platforms-Antigravity%20|%20Claude%20|%20Codex-BF5AF2?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="Platforms" />
@@ -35,7 +35,7 @@
 <a name="english-documentation"></a>
 ## 🌟 Executive Overview
 
-The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **460 curated, production-tested engineering skills** and **147 autonomous specialized subagents**.
+The **OmniAgentic Suite** is a unified, enterprise-grade multi-agent operating framework that equips AI coding assistants (**Antigravity IDE**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI**) with **461 curated, production-tested engineering skills** and **147 autonomous specialized subagents**.
 
 Engineered specifically to solve the common failure modes of modern agentic workflows (hallucinations, token bloat, forgotten instructions, dropped functions, and tool deadlocks), this suite implements a formal **Zero-Hallucination & Token-Efficiency Protocol** with an autonomous `Test -> Diagnose -> Fix -> Retest` pre-delivery verification loop.
 
@@ -45,6 +45,7 @@ Engineered specifically to solve the common failure modes of modern agentic work
 3. **Zero-Omission Sentinel (`request-completeness-sentinel`)**: Guarantees that every single user constraint, sub-task, and formatting rule is tracked and satisfied without truncated code, missing functions, or placeholder stubs (`TODO` / `pass`).
 4. **Academic & Student Excellence Suite**: 14 purpose-built subagents designed for university coursework, literature reviews, active-recall study coaching, quantitative statistics, thesis LaTeX typesetting, and graduation capstone architecture.
 5. **Universal Portability**: Identical, seamless execution across **Antigravity**, **Claude Desktop / Claude Code**, and **OpenAI Codex CLI** with cross-platform automated installers (`install.ps1` / `install.sh`).
+6. **Universal Sub-Agent Skill Inheritance**: Guaranteed domain skill inheritance across all sub-agents and models (Claude Opus 4.6, Claude 3.7 Sonnet, Gemini Pro, GPT-4o, Codex) with multi-runtime path resolution (`.agents/skills/`, `~/.gemini/`, `~/.claude/`, `~/.codex/`).
 
 ---
 
@@ -157,7 +158,7 @@ flowchart TD
 (python, rust, react, typescript, go, build-resolvers)"]
     end
 
-    subgraph SkillsMatrix["460 Curated Production Skills"]
+    subgraph SkillsMatrix["461 Curated Production Skills"]
         SkillsHub["On-Demand Skill Hubs
 (ecc-hub / agency-agents / skill-scout)"]
         ActiveSkills["Active Skills Engine
@@ -257,9 +258,9 @@ All 147 subagents are defined as structured personas located in `agents/`. They 
 ---
 
 <a name="skills-catalog"></a>
-## 🛠️ 460 Production Skills Catalog
+## 🛠️ 461 Production Skills Catalog
 
-All 460 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
+All 461 skills in `skills/` have been audited for zero syntax errors, valid YAML frontmatters, and compressed descriptions to maintain context efficiency:
 
 * **Core Operational Sentinels**: `loop-debug`, `code-completeness-debugger`, `request-completeness-sentinel`, `concise-responder`, `bilingual-clean-layout`, `end-to-end-executor`, `experience-learner`, `zero-duplicate-guard`.
 * **Meta-Hubs & Ecosystem Bridges**: `ecc-hub` (ECC catalog), `agency-agents` (The Agency catalog), `skill-scout` (skill discovery).
@@ -337,7 +338,7 @@ Antigravity automatically discovers skills and agents placed in the user configu
 
 ```
 OmniAgentic/
-├── skills/                     # 460 Production Engineering Skills
+├── skills/                     # 461 Production Engineering Skills
 ├── agents/                     # 147 Specialized Domain Subagents
 ├── rules/                      # Cross-Platform Operational Rules Matrix
 │   ├── GEMINI.md               # Antigravity Global Rules
