@@ -64,6 +64,11 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
 * **Role**: Creator & Primary Maintainer
 * **Contribution**: Unified self-hosted AI gateway aggregating 350+ providers, 1,300+ models, quota-aware fallback cascades, and RTK + Caveman prompt compression saving 15% to 95% of tokens.
 
+### 8. Rehan (@rehan-remade)
+* **Project**: [Universal Modder](https://github.com/rehan-remade/universal-modder)
+* **Role**: Creator & Primary Maintainer
+* **Contribution**: Cross-agent game modding suite (`um` CLI), reverse-engineering toolchain (ILSpy, Cpp2IL, Il2CppDumper, Ghidra), Fal.ai procedural asset generator, Windows screen & input automation, and collaborative field-notes knowledge base.
+
 ---
 
 ## 🏛️ Open-Source Ecosystem Credits
@@ -97,3 +102,5 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
   المطورون لمشروع `NeoHorse` و `NeoHorse-Jev` لنظام التوجيه واتخاذ القرارات الذكية الفورية (Prefill-Only Decisions) وحلقات التطوير الذاتي المتكرر (RSI).
 * **دييغو سوزا (Diego Souza - @diegosouzapw)**:
   المطور والمبتكر لمشروع `OmniRoute`، البوابة الذكية الموحدة لربط أكثر من 350 مزود ذكاء اصطناعي وأكثر من 1300 نموذج وخوارزميات ضغط المطالبات (RTK).
+* **ريحان (Rehan - @rehan-remade)**:
+  المطور والمبتكر لمشروع `Universal Modder` وحزمة أدوات تعديل وهندسة الألعاب العكسية (`um` CLI)، وتوليد الأصول ثلاثية الأبعاد والصوتيات عبر الذكاء الاصطناعي، وقاعدة المعرفة التعاونية للمطورين والوكلاء.

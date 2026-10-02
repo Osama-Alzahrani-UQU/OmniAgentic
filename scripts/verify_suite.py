@@ -18,7 +18,7 @@ def verify_repository():
     skills = sorted([p for p in skills_dir.iterdir() if p.is_dir() and (p / "SKILL.md").exists()])
     agents = sorted(list(agents_dir.glob("*.md")))
 
-    assert len(skills) == 449, f"Expected 449 skills, found {len(skills)}"
+    assert len(skills) == 460, f"Expected 460 skills, found {len(skills)}"
     assert len(agents) == 147, f"Expected 147 agents, found {len(agents)}"
 
     seen_skill_names = set()
@@ -74,7 +74,7 @@ def verify_repository():
 
     print("============================================================")
     print("  [PASS] VERIFICATION SUITE PASSED 100% (ZERO ERRORS)       ")
-    print(f"  - Verified Skills       : {len(skills)}/449 (0 Duplicates)")
+    print(f"  - Verified Skills       : {len(skills)}/460 (0 Duplicates)")
     print(f"  - Verified Subagents    : {len(agents)}/147 (0 Duplicates)")
     print(f"  - Verified Python Tools : {len(py_files)}/{len(py_files)}")
     print("  - Rule Configurations   : GEMINI.md | CLAUDE.md | AGENTS.md")
