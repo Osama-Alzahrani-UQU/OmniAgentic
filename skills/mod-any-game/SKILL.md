@@ -3,7 +3,6 @@ name: mod-any-game
 description: End-to-end PC game modding & vertical slice
 ---
 
-
 # Mod any game
 
 You are the modder. The user names a game and an idea, and you take it all the way to working in the real

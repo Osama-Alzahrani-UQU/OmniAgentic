@@ -67,7 +67,7 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
 ### 8. Rehan (@rehan-remade)
 * **Project**: [Universal Modder](https://github.com/rehan-remade/universal-modder)
 * **Role**: Creator & Primary Maintainer
-* **Contribution**: Cross-agent game modding suite (`um` CLI), reverse-engineering toolchain (ILSpy, Cpp2IL, Il2CppDumper, Ghidra), Fal.ai procedural asset generator, Windows screen & input automation, and collaborative field-notes knowledge base.
+* **Contribution**: Cross-agent game modding suite (`um` CLI), reverse-engineering toolchain (ILSpy, Cpp2IL, Il2CppDumper, Ghidra), Fal.ai & local ComfyUI procedural asset generator, Windows screen & input automation, web and archive research, and collaborative field-notes knowledge base.
 
 ---
 

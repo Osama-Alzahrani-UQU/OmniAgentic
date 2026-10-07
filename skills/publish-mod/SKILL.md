@@ -3,7 +3,6 @@ name: publish-mod
 description: Package, lint, and release game modifications
 ---
 
-
 # Publish a mod
 
 ## 1. Lint
@@ -28,6 +27,11 @@ is the platform's norm.
 | Steam Workshop | the game's own uploader or SDK tool |
 | Minecraft | Modrinth / CurseForge jar with `fabric.mod.json` / `neoforge.mods.toml` |
 | ROM hacks / GameMaker | patches only (BPS/IPS/xdelta), never the modified game file |
+
+A Nexus mod with options gets a FOMOD installer: see the
+[FOMOD tutorial](https://fomod-docs.readthedocs.io/en/latest/tutorial.html) and
+[STEP's FOMOD guide](https://stepmodifications.org/wiki/Guide:FOMOD). Nexus Mods' own
+[modding wiki](https://modding.wiki/en/home) covers the rest of their site's conventions.
 
 ## 3. README (in the zip and on the page)
 - What it adds: bullets, a GIF or the showcase video.
