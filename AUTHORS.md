@@ -69,6 +69,11 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
 * **Role**: Creator & Primary Maintainer
 * **Contribution**: Cross-agent game modding suite (`um` CLI), reverse-engineering toolchain (ILSpy, Cpp2IL, Il2CppDumper, Ghidra), Fal.ai & local ComfyUI procedural asset generator, Windows screen & input automation, web and archive research, and collaborative field-notes knowledge base.
 
+### 9. morluto (@morluto)
+* **Project**: [REA: Reverse Engineer Anything](https://github.com/morluto/rea)
+* **Role**: Creator & Primary Maintainer
+* **Contribution**: Unified cross-platform reverse-engineering framework, MCP server, and CLI toolchain across native binaries (Hopper, Ghidra, IDA), Electron & JavaScript apps, .NET assemblies, Android APKs (JADX), browser runtimes, EVM bytecode, and firmware analysis.
+
 ---
 
 ## 🏛️ Open-Source Ecosystem Credits
@@ -104,3 +109,5 @@ OmniAgentic stands on the shoulders of giants. We express our deepest gratitude 
   المطور والمبتكر لمشروع `OmniRoute`، البوابة الذكية الموحدة لربط أكثر من 350 مزود ذكاء اصطناعي وأكثر من 1300 نموذج وخوارزميات ضغط المطالبات (RTK).
 * **ريحان (Rehan - @rehan-remade)**:
   المطور والمبتكر لمشروع `Universal Modder` وحزمة أدوات تعديل وهندسة الألعاب العكسية (`um` CLI)، وتوليد الأصول ثلاثية الأبعاد والصوتيات عبر الذكاء الاصطناعي، وقاعدة المعرفة التعاونية للمطورين والوكلاء.
+* **مورلوتو (morluto - @morluto)**:
+  المطور والمبتكر لمشروع `REA (Reverse Engineer Anything)`، المنظومة الموحدة للهندسة العكسية وفحص التطبيقات والبرمجيات الثنائية (Native Binaries)، وتطبيقات Electron و JavaScript، وحزم .NET، وتطبيقات Android و EVM Bytecode، وربطها بالوكلاء الأذكياء عبر بروتوكول MCP.

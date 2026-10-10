@@ -1,4 +1,4 @@
-# Complete Catalog: 462 Skills & 147 Specialized Agents
+# Complete Catalog: 463 Skills & 147 Specialized Agents
 
 This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), **Unity Technologies**, **TokenRhythm** (NeoHorse), and **Diego Souza** (OmniRoute), and **Rehan** (Universal Modder).
 
@@ -158,7 +158,7 @@ This catalog lists every verified skill and specialized subagent included in the
 
 ---
 
-## Part 2: 462 Production Skills (skills/)
+## Part 2: 463 Production Skills (skills/)
 
 | # | Skill Name | Description |
 | :--- | :--- | :--- |
@@ -522,111 +522,112 @@ This catalog lists every verified skill and specialized subagent included in the
 | 358 | **research-ops** | Evidence-first current-state research workflow |
 | 359 | **retro** | Facilitate a structured sprint retrospective |
 | 360 | **returns-reverse-logistics** | Codified expertise for returns authorization |
-| 361 | **reverse-engineering** | Decompile and reverse-engineer game binaries |
-| 362 | **review-resume** | Comprehensive PM resume review and tailoring |
-| 363 | **rules-distill** | Scan skills to extract cross-cutting |
-| 364 | **rust-patterns** | Idiomatic Rust patterns |
-| 365 | **rust-testing** | Rust testing patterns including unit tests |
-| 366 | **santa-method** | Multi-agent adversarial verification |
-| 367 | **scientific-db-pubmed-database** | Direct PubMed and NCBI E-utilities search |
-| 368 | **scientific-db-uspto-database** | USPTO patent and trademark data workflow |
-| 369 | **scientific-pkg-gget** | Gget CLI and Python workflow for quick genomic |
-| 370 | **scientific-thinking-literature-review** | Systematic literature-review workflow |
-| 371 | **scientific-thinking-scholar-evaluation** | Structured scholarly-work evaluation for papers |
-| 372 | **search-first** | Research-before-coding workflow |
-| 373 | **security-and-hardening** | Defensive code hardening implementation |
-| 374 | **security-bounty-hunter** | Hunt for exploitable |
-| 375 | **security-review** | Endpoint, API, and feature security audit, |
-| 376 | **security-scan** | Scan your Claude Code configuration |
-| 377 | **sentiment-analysis** | Analyze user feedback data to identify |
-| 378 | **seo** | Audit, plan, and implement SEO improvements |
-| 379 | **setup-multiplayer-services** | Build online multiplayer games using Netcode |
-| 380 | **setup-vivox-voice-chat** | Integrate and configure Unity Vivox 3D |
-| 381 | **shader-graph-create-custom-node** | Create custom Unity Shader Graph nodes |
-| 382 | **share-field-notes** | Knowledge base search and modding field notes |
-| 383 | **shipping-and-launch** | Prepares production launches |
-| 384 | **shipping-artifacts** | The durable documentation set that makes |
-| 385 | **showcase-video** | Record, cut, and edit game mod showcase videos |
-| 386 | **skill-comply** | Visualize whether skills |
-| 387 | **skill-scout** | Search existing local |
-| 388 | **skill-stocktake** | Auditing Claude skills and commands for quality |
-| 389 | **social-graph-ranker** | Weighted social-graph ranking for warm intro |
-| 390 | **social-publisher** | Agent-driven scheduling and publishing |
-| 391 | **source-driven-development** | Grounds every implementation decision |
-| 392 | **spec-driven-development** | Creates specs before coding |
-| 393 | **springboot-patterns** | Spring Boot architecture patterns |
-| 394 | **springboot-security** | Spring Security best practices for authn/authz |
-| 395 | **springboot-tdd** | Test-driven development for Spring Boot using |
-| 396 | **springboot-verification** | Verification loop for Spring Boot |
-| 397 | **sprint-plan** | Plan a sprint with capacity estimation |
-| 398 | **sprite-editor** | Programmatically edit Unity Sprite slicing |
-| 399 | **sprite-segment-3x3grid** | Analyze 2D Sprite textures and segment 9-slice |
-| 400 | **sql-queries** | Generate SQL queries from natural language |
-| 401 | **stakeholder-map** | Build a stakeholder map using a power/interest |
-| 402 | **startup-canvas** | Generate a Startup Canvas combining Product |
-| 403 | **strategic-compact** | Suggests manual context compaction at logical |
-| 404 | **strategy-red-team** | Red-team a PRD, roadmap, or strategy |
-| 405 | **subagent-skill-inheritance** | Subagent skill inheritance & portable execution |
-| 406 | **summarize-interview** | Summarize a customer interview transcript into |
-| 407 | **summarize-meeting** | Summarize a meeting transcript into structured |
-| 408 | **swift-actor-persistence** | Thread-safe data persistence in Swift using |
-| 409 | **swift-concurrency-6-2** | Swift 6.2 Approachable Concurrency — |
-| 410 | **swift-protocol-di-testing** | Protocol-based dependency injection |
-| 411 | **swiftui-patterns** | SwiftUI architecture patterns |
-| 412 | **swot-analysis** | Perform a detailed SWOT analysis |
-| 413 | **system-repair-hero** | Windows system file integrity |
-| 414 | **taste** | A creative-direction |
-| 415 | **taste-application** | Generate new video against a distilled style |
-| 416 | **taste-distillation** | Measure a set of reference videos into |
-| 417 | **tasteforge-video** | Use for file-driven multimodal image |
-| 418 | **tdd-workflow** | Full-lifecycle test automation framework |
-| 419 | **team-agent-orchestration** | Run team-based orchestration for agent squads |
-| 420 | **team-builder** | Interactive agent picker for composing |
-| 421 | **terminal-opener** | Open an executable and its argument array |
-| 422 | **terminal-ops** | Evidence-first repo execution workflow for ECC |
-| 423 | **test-driven-development** | Test-driven development with robust test suites |
-| 424 | **test-scenarios** | Create comprehensive test scenarios from user |
-| 425 | **theme-factory** | Toolkit for styling artifacts with a theme |
-| 426 | **tilemap-palette-create** | Create and organize 2D Tilemap Palettes |
-| 427 | **tilemap-ruletile-createempty** | Create custom empty RuleTile |
-| 428 | **tilemap-ruletile-createfromsegment** | Generate auto-tiling Unity RuleTile assets |
-| 429 | **tinystruct-patterns** | Expert guidance for developing |
-| 430 | **token-budget-advisor** | Offers the user an informed choice about how |
-| 431 | **ui** | Master router and expert guide for Unity UI |
-| 432 | **ui-demo** | Record polished UI demo videos using Playwright |
-| 433 | **ui-imgui** | Build custom Unity Editor windows |
-| 434 | **ui-to-vue** | The user has UI screenshots or design exports |
-| 435 | **ui-ugui** | Design, layout, and script Unity uGUI Canvas |
-| 436 | **ui-uitk** | Author modern Unity 6+ UI Toolkit interfaces |
-| 437 | **uncloud** | Managing an Uncloud cluster |
-| 438 | **unified-memory** | Share durable, inspectable context |
-| 439 | **unified-notifications-ops** | Operate notifications as one ECC-native |
-| 440 | **unity-cli** | Control Unity Editor and Hub from terminal |
-| 441 | **unity-package-management** | Manage Unity Package Manager |
-| 442 | **urp-postprocessing** | Configure and debug URP Post-Processing Volumes |
-| 443 | **user-personas** | Create refined user personas from research |
-| 444 | **user-segmentation** | Segment users from feedback data based |
-| 445 | **user-stories** | Create user stories following the 3 C's |
-| 446 | **using-agent-skills** | Discovers and invokes agent skills |
-| 447 | **validate-urp-render-graph-renderer-feature** | Validate and migrate Unity 6+ URP |
-| 448 | **value-prop-statements** | Generate value proposition statements |
-| 449 | **value-proposition** | Design a detailed value proposition using |
-| 450 | **video-editing** | AI-assisted video editing workflows for cutting |
-| 451 | **video-intelligence-pilot** | Video and audio analysis and multimodal pipelines |
-| 452 | **video-use** | Conversation video editing via audio and cuts |
-| 453 | **videodb** | See, Understand, Act on video and audio |
-| 454 | **visa-doc-translate** | Translate visa application documents |
-| 455 | **visual-asset-artisan** | High-fidelity AI image generation |
-| 456 | **vite-patterns** | Vite build tool patterns including config |
-| 457 | **voicestudio** | Neural TTS voice cloning, design, and audio DSP |
-| 458 | **vue-patterns** | Vue.js 3 Composition API patterns, component |
-| 459 | **windows-desktop-e2e** | E2E testing for Windows native desktop apps |
-| 460 | **workspace-surface-audit** | Audit the active repo |
-| 461 | **wwas** | Create product backlog items |
-| 462 | **x-api** | X/Twitter API integration for posting tweets |
+| 361 | **reverse-engineer-anything** | Reverse engineer binaries, apps, and runtimes |
+| 362 | **reverse-engineering** | Decompile and reverse-engineer game binaries |
+| 363 | **review-resume** | Comprehensive PM resume review and tailoring |
+| 364 | **rules-distill** | Scan skills to extract cross-cutting |
+| 365 | **rust-patterns** | Idiomatic Rust patterns |
+| 366 | **rust-testing** | Rust testing patterns including unit tests |
+| 367 | **santa-method** | Multi-agent adversarial verification |
+| 368 | **scientific-db-pubmed-database** | Direct PubMed and NCBI E-utilities search |
+| 369 | **scientific-db-uspto-database** | USPTO patent and trademark data workflow |
+| 370 | **scientific-pkg-gget** | Gget CLI and Python workflow for quick genomic |
+| 371 | **scientific-thinking-literature-review** | Systematic literature-review workflow |
+| 372 | **scientific-thinking-scholar-evaluation** | Structured scholarly-work evaluation for papers |
+| 373 | **search-first** | Research-before-coding workflow |
+| 374 | **security-and-hardening** | Defensive code hardening implementation |
+| 375 | **security-bounty-hunter** | Hunt for exploitable |
+| 376 | **security-review** | Endpoint, API, and feature security audit, |
+| 377 | **security-scan** | Scan your Claude Code configuration |
+| 378 | **sentiment-analysis** | Analyze user feedback data to identify |
+| 379 | **seo** | Audit, plan, and implement SEO improvements |
+| 380 | **setup-multiplayer-services** | Build online multiplayer games using Netcode |
+| 381 | **setup-vivox-voice-chat** | Integrate and configure Unity Vivox 3D |
+| 382 | **shader-graph-create-custom-node** | Create custom Unity Shader Graph nodes |
+| 383 | **share-field-notes** | Knowledge base search and modding field notes |
+| 384 | **shipping-and-launch** | Prepares production launches |
+| 385 | **shipping-artifacts** | The durable documentation set that makes |
+| 386 | **showcase-video** | Record, cut, and edit game mod showcase videos |
+| 387 | **skill-comply** | Visualize whether skills |
+| 388 | **skill-scout** | Search existing local |
+| 389 | **skill-stocktake** | Auditing Claude skills and commands for quality |
+| 390 | **social-graph-ranker** | Weighted social-graph ranking for warm intro |
+| 391 | **social-publisher** | Agent-driven scheduling and publishing |
+| 392 | **source-driven-development** | Grounds every implementation decision |
+| 393 | **spec-driven-development** | Creates specs before coding |
+| 394 | **springboot-patterns** | Spring Boot architecture patterns |
+| 395 | **springboot-security** | Spring Security best practices for authn/authz |
+| 396 | **springboot-tdd** | Test-driven development for Spring Boot using |
+| 397 | **springboot-verification** | Verification loop for Spring Boot |
+| 398 | **sprint-plan** | Plan a sprint with capacity estimation |
+| 399 | **sprite-editor** | Programmatically edit Unity Sprite slicing |
+| 400 | **sprite-segment-3x3grid** | Analyze 2D Sprite textures and segment 9-slice |
+| 401 | **sql-queries** | Generate SQL queries from natural language |
+| 402 | **stakeholder-map** | Build a stakeholder map using a power/interest |
+| 403 | **startup-canvas** | Generate a Startup Canvas combining Product |
+| 404 | **strategic-compact** | Suggests manual context compaction at logical |
+| 405 | **strategy-red-team** | Red-team a PRD, roadmap, or strategy |
+| 406 | **subagent-skill-inheritance** | Subagent skill inheritance & portable execution |
+| 407 | **summarize-interview** | Summarize a customer interview transcript into |
+| 408 | **summarize-meeting** | Summarize a meeting transcript into structured |
+| 409 | **swift-actor-persistence** | Thread-safe data persistence in Swift using |
+| 410 | **swift-concurrency-6-2** | Swift 6.2 Approachable Concurrency — |
+| 411 | **swift-protocol-di-testing** | Protocol-based dependency injection |
+| 412 | **swiftui-patterns** | SwiftUI architecture patterns |
+| 413 | **swot-analysis** | Perform a detailed SWOT analysis |
+| 414 | **system-repair-hero** | Windows system file integrity |
+| 415 | **taste** | A creative-direction |
+| 416 | **taste-application** | Generate new video against a distilled style |
+| 417 | **taste-distillation** | Measure a set of reference videos into |
+| 418 | **tasteforge-video** | Use for file-driven multimodal image |
+| 419 | **tdd-workflow** | Full-lifecycle test automation framework |
+| 420 | **team-agent-orchestration** | Run team-based orchestration for agent squads |
+| 421 | **team-builder** | Interactive agent picker for composing |
+| 422 | **terminal-opener** | Open an executable and its argument array |
+| 423 | **terminal-ops** | Evidence-first repo execution workflow for ECC |
+| 424 | **test-driven-development** | Test-driven development with robust test suites |
+| 425 | **test-scenarios** | Create comprehensive test scenarios from user |
+| 426 | **theme-factory** | Toolkit for styling artifacts with a theme |
+| 427 | **tilemap-palette-create** | Create and organize 2D Tilemap Palettes |
+| 428 | **tilemap-ruletile-createempty** | Create custom empty RuleTile |
+| 429 | **tilemap-ruletile-createfromsegment** | Generate auto-tiling Unity RuleTile assets |
+| 430 | **tinystruct-patterns** | Expert guidance for developing |
+| 431 | **token-budget-advisor** | Offers the user an informed choice about how |
+| 432 | **ui** | Master router and expert guide for Unity UI |
+| 433 | **ui-demo** | Record polished UI demo videos using Playwright |
+| 434 | **ui-imgui** | Build custom Unity Editor windows |
+| 435 | **ui-to-vue** | The user has UI screenshots or design exports |
+| 436 | **ui-ugui** | Design, layout, and script Unity uGUI Canvas |
+| 437 | **ui-uitk** | Author modern Unity 6+ UI Toolkit interfaces |
+| 438 | **uncloud** | Managing an Uncloud cluster |
+| 439 | **unified-memory** | Share durable, inspectable context |
+| 440 | **unified-notifications-ops** | Operate notifications as one ECC-native |
+| 441 | **unity-cli** | Control Unity Editor and Hub from terminal |
+| 442 | **unity-package-management** | Manage Unity Package Manager |
+| 443 | **urp-postprocessing** | Configure and debug URP Post-Processing Volumes |
+| 444 | **user-personas** | Create refined user personas from research |
+| 445 | **user-segmentation** | Segment users from feedback data based |
+| 446 | **user-stories** | Create user stories following the 3 C's |
+| 447 | **using-agent-skills** | Discovers and invokes agent skills |
+| 448 | **validate-urp-render-graph-renderer-feature** | Validate and migrate Unity 6+ URP |
+| 449 | **value-prop-statements** | Generate value proposition statements |
+| 450 | **value-proposition** | Design a detailed value proposition using |
+| 451 | **video-editing** | AI-assisted video editing workflows for cutting |
+| 452 | **video-intelligence-pilot** | Video and audio analysis and multimodal pipelines |
+| 453 | **video-use** | Conversation video editing via audio and cuts |
+| 454 | **videodb** | See, Understand, Act on video and audio |
+| 455 | **visa-doc-translate** | Translate visa application documents |
+| 456 | **visual-asset-artisan** | High-fidelity AI image generation |
+| 457 | **vite-patterns** | Vite build tool patterns including config |
+| 458 | **voicestudio** | Neural TTS voice cloning, design, and audio DSP |
+| 459 | **vue-patterns** | Vue.js 3 Composition API patterns, component |
+| 460 | **windows-desktop-e2e** | E2E testing for Windows native desktop apps |
+| 461 | **workspace-surface-audit** | Audit the active repo |
+| 462 | **wwas** | Create product backlog items |
+| 463 | **x-api** | X/Twitter API integration for posting tweets |
 
 ---
 
-# الفهرس الشامل: 462 مهارة هندسية و 147 وكيلاً تخصصياً
+# الفهرس الشامل: 463 مهارة هندسية و 147 وكيلاً تخصصياً
 
-يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse) و Diego Souza (OmniRoute) و Rehan (Universal Modder)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
+يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse) و Diego Souza (OmniRoute) و Rehan (Universal Modder) و morluto (REA), and **morluto** (REA: Reverse Engineer Anything)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
