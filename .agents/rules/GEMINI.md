@@ -1,5 +1,4 @@
 # Antigravity Global Rules & Universal Agent Protocol
-
 These rules apply universally across all conversations, workspaces, and sub-agents on this machine.
 
 ---
@@ -59,6 +58,13 @@ These rules apply universally across all conversations, workspaces, and sub-agen
       - مسار Cursor IDE: `~/.cursor/skills/<skill>/SKILL.md`.
     - **التوثيق الإلزامي للمهارة في التقرير الداخلي (`subagent-skill-compliance-report`)**: يلتزم كل وكيل فرعي بتضمين اسم المهارة المطبقة ومسارها ومطابقة خطواتها بنسبة 100% في تقريره الفني الداخلي الموجه للوكيل الرئيسي تأكيداً على التفعيل.
 
+11. **Smart Working Memory & Full-Review Fallback Protocol (`smart-code-memory`)**:
+    - **الاسترجاع الذكي للفهرس وذاكرة العمل المدمجة**: لتفادي الاستهلاك المفرط للسياق وضعف الذاكرة في بعض النماذج، يستعين الوكيل بأداة `code_memory.py` للبحث الموجه عن الرموز، الدوال، ونطاقات الأسطر، وحفظ الملاحظات المفتاحية في ذاكرة الجلسة السريعة.
+    - **إلزامية المراجعة الشاملة عند عدم العثور على المشكلة**: إذا لم يُعثر على موضع الخلل أو الكود المستهدف ضمن الشريحة المفهرسة، يلتزم الوكيل بالانتقال التلقائي لمراجعة الكود البرمجي بالكامل لضمان التشخيص السليم بنسبة 100%.
+
+12. **Strict Scope Guard & Anti-Destruction Shield (`code-scope-guard`)**:
+    - **حظر التعديلات العشوائية وحماية الكود من التجريد أو الحذف**: يُحظر التعديل خارج النطاق الصريح لطلب المستخدم أو حذف الملفات غير المعنية بسبب الهلوسة. يلتزم الوكيل بتثبيت بصمة أساسية (`baseline lock`) عبر `scope_guard.py` قبل التعديل، والتحقق الصارم من عدم حدوث انكماش مفاجئ في الأسطر أو تجريد للدوال (`gutted functions`) مع التراجع التلقائي (`rollback`) عند أي انتهاك.
+
 ---
 
 ## 2. Core Active Skills Matrix
@@ -74,6 +80,8 @@ These rules apply universally across all conversations, workspaces, and sub-agen
 | **`experience-learner`** | Consults and updates `C:\Users\goldl\.gemini\knowledge\troubleshooting_history.md` across all conversations. |
 | **`zero-duplicate-guard`** | Enforces 0 duplicate skills and 0 duplicate sub-agents across name, description, and SHA-256 content hash. |
 | **`subagent-skill-inheritance`** | Enforces 100% skill inheritance, cross-platform portability, and explicit SKILL.md reading across all sub-agents. |
+| **`smart-code-memory`** | Fast working memory index for code symbols and targeted slices with full-review fallback. |
+| **`code-scope-guard`** | Strict scope boundary guard, baseline lock, and anti-destruction rollback shield. |
 
 ---
 
