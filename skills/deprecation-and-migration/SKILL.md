@@ -6,24 +6,28 @@ description: Manages deprecation and migration
 
 ## Overview
 
-Code is a liability, not an asset. Every line of code has ongoing maintenance cost — bugs to fix, dependencies to update, security patches to apply, and new engineers to onboard. Deprecation is the discipline of removing code that no longer earns its keep, and migration is the process of moving users safely from the old to the new.
+Preserving stability and backward compatibility is paramount. Existing code, public APIs, and helper functions must NEVER be deleted, gutted, or deprecated unless explicitly instructed by the user. Deprecation is a disciplined, multi-step process that ensures users and dependent systems migrate safely without unexpected breakage.
 
-Most engineering organizations are good at building things. Few are good at removing them. This skill addresses that gap.
+> [!IMPORTANT]
+> **Strict Non-Destructive Invariant**:
+> - Never deprecate, comment out, or delete code autonomously based on assumption.
+> - Backward compatibility must be preserved at all times unless the user explicitly requested a breaking change or removal.
+> - Always verify callers across the entire repository before altering any interface.
 
 ## When to Use
 
-- Replacing an old system, API, or library with a new one
-- Sunsetting a feature that's no longer needed
-- Consolidating duplicate implementations
-- Removing dead code that nobody owns but everybody depends on
+- Replacing an old system, API, or library when explicitly instructed by the user
+- Sunsetting a feature that the user has specifically scheduled for removal
+- Consolidating duplicate implementations while ensuring backward compatibility
+- Safely managing legacy code transitions with explicit user approval
 - Planning the lifecycle of a new system (deprecation planning starts at design time)
 - Deciding whether to maintain a legacy system or invest in migration
 
 ## Core Principles
 
-### Code Is a Liability
+### Backward Compatibility & Stability First
 
-Every line of code has ongoing cost: it needs tests, documentation, security patches, dependency updates, and mental overhead for anyone working nearby. The value of code is the functionality it provides, not the code itself. When the same functionality can be provided with less code, less complexity, or better abstractions — the old code should go.
+Code provides working functionality and contracts that users, downstream callers, and automated tests rely on. Never delete or break working code under the assumption that it is "a liability" or "unnecessary". When introducing new, cleaner abstractions, maintain existing entry points or backwards-compatible shims so that nothing breaks silently.
 
 ### Hyrum's Law Makes Removal Hard
 

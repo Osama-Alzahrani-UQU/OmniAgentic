@@ -11,8 +11,8 @@ engine in [`orch-pipeline`](../orch-pipeline/SKILL.md).
 
 ## When to Use
 
-- Same behavior, **better structure**: extract modules, remove duplication, kill
-  dead code, reduce nesting, rename for clarity.
+- Same behavior, **better structure**: extract modules, remove duplication,
+  reduce nesting, rename for clarity. Strictly preserve existing functions and helpers.
 - Distinguish from siblings: if behavior is meant to change at all, this is the
   wrong skill (`orch-change-feature` / `orch-fix-defect`).
 
@@ -28,8 +28,9 @@ engine in [`orch-pipeline`](../orch-pipeline/SKILL.md).
 ## How It Works
 
 1. Run the `orch-pipeline` engine with the settings above.
-2. For dead-code / duplication sweeps, delegate to the `refactor-cleaner` agent
-   (it runs knip / depcheck / ts-prune and removes safely).
+2. Enforce strict non-destructive refactoring: Never delete existing functions,
+   methods, exports, or classes without explicit user approval. Protect against
+   accidental line shrinkage and symbol gutting via `code-scope-guard`.
 3. Stop at **Gate 1** (restructure plan) and **Gate 2** (pre-commit).
 4. Commit as `refactor:` — the diff must be behavior-neutral.
 

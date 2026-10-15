@@ -10,6 +10,13 @@ description: Simplifies code for clarity
 
 Simplify code by reducing complexity while preserving exact behavior. The goal is not fewer lines — it's code that is easier to read, understand, modify, and debug. Every simplification must pass a simple test: "Would a new team member understand this faster than the original?"
 
+> [!IMPORTANT]
+> **Strict Non-Destructive Invariant & Scope Boundary**:
+> - Simplification must NEVER delete existing functions, methods, helper utilities, classes, or files.
+> - Never touch, reformat, or modify code outside the explicit scope requested by the user.
+> - Do not delete comments, docstrings, type exports, or backwards-compatibility shims.
+> - Local absence of callers in a single file does NOT mean code is unused or dead — other modules or tests may depend on it.
+
 ## When to Use
 
 - After a feature is working and tests pass, but the implementation feels heavier than it needs to be
@@ -140,7 +147,7 @@ Scan for these patterns — each one is a concrete signal, not a vague smell:
 | Generic names | `data`, `result`, `temp`, `val`, `item` | Rename to describe the content: `userProfile`, `validationErrors` |
 | Abbreviated names | `usr`, `cfg`, `btn`, `evt` | Use full words unless the abbreviation is universal (`id`, `url`, `api`) |
 | Misleading names | Function named `get` that also mutates state | Rename to reflect actual behavior |
-| Comments explaining "what" | `// increment counter` above `count++` | Delete the comment — the code is clear enough |
+| Comments explaining "what" | `// increment counter` above `count++` | Clarify or preserve; never strip comments wholesale |
 | Comments explaining "why" | `// Retry because the API is flaky under load` | Keep these — they carry intent the code can't express |
 
 **Redundancy:**
@@ -148,8 +155,8 @@ Scan for these patterns — each one is a concrete signal, not a vague smell:
 | Pattern | Signal | Simplification |
 |---------|--------|----------------|
 | Duplicated logic | Same 5+ lines in multiple places | Extract to a shared function |
-| Dead code | Unreachable branches, unused variables, commented-out blocks | Remove (after confirming it's truly dead) |
-| Unnecessary abstractions | Wrapper that adds no value | Inline the wrapper, call the underlying function directly |
+| Unused local variable | Local variable with zero references in small block | Remove only with explicit confirmation; never delete functions or exports |
+| Redundant internal indirection | Private 1-line wrapper within the exact same function | Inline only if safe and strictly within the local scope |
 | Over-engineered patterns | Factory-for-a-factory, strategy-with-one-strategy | Replace with the simple direct approach |
 | Redundant type assertions | Casting to a type that's already inferred | Remove the assertion |
 
@@ -301,7 +308,7 @@ function UserBadge({ user }: Props) {
 | "Fewer lines is always simpler" | A 1-line nested ternary is not simpler than a 5-line if/else. Simplicity is about comprehension speed, not line count. |
 | "I'll just quickly simplify this unrelated code too" | Unscoped simplification creates noisy diffs and risks regressions in code you didn't intend to change. Stay focused. |
 | "The types make it self-documenting" | Types document structure, not intent. A well-named function explains *why* better than a type signature explains *what*. |
-| "This abstraction might be useful later" | Don't preserve speculative abstractions. If it's not used now, it's complexity without value. Remove it and re-add when needed. |
+| "This abstraction might be useful later" | Do not delete existing abstractions or helpers unless explicitly requested; external callers or tests may rely on them. |
 | "The original author must have had a reason" | Maybe. Check git blame — apply Chesterton's Fence. But accumulated complexity often has no reason; it's just the residue of iteration under pressure. |
 | "I'll refactor while adding this feature" | Separate refactoring from feature work. Mixed changes are harder to review, revert, and understand in history. |
 
@@ -314,6 +321,7 @@ function UserBadge({ user }: Props) {
 - Simplifying code you don't fully understand
 - Batching many simplifications into one large, hard-to-review commit
 - Refactoring code outside the scope of the current task without being asked
+- Deleting helper functions, exports, or comments outside the explicit scope
 
 ## Verification
 
@@ -326,5 +334,5 @@ After completing a simplification pass:
 - [ ] The diff is clean — no unrelated changes mixed in
 - [ ] Simplified code follows project conventions (checked against CLAUDE.md or equivalent)
 - [ ] No error handling was removed or weakened
-- [ ] No dead code was left behind (unused imports, unreachable branches)
+- [ ] No existing functions, helpers, or comments were deleted outside the explicit task scope
 - [ ] A teammate or review agent would approve the change as a net improvement

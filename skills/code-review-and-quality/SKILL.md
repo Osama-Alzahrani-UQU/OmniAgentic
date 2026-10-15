@@ -40,10 +40,10 @@ Can another engineer (or agent) understand this code without the author explaini
 - Is the control flow straightforward (avoid nested ternaries, deep callbacks)?
 - Is the code organized logically (related code grouped, clear module boundaries)?
 - Are there any "clever" tricks that should be simplified?
-- **Could this be done in fewer lines?** (1000 lines where 100 suffice is a failure)
+- **Is the implementation straightforward and readable?** (Avoid artificial compression or minification; clarity and readability beat raw line count)
 - **Are abstractions earning their complexity?** (Don't generalize until the third use case)
-- Would comments help clarify non-obvious intent? (But don't comment obvious code.)
-- Are there dead code artifacts: no-op variables (`_unused`), backwards-compat shims, or `// removed` comments?
+- Would comments help clarify non-obvious intent? (Preserve existing architectural comments and docstrings)
+- Are backwards-compatibility shims properly documented? Never strip shims, fallbacks, or existing helpers without explicit user request.
 - **Is a new conditional bolted onto an unrelated flow?** That's a design smell, not a nit — push the logic into its own helper, state, or policy instead of tangling an existing path.
 - **Do repeated conditionals on the same shape appear?** They signal a missing model or dispatcher. A "temporary" branch is usually permanent debt.
 
@@ -56,7 +56,7 @@ Does the change fit the system's design?
 - Is there code duplication that should be shared?
 - Are dependencies flowing in the right direction (no circular dependencies)?
 - Is the abstraction level appropriate (not over-engineered, not too coupled)?
-- **Does this refactor reduce complexity or just relocate it?** Count the concepts a reader must hold to follow the change. If a "cleaner" version leaves that count unchanged, it isn't cleaner — prefer the restructuring that makes whole branches, modes, or layers disappear over one that re-centralizes the same logic. Prefer deleting an abstraction to polishing it.
+- **Does this refactor reduce complexity or just relocate it?** Count the concepts a reader must hold to follow the change. If a "cleaner" version leaves that count unchanged, it isn't cleaner — prefer restructuring that simplifies control flow without stripping existing helpers or breaking external consumers. Preserve existing public abstractions and interfaces.
 - **Is feature-specific logic leaking into a shared or general-purpose module?** Keep logic in its owning layer, reuse the existing canonical helper instead of a near-duplicate, and don't normalize architectural drift.
 - **Are type boundaries explicit?** Question gratuitous `any`/`unknown`/optional/casts and silent fallbacks that paper over an unclear invariant — making the boundary explicit often makes the surrounding control flow simpler.
 
@@ -227,22 +227,20 @@ our project conventions. The spec says [X]. The change should [Y].
 Flag any issues as Critical, Required, Optional, or Nit.
 ```
 
-## Dead Code Hygiene
+## Code Preservation & Scope Discipline
 
-After any refactoring or implementation change, check for orphaned code:
+During review, ensure that changes adhere strictly to the requested task scope:
 
-1. Identify code that is now unreachable or unused
-2. List it explicitly
-3. **Ask before deleting:** "Should I remove these now-unused elements: [list]?"
-
-Don't leave dead code lying around — it confuses future readers and agents. But don't silently delete things you're not sure about. When in doubt, ask.
+1. **Never delete code based on local inspection**: Absence of local references in a single file does NOT mean code is dead. External callers, dynamic imports, or tests may rely on it.
+2. **Preserve existing helpers and fallbacks**: Do not remove backwards-compatibility layers without explicit user authorization.
+3. **Guard against accidental regressions**: Verify that existing functionality remains intact and uncompromised.
+4. **When in doubt, preserve**: If an element appears unused, note it neutrally in the review report without deleting it.
 
 ```
-DEAD CODE IDENTIFIED:
-- formatLegacyDate() in src/utils/date.ts — replaced by formatDate()
-- OldTaskCard component in src/components/ — replaced by TaskCard
-- LEGACY_API_URL constant in src/config.ts — no remaining references
-→ Safe to remove these?
+SCOPE DISCIPLINE CHECK:
+- Target files modified strictly match the task requirement.
+- Zero functions, methods, or classes deleted without explicit request.
+- All existing tests and public interfaces remain functional.
 ```
 
 ## Review Speed
