@@ -1,6 +1,6 @@
 ---
 name: code-completeness-debugger
-description: Pre-delivery audit for zero missing code or TODOs
+description: Pre-delivery audit for zero missing code or TODO
 ---
 # Pre-Delivery Code & Function Completeness Debugger (`code-completeness-debugger`)
 

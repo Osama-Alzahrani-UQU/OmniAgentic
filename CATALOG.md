@@ -1,6 +1,6 @@
 # Complete Catalog: 465 Skills & 147 Specialized Agents
 
-This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), **Unity Technologies**, **TokenRhythm** (NeoHorse), and **Diego Souza** (OmniRoute), and **Rehan** (Universal Modder).
+This catalog lists every verified skill and specialized subagent included in the suite. Built upon and integrating breakthrough open-source projects by **Maciej Sitarzewski** (The Agency), **Harry** (MoneyPrinterTurbo), **Matthew Kissinger** (Kiln), **Affaan Mustafa** (Everything Claude Code), **Unity Technologies**, **TokenRhythm** (NeoHorse), **Diego Souza** (OmniRoute), **Rehan** (Universal Modder), and **morluto** (REA: Reverse Engineer Anything).
 
 ---
 
@@ -224,7 +224,7 @@ This catalog lists every verified skill and specialized subagent included in the
 | 60 | **claude-devfleet** | Orchestrate multi-agent coding tasks via |
 | 61 | **click-path-audit** | Trace every user-facing button/touchpoint |
 | 62 | **clickhouse-io** | ClickHouse database patterns |
-| 63 | **code-completeness-debugger** | Pre-delivery audit for zero missing code or TODOs |
+| 63 | **code-completeness-debugger** | Pre-delivery audit for zero missing code or TODO |
 | 64 | **code-mentor** | Dedicated programming assistant |
 | 65 | **code-review** | Deep bug hunting and defect discovery in code |
 | 66 | **code-review-and-quality** | Comprehensive code review and defect discovery |
@@ -297,7 +297,7 @@ This catalog lists every verified skill and specialized subagent included in the
 | 133 | **ecc-recipes** | Map a described workflow to the right ECC |
 | 134 | **ecc-tools-cost-audit** | Evidence-first ECC Tools burn and billing |
 | 135 | **email-ops** | Evidence-first mailbox triage |
-| 136 | **end-to-end-executor** | 100% autonomous execution without user delegation |
+| 136 | **end-to-end-executor** | 100% autonomous execution with zero delegation |
 | 137 | **energy-procurement** | Codified expertise for electricity and gas |
 | 138 | **enterprise-agent-ops** | Operate long-lived agent workloads |
 | 139 | **error-handling** | Robust error handling across TypeScript |
@@ -405,7 +405,7 @@ This catalog lists every verified skill and specialized subagent included in the
 | 241 | **llm-trading-agent-security** | Security patterns for autonomous trading |
 | 242 | **localization** | Configure Unity Localization packages |
 | 243 | **logistics-exception-management** | Codified expertise for handling freight |
-| 244 | **loop-debug** | Autonomous iterative Test-Diagnose-Fix-Retest loop |
+| 244 | **loop-debug** | Autonomous iterative Test-Diagnose-Fix-Retest |
 | 245 | **loop-design-check** | Design a goal-oriented agent loop |
 | 246 | **mailtrap-email-integration** | Integrating transactional email sending via |
 | 247 | **make-interfaces-feel-better** | Apply concrete design-engineering details that |
@@ -615,7 +615,7 @@ This catalog lists every verified skill and specialized subagent included in the
 | 451 | **value-prop-statements** | Generate value proposition statements |
 | 452 | **value-proposition** | Design a detailed value proposition using |
 | 453 | **video-editing** | AI-assisted video editing workflows for cutting |
-| 454 | **video-intelligence-pilot** | Video and audio analysis and multimodal pipelines |
+| 454 | **video-intelligence-pilot** | Video and audio analysis and multimodal pipeline |
 | 455 | **video-use** | Conversation video editing via audio and cuts |
 | 456 | **videodb** | See, Understand, Act on video and audio |
 | 457 | **visa-doc-translate** | Translate visa application documents |
@@ -632,4 +632,4 @@ This catalog lists every verified skill and specialized subagent included in the
 
 # الفهرس الشامل: 465 مهارة هندسية و 147 وكيلاً تخصصياً
 
-يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse) و Diego Souza (OmniRoute) و Rehan (Universal Modder) و morluto (REA), and **morluto** (REA: Reverse Engineer Anything)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.
+يحتوي هذا الملف على الفهرس الكامل المعتمد لكافة المهارات البرمجية والوكلاء التخصصيين المدمجين في المنظومة، والتي تم تطويرها ودمجها بالاستناد إلى مشاريع مفتوحة المصدر للمطورين: Maciej Sitarzewski و Harry و Matthew Kissinger و Affaan Mustafa و Unity Technologies و TokenRhythm (NeoHorse) و Diego Souza (OmniRoute) و Rehan (Universal Modder) و morluto (REA: Reverse Engineer Anything)، مع تقسيم تفصيلي لكل أداة ووظيفتها الدقيقة لضمان أقصى كفاءة وأداء للمطورين وبيئات الذكاء الاصطناعي.

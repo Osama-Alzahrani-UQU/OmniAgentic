@@ -1,6 +1,6 @@
 ---
 name: loop-debug
-description: Autonomous iterative Test-Diagnose-Fix-Retest loop
+description: Autonomous iterative Test-Diagnose-Fix-Retest
 ---
 # Loop Debug & Empirical Verification Protocol
 

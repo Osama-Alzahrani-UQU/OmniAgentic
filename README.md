@@ -15,7 +15,7 @@
 <p align="center">
   <b>Engineered & Maintained by <a href="https://github.com/Osama-Alzahrani-UQU">Osama Alzahrani</a></b><br>
   <span>Computer Science • Umm Al-Qura University</span><br>
-  <sub>Integrated with pioneering open-source work by <b>Maciej Sitarzewski</b>, <b>Harry</b>, <b>Matthew Kissinger</b>, <b>Affaan Mustafa</b>, <b>Unity Technologies</b>, <b>TokenRhythm</b>, <b>Diego Souza</b> & <b>Rehan</b></sub>
+  <sub>Integrated with pioneering open-source work by <b>Maciej Sitarzewski</b>, <b>Harry</b>, <b>Matthew Kissinger</b>, <b>Affaan Mustafa</b>, <b>Unity Technologies</b>, <b>TokenRhythm</b>, <b>Diego Souza</b>, <b>Rehan</b> & <b>morluto</b></sub>
 </p>
 
 <p align="center">
@@ -119,6 +119,14 @@ OmniAgentic proudly builds upon, adapts, and integrates breakthrough open-source
         <sub>@rehan-remade</sub>
       </a><br />
       <small><a href="https://github.com/rehan-remade/universal-modder">Universal Modder</a></small>
+    </td>
+    <td align="center" width="160">
+      <a href="https://github.com/morluto">
+        <img src="https://github.com/morluto.png?size=80" width="80px;" alt="morluto" style="border-radius: 50%;" /><br />
+        <sub><b>morluto</b></sub><br />
+        <sub>@morluto</sub>
+      </a><br />
+      <small><a href="https://github.com/morluto/rea">REA Reverse Engineering</a></small>
     </td>
   </tr>
 </table>

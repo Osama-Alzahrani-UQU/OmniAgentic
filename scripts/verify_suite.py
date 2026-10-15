@@ -35,6 +35,7 @@ def verify_repository():
         body_hash = hashlib.sha256(parts[2].strip().encode("utf-8")).hexdigest()
 
         assert name == s.name and desc, f"Invalid metadata in skill {s.name}"
+        assert len(str(fm.get("description", ""))) <= 48, f"Description too long ({len(str(fm.get('description', '')))}) in skill {name}"
         assert name not in seen_skill_names, f"Duplicate skill name detected: {name}"
         assert desc not in seen_skill_descs, f"Duplicate skill description in {name} and {seen_skill_descs[desc]}"
         assert body_hash not in seen_skill_bodies, f"Duplicate skill body in {name} and {seen_skill_bodies[body_hash]}"

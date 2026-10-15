@@ -6,3 +6,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .agents/skills/
+.code_memory/
+.scope_guard/
+

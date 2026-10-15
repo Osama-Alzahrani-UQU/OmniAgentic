@@ -1,6 +1,6 @@
 ---
 name: video-intelligence-pilot
-description: Video and audio analysis and multimodal pipelines
+description: Video and audio analysis and multimodal pipeline
 ---
 # Video Intelligence Pilot: Ingestion, Analysis & Execution Protocol
 

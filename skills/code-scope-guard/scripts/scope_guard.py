@@ -44,8 +44,16 @@ def extract_symbol_names(lines: list[str], ext: str) -> set[str]:
     return symbols
 
 class ScopeGuard:
-    def __init__(self, root_dir: str | Path):
-        self.root = Path(root_dir).resolve()
+    def __init__(self, root_dir: str | Path = "."):
+        resolved = Path(root_dir).resolve()
+        if str(root_dir) in {".", ""} and not (resolved / ".git").exists():
+            cur = resolved
+            while cur.parent != cur:
+                if (cur / ".git").exists():
+                    resolved = cur
+                    break
+                cur = cur.parent
+        self.root = resolved
         if self.root.is_file():
             self.guard_dir = self.root.parent / ".scope_guard"
         else:
@@ -68,7 +76,7 @@ class ScopeGuard:
                         files.append(p)
 
         for p in files:
-            rel = str(p.relative_to(self.root) if not self.root.is_file() else p.name)
+            rel = (p.relative_to(self.root) if not self.root.is_file() else Path(p.name)).as_posix()
             try:
                 text = p.read_text(encoding="utf-8", errors="replace")
                 lines = text.splitlines()
@@ -102,9 +110,10 @@ class ScopeGuard:
             except Exception:
                 pass
 
+        normalized_allows = [Path(f).as_posix().lstrip("./").lower() for f in (allow_files or [])]
         baseline_data = {
             "locked_at": time.time(),
-            "allow_files": [os.path.normpath(f) for f in (allow_files or [])],
+            "allow_files": normalized_allows,
             "allow_symbols": allow_symbols or [],
             "files": manifest
         }
@@ -119,7 +128,7 @@ class ScopeGuard:
 
         baseline = json.loads(self.baseline_file.read_text(encoding="utf-8"))
         base_files = baseline["files"]
-        allow_files = [os.path.normpath(f).lower() for f in baseline.get("allow_files", [])]
+        allow_files = [Path(f).as_posix().lstrip("./").lower() for f in baseline.get("allow_files", [])]
 
         violations = []
         modified_in_scope = []
@@ -140,12 +149,16 @@ class ScopeGuard:
 
         # Check modified and out-of-scope files
         for rel, curr_meta in current_manifest.items():
-            norm_rel = os.path.normpath(rel).lower()
+            norm_rel = Path(rel).as_posix().lower()
             if rel not in base_files:
                 # Newly created file
                 new_files.append(rel)
                 # If allow_files is strictly enforced and not empty, check if new file is permitted
-                if allow_files and not any(norm_rel.endswith(af) or af in norm_rel for af in allow_files):
+                is_allowed_new = (not allow_files) or any(
+                    norm_rel == af or norm_rel.endswith("/" + af) or af.endswith("/" + norm_rel) or Path(norm_rel).name == Path(af).name
+                    for af in allow_files
+                )
+                if not is_allowed_new:
                     violations.append({
                         "type": "UNAUTHORIZED_NEW_FILE",
                         "severity": "WARNING",
@@ -157,7 +170,10 @@ class ScopeGuard:
             old_meta = base_files[rel]
             if curr_meta["hash"] != old_meta["hash"]:
                 # File was modified!
-                is_allowed = (not allow_files) or any(norm_rel.endswith(af) or af in norm_rel for af in allow_files)
+                is_allowed = (not allow_files) or any(
+                    norm_rel == af or norm_rel.endswith("/" + af) or af.endswith("/" + norm_rel) or Path(norm_rel).name == Path(af).name
+                    for af in allow_files
+                )
                 if not is_allowed:
                     violations.append({
                         "type": "OUT_OF_SCOPE_MODIFICATION",
@@ -206,10 +222,20 @@ class ScopeGuard:
 
         restored = 0
         if target_file:
-            norm_target = os.path.normpath(target_file)
+            norm_target = Path(target_file).as_posix().lstrip("./")
             src = self.backup_dir / norm_target
             dst = self.root / norm_target if not self.root.is_file() else self.root
+
+            if not src.exists():
+                # Search by matching posix or filename
+                for backup_f in self.backup_dir.rglob("*"):
+                    if backup_f.is_file() and (backup_f.name.lower() == Path(target_file).name.lower() or backup_f.relative_to(self.backup_dir).as_posix().lower() == norm_target.lower()):
+                        src = backup_f
+                        dst = self.root / backup_f.relative_to(self.backup_dir)
+                        break
+
             if src.exists():
+                dst.parent.mkdir(parents=True, exist_ok=True)
                 shutil.copy2(src, dst)
                 print(f"[RESTORED] {target_file} recovered from pre-edit baseline snapshot.")
                 return 0
@@ -220,7 +246,7 @@ class ScopeGuard:
             for root, dirs, files in os.walk(self.backup_dir):
                 for f in files:
                     backup_path = Path(root) / f
-                    rel = backup_path.relative_to(self.backup_dir)
+                    rel = (backup_path.relative_to(self.backup_dir)).as_posix()
                     dest_path = self.root / rel if not self.root.is_file() else self.root
                     dest_path.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copy2(backup_path, dest_path)
@@ -249,8 +275,8 @@ def main():
     p_verify.add_argument("--json", action="store_true", help="Output as JSON")
 
     # rollback
-    p_rb = subparsers.add_parser("rollback", help="Rollback files from baseline backup")
-    p_rb.add_argument("file", nargs="?", default=None, help="Specific file to rollback (or all)")
+    p_rollback = subparsers.add_parser("rollback", help="Rollback files from baseline backup")
+    p_rollback.add_argument("file", nargs="?", default=None, help="Specific file to rollback (or all if omitted)")
 
     # commit
     subparsers.add_parser("commit", help="Commit changes and release lock")
@@ -264,11 +290,11 @@ def main():
 
     if args.command == "lock":
         res = guard.lock(allow_files=args.allow_files, allow_symbols=args.allow_symbols)
-        print(f"[LOCKED] Baseline snapshot secured: {res['locked_files']} files protected.")
+        print(f"[LOCKED] Baseline created for {res['locked_files']} files.")
         if res["allow_files"]:
-            print(f"         Allowed edit scope: {res['allow_files']}")
+            print(f"  Allowed edit scope: {res['allow_files']}")
         else:
-            print("         Allowed edit scope: ANY (Monitoring for accidental deletions and symbol gutting)")
+            print("  Scope: Global monitor (guards against deletions and symbol gutting).")
     elif args.command == "verify":
         res = guard.verify()
         if args.json:
@@ -277,27 +303,17 @@ def main():
             if res.get("status") == "error":
                 print(f"[ERROR] {res.get('message')}")
                 sys.exit(1)
-
-            print("==================================================")
-            print(f" SCOPE GUARD AUDIT RESULT: {res['status'].upper()}")
-            print("==================================================")
-            if res["modified_in_scope"]:
-                print(f"[OK] Modified within scope: {res['modified_in_scope']}")
-            if res["new_files"]:
-                print(f"[+] New files created: {res['new_files']}")
-
-            if res["violations"]:
-                print("\n[!] DETECTED SCOPE VIOLATIONS / ANOMALIES:")
+            if res["status"] == "clean":
+                print(f"[VERIFIED] Clean modifications ({len(res['modified_in_scope'])} files in scope). Zero destructive violations.")
+                sys.exit(0)
+            else:
+                print(f"[VIOLATION DETECTED] {len(res['violations'])} safety violations found:")
                 for v in res["violations"]:
                     print(f"  * [{v['severity']}] {v['type']} in {v['file']}: {v['detail']}")
-                if res["status"] == "violation":
-                    print("\n-> ACTION: Review violations or run 'python scope_guard.py rollback' to restore.")
-                    sys.exit(1)
-            else:
-                print("[PASS] Zero out-of-scope edits. Zero deleted files. Zero gutted functions.")
+                print("\n-> Action: Revert out-of-scope edits or run 'scope_guard.py rollback'")
+                sys.exit(1)
     elif args.command == "rollback":
-        ret = guard.rollback(args.file)
-        sys.exit(ret)
+        sys.exit(guard.rollback(args.file))
     elif args.command == "commit":
         guard.commit()
 

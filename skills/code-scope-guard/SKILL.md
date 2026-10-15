@@ -47,15 +47,18 @@ The **Code Scope Guard** skill enforces strict boundaries on AI model code modif
 
 ## 2. CLI Tooling Reference (`scripts/scope_guard.py`)
 
-The companion Python engine requires zero external dependencies and runs on Python 3.10+.
+The companion engine runs as a global command (`scope_guard` or `scope-guard`) or direct Python script.
 
 ### 1. Lock Baseline
 ```bash
 # Lock the current project state and allow edits ONLY to specific files
-python scripts/scope_guard.py --root . lock --allow-files src/app.py src/utils.py
+scope_guard --root . lock --allow-files src/app.py src/utils.py
+
+# Or run via local Python script:
+# python scripts/scope_guard.py --root . lock --allow-files src/app.py
 
 # Lock without restricting specific files (monitors for deletions and gutted symbols)
-python scripts/scope_guard.py --root . lock
+scope_guard --root . lock
 ```
 
 ### 2. Verify Modifications

@@ -52,7 +52,6 @@ def extract_symbols(lines: list[str], ext: str) -> list[dict]:
                     future_line = lines[future_idx]
                     if not future_line.strip() or future_line.strip().startswith("#"):
                         continue
-                    future_indent = len(future_line) - len(future_line.lstrip(" \t"))
                     future_indent = len(future_line[:len(future_line) - len(future_line.lstrip(" \t"))].expandtabs(4))
                     if future_indent <= indent:
                         end_line = future_idx
@@ -99,23 +98,28 @@ def extract_symbols(lines: list[str], ext: str) -> list[dict]:
                 })
         return symbols
 
-    # Generic C / C++ / C# / Java / Rust / Go / GDScript / Lua
+    # Generic C / C++ / C# / Java / Go / Rust / Lua / GDScript
     for idx, line in enumerate(lines):
         line_no = idx + 1
-        # C/C#/Java: func / class
-        m_cls = re.match(r"^[ \t]*(?:public\s+|private\s+|protected\s+|internal\s+)?(?:class|struct|interface|enum)\s+([a-zA-Z0-9_]+)", line)
+        stripped = line.strip()
+        if not stripped or stripped.startswith(("//", "/*", "*", "#", "--")):
+            continue
+        
+        # Class or struct declaration
+        m_cls = re.match(r"^(?:public\s+|private\s+|protected\s+|internal\s+)?(?:class|struct|interface|enum)\s+([a-zA-Z0-9_]+)", stripped)
         if m_cls:
             symbols.append({
                 "name": m_cls.group(1),
                 "kind": "class",
                 "start_line": line_no,
                 "end_line": min(total_lines, line_no + 20),
-                "signature": line.strip()
+                "signature": stripped.rstrip("{")
             })
             continue
-            
-        m_fn = re.match(r"^[ \t]*(?:public\s+|private\s+|protected\s+|static\s+|async\s+)*(?:fn|func|function|def)\s+([a-zA-Z0-9_]+)", line)
-        if m_fn:
+
+        # Function or method declaration
+        m_fn = re.match(r"^(?:public\s+|private\s+|protected\s+|static\s+|async\s+|fn\s+|func\s+|function\s+)?(?:[a-zA-Z0-9_<>\*&]+\s+)?([a-zA-Z0-9_]+)\s*\([^\)]*\)\s*(?:\{|->|;|const)", stripped)
+        if m_fn and m_fn.group(1) not in {"if", "for", "while", "switch", "catch", "return"}:
             symbols.append({
                 "name": m_fn.group(1),
                 "kind": "function",
@@ -128,8 +132,17 @@ def extract_symbols(lines: list[str], ext: str) -> list[dict]:
     return symbols
 
 class CodeMemory:
-    def __init__(self, root_dir: str | Path):
-        self.root = Path(root_dir).resolve()
+    def __init__(self, root_dir: str | Path = "."):
+        resolved = Path(root_dir).resolve()
+        if str(root_dir) in {".", ""} and not (resolved / ".git").exists():
+            # Check if parent directories contain a git root
+            cur = resolved
+            while cur.parent != cur:
+                if (cur / ".git").exists():
+                    resolved = cur
+                    break
+                cur = cur.parent
+        self.root = resolved
         if self.root.is_file():
             self.store_dir = self.root.parent / ".code_memory"
         else:
@@ -165,6 +178,8 @@ class CodeMemory:
 
     def scan(self, force: bool = False) -> dict:
         """Scan directory and index files and symbols."""
+        if force:
+            self.data["files"] = {}
         target = self.root
         files_to_scan = []
         if target.is_file():
@@ -182,7 +197,7 @@ class CodeMemory:
         current_time = time.time()
 
         for f in files_to_scan:
-            rel_path = str(f.relative_to(self.root) if not self.root.is_file() else f.name)
+            rel_path = (f.relative_to(self.root) if not self.root.is_file() else Path(f.name)).as_posix()
             try:
                 content = f.read_text(encoding="utf-8", errors="replace")
             except Exception:
@@ -248,15 +263,33 @@ class CodeMemory:
         target_path = Path(file_path)
         if target_path.is_absolute():
             try:
-                rel_path = str(target_path.relative_to(self.root))
+                rel_path = target_path.relative_to(self.root).as_posix()
             except ValueError:
                 rel_path = target_path.name
         else:
-            rel_path = file_path
+            rel_path = target_path.as_posix().lstrip("./")
 
+        # Direct posix lookup
         meta = self.data["files"].get(rel_path)
+
+        # Fallback 1: match normalizing backslashes
         if not meta:
-            # Auto-scan file if not indexed
+            norm_target = rel_path.lower().replace("\\", "/")
+            for k, v in self.data["files"].items():
+                if k.lower() == norm_target or k.lower().endswith("/" + norm_target):
+                    meta = v
+                    rel_path = k
+                    break
+
+        # Fallback 2: match by basename if unique
+        if not meta:
+            base_matches = [k for k in self.data["files"] if Path(k).name.lower() == target_path.name.lower()]
+            if len(base_matches) == 1:
+                rel_path = base_matches[0]
+                meta = self.data["files"][rel_path]
+
+        # Auto-scan file if not indexed
+        if not meta:
             full_path = self.root / rel_path if not self.root.is_file() else self.root
             if full_path.exists():
                 self.scan()

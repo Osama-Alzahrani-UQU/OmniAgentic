@@ -32,15 +32,18 @@ The **Smart Code Memory** skill equips AI models with a fast, lightweight workin
 
 ## 2. CLI Tooling Reference (`scripts/code_memory.py`)
 
-The companion Python engine requires zero external dependencies and runs on Python 3.10+.
+The companion engine runs as a global command (`code_memory` or `code-memory`) or direct Python script.
 
 ### 1. Indexing & Scanning
 ```bash
 # Scan a directory or single file (generates .code_memory/index.json)
-python scripts/code_memory.py --root . scan
+code_memory --root . scan
+
+# Or run via local Python script:
+# python scripts/code_memory.py --root . scan
 
 # Force re-scan on file modification
-python scripts/code_memory.py --root . scan --force
+code_memory --root . scan --force
 ```
 
 ### 2. Symbol Lookup

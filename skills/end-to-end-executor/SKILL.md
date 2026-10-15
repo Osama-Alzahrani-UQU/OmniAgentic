@@ -1,6 +1,6 @@
 ---
 name: end-to-end-executor
-description: 100% autonomous execution without user delegation
+description: 100% autonomous execution with zero delegation
 ---
 # End-to-End Autonomous Executor Protocol
 
